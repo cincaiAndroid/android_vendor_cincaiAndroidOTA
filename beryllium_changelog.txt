@@ -3,6 +3,15 @@ Build type: Weekly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 14 February, 2025 =====
+
+- Fixed zRAM not being enabled
+- Switched back to KernelSU Legacy (included SusFS support)
+- LocaleTile: Fix crash on LongClick
+- Fix popping up the the VoLTE screen when it's disabled by the carrier
+- Various art updates
+- Updated offline device fingerprint
+- Updated Twelve
 
 ===== 9 February, 2025 =====
 
