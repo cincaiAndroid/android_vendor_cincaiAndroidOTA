@@ -4,6 +4,28 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
 Required firmware: Android 14
 
+==================================
+15th February, 2025
+
+peridot: Update Camera app from v1.0.12
+peridot: Fixed Double tap to wakeup
+peridot: Switched to stock perbuilt kernel v1.0.12 
+peridot: Added Spatial audio Support 
+peridot: Enable Memory Optimization 
+peridot: Switch to armv9-a ARCH variant
+peridot: enhanced Display Satutaion Services
+peridot: Disable default frame rate limit for games
+peridot: Silence some spammy logging
+peridot: Enable freeform multi-windows
+peridot: Build DSPVolumeSynchronizer
+peridot: overlay: Add support for oem fast charger detection
+peridot: audio: Set valid and supported channel mask for earpiece
+peridot: Switch to jemalloc for libc
+peridor :  VOIP RX audio fix up for video call (WhatsApp, Telegram etc..)
+2.If a notification is received during your conversation,
+
+
+
 
 ==================================
 12th February, 2025
