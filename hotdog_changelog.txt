@@ -3,6 +3,38 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250215 =====
+!!! Attention !!!
+Now we will use a  KernelSU @rsuntk fork.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rsuntk/KernelSU/releases
+
+- KSU: Drop KernelSU Next. There is no trust in the project anymore
+- KSU: KernelSU @rsuntk 12051 with SUSFS v1.5.5 support
+- Switch to AIDL bootctrl hal
+- Dolby: Partial update of the Dolby configuration from OP7T Pro
+- Add av1 software decoder/encoder entries
+- Cleanup SELinux rules
+- SystemUI: Fix flashlight strength tile in secondary user
+- FlashlightStrengthTile: Play haptic effects as the brightness changes by ±1%
+- SystemUI: VPN tile: Don't ask for user/pw on IKEv2/IPSec PSK and RSA
+- LocaleTile: Fix crash on LongClick
+- Fix popping up the the VoLTE screen when it's disabled by the carrier
+- Do not post notification when system boot is not ready.
+- Launcher3: Improve restart logic
+- Settings: Disable SettingsDumpService
+- Revert "Start SettingsDumpService to dump the db log after the db is"
+- fwn: Fix SurfaceFlinger crash caused by layerleak
+- Various art updates
+- Updated offline device fingerprint
+- Updated Twelve
+- Updated Jelly
+- Some other fixes...
+
 ===== 20250210 =====
 !!! Attention !!!
 Now we will use a KernelSU Next.
