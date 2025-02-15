@@ -3,6 +3,9 @@ Build type: Monthly
 Device: Redmi 9
 Device maintainer: Abhinav (hipexscape)
 
+===== 15-02-2025 =====
+- Fixed memory leak issues
+
 ===== 11-02-2025 =====
 - Remove leftover VP9 mediatek OMX reference
 - Improve brightness 
