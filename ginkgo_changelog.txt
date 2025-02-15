@@ -3,6 +3,10 @@ Build type: Monthly
 Device: Redmi Note 8/8T (ginkgo)
 Device maintainer: mnasibzade
 
+===== 15.01.2025 =====
+- Fixed LED on ginkgo
+- Fixed minimum brightness issues
+
 ===== 12.01.2025 =====
 - Fixed GCAM releated issues
 - Dropped OnePlus Dolby
