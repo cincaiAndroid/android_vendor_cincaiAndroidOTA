@@ -3,6 +3,11 @@ Build type: Monthly
 Device: OnePlus 7 (guacamoleb)
 Device maintainer: Nora (eepymeowers)
 Required firmware: OxygenOS 12
+====================
+     02-14-2025
+====================
+
+* Update to crDroid 11.2 (see https://crdroid.net/blog/2025-02-09-crDroid-11.2-is-now-released)
 
 ====================
      01-19-2025
