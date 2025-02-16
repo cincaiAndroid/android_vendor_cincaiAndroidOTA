@@ -6,6 +6,12 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+16th February, 2025
+
+* System overall improvements and fixes
+* sweet: Updated to latest clang-20 for kernel
+ 
+==================================
 10th February, 2025
 
 * Android February 2025 Security Update
