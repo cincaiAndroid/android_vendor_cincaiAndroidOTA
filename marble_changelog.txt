@@ -5,6 +5,7 @@ Device maintainer: Chaitanya
 
 ===== 16 Feburary, 2025 =====
 - Clean Flash is MANDATORY
+- ORANGE FOX recovery is compulsory
 - only use OS1.0.14.0.UMRMIXM firmware
 - added high touch polling rate
 - fixed ussd 
