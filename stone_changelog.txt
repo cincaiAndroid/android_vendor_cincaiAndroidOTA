@@ -6,6 +6,16 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 15-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: Fixed in-headphone play/pause/volume controls
+* Fix popping up the the VoLTE screen when it's disabled by the carrier
+* LocaleTile: Fix crash on LongClick
+* Updated Twelve
+* Various art updates
+* Various fixes and improvements
+
 ===== 10-02-2025 =====
 
 * Synced with latest crDroidAndroid source code
