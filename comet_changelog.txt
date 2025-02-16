@@ -6,6 +6,12 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+16th February, 2025
+
+* System overall improvements and fixes
+* comet: Add saturated display color mode
+ 
+==================================
 10th February, 2025
 
 * Fixed crash in gesture settings when taskbar enabled
