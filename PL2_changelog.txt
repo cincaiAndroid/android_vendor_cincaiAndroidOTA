@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Nokia 6.1 (PL2)
 Device maintainer: Akshat Singh (Legendleo90)
 
+===== 16-02-2025 =====
+- crDroid 11.2 release
+- Febraury security patch
+- Switched to AIDL light HAL
+- Updated display flags and packages
+
 ===== 17-12-2024 =====
 
 - Initial stable release
