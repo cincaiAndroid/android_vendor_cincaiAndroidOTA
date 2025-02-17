@@ -3,7 +3,7 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
-===== 20250215 =====
+===== 20250217 =====
 * Kernel: Update KernelSU @rsuntk to 12069 with SUSFS v1.5.5 support
 * fixup! SystemUI: Update resources on theme change in shade header
 * System overall improvements and fixes
