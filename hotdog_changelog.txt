@@ -4,6 +4,11 @@ Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
 ===== 20250215 =====
+* Kernel: Update KernelSU @rsuntk to 12069 with SUSFS v1.5.5 support
+* fixup! SystemUI: Update resources on theme change in shade header
+* System overall improvements and fixes
+
+===== 20250215 =====
 !!! Attention !!!
 Now we will use a  KernelSU @rsuntk fork.
 If you have the KernelSU manager installed, you must, before updating
