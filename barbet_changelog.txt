@@ -6,6 +6,11 @@ Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 Highlights & Device Specific Changes:
 =====================================
 
+===== 16th February, 2025 =====
+
+- crDroid 11.2 release
+  * February 2025 SPL
+
 ===== 27th January, 2025 =====
 
 - Fixed WPA3 (speeds still slow, but it connects again!)
