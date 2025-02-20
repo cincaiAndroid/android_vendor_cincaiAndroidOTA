@@ -19,7 +19,7 @@
             "bootloader": "",
             "recovery": "https://sourceforge.net/projects/crdroid/files/davinci/11.x/recovery/",
             "paypal": "https://www.paypal.me/firebird11",
-            "telegram": "https://t.me/crDroid_Xiaomi_K20_Mi9T",
+            "telegram": "https://t.me/crDroid_Xiaomi_K20_Mi9T_davinci",
             "dt": "https://github.com/crdroidandroid/android_device_xiaomi_davinci/tree/15.0",
             "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/15.0",
             "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6150/tree/15.0"
