@@ -4,6 +4,15 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
 Required firmware: Android 14
 
+
+
+===== 20250221 =====
+* fixup! SystemUI: Update resources on theme change in shade header
+* System overall improvements and fixes
+
+
+
+
 ==================================
 15th February, 2025
 
