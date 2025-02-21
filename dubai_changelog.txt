@@ -4,6 +4,13 @@ Device: Motorola Edge 30 (dubai)
 Device maintainer: Rakhshan (shan_rakh)
 
 ====================
+     20-02-2025
+====================
+- January Vendor Security Patch
+- Added Support for SUSFS v1.5.5 
+- Dropped Viper4FX
+
+====================
      10-02-2025
 ====================
 - crDroid 11.2
