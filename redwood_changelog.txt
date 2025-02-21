@@ -3,6 +3,9 @@ Build type: Weekly
 Device: Redmi Note 12 Pro Speed/POCO X5 Pro 5G (redwood) 
 Device maintainer: priyanshu
 
+====== 21-02-2025 ======
+* synced with crDroid source
+
 ====== 10-02-2025 ======
 * Android February 2025 Security Update
 * Synced with latest crDroid source.
