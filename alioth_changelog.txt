@@ -3,6 +3,12 @@ Build type: Monthly
 Device: POCO F3 (alioth)
 Device maintainer: raystef66
 
+===== 22-02-2025 =====
+
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 11-02-2025 =====
 
 * Initial crDroid 11.2 stable release
