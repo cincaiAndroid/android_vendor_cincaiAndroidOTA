@@ -6,6 +6,17 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 21-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: libinit: Update all region fingerprints to latest
+* stone: move to aidl bootctrl hal
+* stone: rootdir: label IRQs correctly
+* stone: rootdir: Lower swappiness to 60
+* stone: rootdir: Move KGSL and MSM_DRM to cores 6 and 7
+* stone: rootdir: Remove IO read_ahead_kb tune
+* Various fixes and improvements
+
 ===== 15-02-2025 =====
 
 * Synced with latest crDroidAndroid source code
