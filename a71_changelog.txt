@@ -4,7 +4,14 @@ Device: Samsung Galaxy A71 (a71)
 Device maintainer: Haky86
 
 ====================
-     01-22-2024
+     02-22-2025
+====================
+
+   * Sync trees from lineage-22.1 branches.
+   * Security Patches Level: Feb 2025
+
+====================
+     01-22-2025
 ====================
 
    * Fix WPA authentication.
