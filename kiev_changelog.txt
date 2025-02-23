@@ -3,6 +3,14 @@ Build type: Weekly
 Device: Motorola Moto G 5G
 Device maintainer: tilt-rgb
 
+== 23 February , 2025 =====
+
+- Synced latest crDroid changes
+- Updated CarrierConfig
+- Backported MGLRU
+- Dropped all moto audio effects :/
+- Import audio_amplifier HAL from FP4
+
 == 09 February , 2025 =====
 
 - Switch to 64 bits only (be careful if you have 32-bit only applications before updating)
