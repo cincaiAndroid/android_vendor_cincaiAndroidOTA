@@ -4,6 +4,13 @@ Device: OnePlus 7 (guacamoleb)
 Device maintainer: Nora (eepymeowers)
 Required firmware: OxygenOS 12
 
+
+====================
+     02-23-2025
+====================
+* Update to crDroid 11.2. Rebuilt and further tested.
+
+
 ====================
      01-19-2025
 ====================
