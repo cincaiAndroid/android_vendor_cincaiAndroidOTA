@@ -3,6 +3,26 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250224 =====
+- kernel: Multiple updates to the Sony Gamepad driver
+- kernel: Added and enabled Linux Random Number Generator
+- fwb: Fix settings not applied on boot for device key actions
+- fwb: Fix brightness bar background color changed unsync issue
+- fwb: Fix NPE problem to avoid systemserver process crash
+- fwb: Fix NPE for PackageInstallerSession
+- Launcher3: fixup! Make zram info in recents optional
+- Messaging: Replace AOSP illustrations
+- ThemePicker: Wait for transition end before setting active option
+- ThemePicker: Don't crash for unknown style selection
+- Settings: Enable long press search only when navbar hint is enabled
+- Settings: Disable SettingsDumpService
+- Settings: Change range of battery saver schedule seekbar
+- Updated Aperture
+- Updated Twelve
+- Updated Glimpse
+- Some other fixes...
+- Updated translations
+
 ===== 20250217 =====
 * Kernel: Update KernelSU @rsuntk to 12069 with SUSFS v1.5.5 support
 * fixup! SystemUI: Update resources on theme change in shade header
