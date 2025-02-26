@@ -4,13 +4,19 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     02-09-2025
+     02-25-2025
 ====================
  
-- Android February 2025 Security Update
-- update Adreno driver to v.768
-- Fixed "Less boring heads-up" option (crdroid > notifications)
-- Added compact heads-up toggle (crdroid > notifications)
-- Moved "Circle to search" toggle to navigation gesture settings, improving 3rd party launcher support.
-- Navigation gesture settings are now located under Settings > System
-- Various fixes and improvements
+- kernel: February 2025 Security Update
+- kernel: Re-calculate & optimize for OnePlus 8T Based on freqbench, an EEMBC CoreMark implementation. More info can be found here: dreamisbaka/freqbench@6565f0d
+- kernel: Overclock GPU to 670mhz for OnePlus8T
+- kernel: enable Clang Polly optimizations
+- kernel: adreno: Properly set GPU timeout
+- kernel: Fix GPU target frequency calculation for high refresh rates
+- kernel: Relax CPU latency requirements to save power
+- Fix nav bar flickering when dialog shows
+- Messaging: Replace AOSP illustrations
+- ThemePicker: Wait for transition end before setting active option
+- Settings: Change range of battery saver schedule seekbar
+- ChargingControl: Prevent crash against very frequent power toggle
+- Launcher3: Fix Navbar height issue
