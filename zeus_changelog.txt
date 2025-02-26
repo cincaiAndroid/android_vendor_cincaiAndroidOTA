@@ -3,6 +3,13 @@ Build type: Beta
 Device: Xiaomi 12 Pro
 Device maintainer: Anush Madhathumkara (anush02198)
 
+
+====================
+     19-02-2025
+====================
++ Temporary Removal of Dolby Atmos
++ Fix some battery draining issues
+
 ====================
      08-12-2024
 ====================
