@@ -1,9 +1,19 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Redmi Note 8/8T (ginkgo)
-Device maintainer: Munir Nasibzde
+Device maintainer: Munir Nasibzade
 
-===== 18.01.2025 =====
+===== 26.02.2025 =====
+# Kernel Side Changes
+- nl80211: add WPA3 definition for SAE authentication
+- Set CONFIG_LOCALVERSION to -EklerKernel-crDroid
+
+# Device Side Changes and Fixes
+- Fixed 1080@60fps and above video lagging issues
+- Fixed HEVC video recording issue
+- Fixed issue #634 (https://github.com/crdroidandroid/issue_tracker/issues/634)
+
+===== 17.01.2025 =====
 # Kernel Side Changes  
 - LTS: Linux v4.14.359  
 - ALSA: usb-audio: Fix a DMA to stack memory bug  
