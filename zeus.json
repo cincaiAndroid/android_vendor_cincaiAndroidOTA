@@ -1,7 +1,7 @@
 {
     "response": [
         {
-            "maintainer": "",
+            "maintainer": "Anush Madhathumkara (Anush02198)",
             "oem": "Xiaomi",
             "device": "Xiaomi 12 Pro",
             "filename": "crDroidAndroid-15.0-20250219-zeus-v11.2.zip",
@@ -11,7 +11,7 @@
             "sha256": "f1c16c77e488949891f48d0b26528d214e8d73230344e88f805d6022bdb6cf4a",
             "size": 2317389857,
             "version": "11.2",
-            "buildtype": "BETA",
+            "buildtype": "Monthly",
             "forum": "https://xdaforums.com/t/rom-15-beta-official-crdroid-android-v11-0-zeus.4630257",
             "gapps": "",
             "firmware": "",
