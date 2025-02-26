@@ -3,6 +3,10 @@ Build type: Weekly
 Device: Redmi Note 12 Pro Speed/POCO X5 Pro 5G (redwood) 
 Device maintainer: priyanshu
 
+====== 26-02-2025 ======
+* Switched back to turbo kernel
+* synced with crDroid source
+
 ====== 21-02-2025 ======
 * synced with crDroid source
 
