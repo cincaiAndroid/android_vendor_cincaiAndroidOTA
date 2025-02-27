@@ -4,6 +4,35 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
 Required firmware: Android 14
 
+===== 20250227 =====
+
+- Switch to AIDL Fingerprint OSS
+- Add missing xiaomi ecc list to vendor
+- Cleanup media props and fix hardware decoding
+- Adjust ambient light threshold configurations
+- Enable freeform window
+- Enable doze auto brightness on AOD 
+- Import missing audio vendor and odm props
+- enable display.enable_optimize_refresh
+enable 
+- Added isis kernel latest version v0.1.1
+- fwb: Fix settings not applied on boot for device key actions
+- fwb: Fix brightness bar background color changed unsync issue
+- fwb: Fix NPE problem to avoid systemserver process crash
+- fwb: Fix NPE for PackageInstallerSession
+- Launcher3: fixup! Make zram info in recents optional
+- Messaging: Replace AOSP illustrations
+- ThemePicker: Wait for transition end before setting active option
+- ThemePicker: Don't crash for unknown style selection
+- Settings: Enable long press search only when navbar hint is enabled
+- Settings: Disable SettingsDumpService
+- Settings: Change range of battery saver schedule seekbar
+- Updated Aperture
+- Updated Twelve
+- Updated Glimpse
+- Some other fixes...
+- Updated translations
+
 
 
 ===== 20250221 =====
