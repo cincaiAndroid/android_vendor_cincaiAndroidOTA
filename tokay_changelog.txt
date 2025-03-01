@@ -6,6 +6,12 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+1st March, 2025
+
+* Reworked hiding navigation bar hint and IME space
+* Performance improvements and few fixes
+ 
+==================================
 16th February, 2025
 
 * System overall improvements and fixes
