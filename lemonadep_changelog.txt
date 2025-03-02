@@ -3,6 +3,19 @@ Build type: Weekly
 Device: OnePlus 9 (lemonadep)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 02 March, 2025 =====
+
+- SystemUI: updated some theme logic
+- Fixed Updater failing to install updates in some cases
+- Launcher3: Improve restart logic
+- addons: iconshapes: Remove config_dialogCornerRadius
+- addons: Improve overlays for no hint and space under keyboard
+- Reworked IME space under keyboard feature
+- Some more small fixes here and there
+- Updated built-in fingerprint to the latest A16 beta (PIF)
+- Updated Twelve, Jelly, Glimpse, DeskClock, Aperture, Catapult
+- Updated translations
+
 ===== 14 February, 2025 =====
 
 - Switched back to KernelSU Legacy (included SusFS support)
