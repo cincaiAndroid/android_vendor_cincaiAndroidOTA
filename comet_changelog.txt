@@ -6,6 +6,11 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+2nd March, 2025
+
+* Removed extra space below keyboard for "Hide navigation hint" and "Narrow space" overlays
+ 
+==================================
 1st March, 2025
 
 * Reworked hiding navigation bar hint and IME space
