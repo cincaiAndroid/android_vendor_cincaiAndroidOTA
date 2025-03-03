@@ -3,6 +3,11 @@ Build type: Weekly
 Device: OnePlus 9 (lemonadep)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 03 March, 2025 =====
+
+- Fixed mic in calls with some carriers
+
+
 ===== 02 March, 2025 =====
 
 - SystemUI: updated some theme logic
