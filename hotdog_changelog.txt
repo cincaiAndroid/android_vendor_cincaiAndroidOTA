@@ -3,6 +3,23 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250303 =====
+- Kernel: Update KernelSU @rsuntk to 12097 with SUSFS v1.5.5 support
+- SystemUI: updated some theme logic
+- Fixed Updater failing to install updates in some cases
+- Launcher3: Improve restart logic
+- Launcher3: Fix Navbar height issue
+- fwb: Ask pin for shutdown/reboot on secure lockscreen
+- fwb: Fixed screen flickering when launching horizontal apps from vertical apps
+- Fix nav bar flickering when dialog shows
+- addons: iconshapes: Remove config_dialogCornerRadius
+- addons: Improve overlays for no hint and space under keyboard
+- Reworked IME space under keyboard feature
+- Some more small fixes here and there
+- Updated built-in fingerprint to the latest A16 beta (PIF)
+- Updated Twelve, Jelly, Glimpse, DeskClock, Aperture
+- Updated translations
+
 ===== 20250224 =====
 - kernel: Multiple updates to the Sony Gamepad driver
 - kernel: Added and enabled Linux Random Number Generator
