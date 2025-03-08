@@ -1,8 +1,44 @@
 Highlights & Device Specific Changes:
 Build type: Weekly
 Device: Poco F6  (Peridot)
-Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
+Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 14
+
+===== 20250308 =====
+
+
+peridot bump input_boost_ms to 200
+peridot: tune Rate Limits for reduced power usage and improved performance and interactivity
+peridot: Silence some spammy logging
+- Some more small fixes here and there
+- SystemUI: updated some theme logic
+- Fixed Updater failing to install updates in some cases
+- Launcher3: Improve restart logic
+- Launcher3: Fix Navbar height issue
+- fwb: Ask pin for shutdown/reboot on secure lockscreen
+- fwb: Fixed screen flickering when launching horizontal apps from vertical apps
+- Fix nav bar flickering when dialog shows
+- addons: iconshapes: Remove config_dialogCornerRadius
+- addons: Improve overlays for no hint and space under keyboard
+- Reworked IME space under keyboard feature
+- Some more small fixes here and there
+- Updated built-in fingerprint to the latest A16 beta (PIF)
+- Updated Twelve, Jelly, Glimpse, DeskClock, Aperture
+- ThemePicker: Wait for transition end before setting active option
+- ThemePicker: Don't crash for unknown style selection
+- Settings: Enable long press search only when navbar hint is enabled
+- Settings: Disable SettingsDumpService
+- Settings: Change range of battery saver schedule seekbar
+- fwb: Fix settings not applied on boot for device key actions
+- fwb: Fix brightness bar background color changed unsync issue
+- fwb: Fix NPE problem to avoid systemserver process crash
+- fwb: Fix NPE for PackageInstallerSession
+- Launcher3: fixup! Make zram info in recents optional
+- Updated Aperture
+- Updated Twelve
+- Updated Glimpse
+- Some other fixes...
+- Updated translations
 
 ===== 20250227 =====
 
