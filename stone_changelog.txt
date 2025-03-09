@@ -6,6 +6,29 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 08-03-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: Update blobs to V816.0.10.0.UMQMIXM
+* stone: Drop force triple frame buffers
+* stone: props: Make surface flinger separately also tuned some props
+* stone: rootdir: kill statsd service
+* stone: tetheroffload: Version 1.1
+* stone: Build goodix interface from source
+* stone: Don't include AudioFX
+* stone: overlay: Update pinner files for SystemUIGoogle
+* addons: iconshapes: Remove config_dialogCornerRadius
+* addons: Improve overlays for no hint and space under keyboard
+* Fix nav bar flickering when dialog shows
+* Fixed Updater failing to install updates in some cases
+* fwb: Ask pin for shutdown/reboot on secure lockscreen
+* fwb: Fixed screen flickering when launching horizontal apps from vertical apps
+* Launcher3: Fix Navbar height issue
+* Launcher3: Improve restart logic
+* Reworked IME space under keyboard feature
+* SystemUI: updated some theme logic
+* Various fixes and improvements
+
 ===== 21-02-2025 =====
 
 * Synced with latest crDroidAndroid source code
