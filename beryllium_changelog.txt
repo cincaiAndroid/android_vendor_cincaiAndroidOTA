@@ -3,6 +3,20 @@ Build type: Weekly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 09 March, 2025 =====
+
+- Fixed tether (hotspot/usb internet)
+- Fixed quick share issue
+- SystemUI: Only show battery shield on default icon
+- SystemUI: Fix up large clock top margin with pixel-fw
+- AudioService: fix voice volume adjustments
+- Small launcher improvements
+- addons: Update themed icons
+- Jelly: Update Yahoo search engine url
+- Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
+- Update Twelve
+- Update stock Chromium Webview to 133.0.6943.137
+
 ===== 02 March, 2025 =====
 
 - SystemUI: updated some theme logic
