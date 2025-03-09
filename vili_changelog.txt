@@ -6,6 +6,9 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:09/03/2025
+- Added Sony Dolby with c2 audio decoders
+
 Changelog:03/03/2025
 ** CLEAN FLASH RECOMMEND **
 - Everything rebased from device side
