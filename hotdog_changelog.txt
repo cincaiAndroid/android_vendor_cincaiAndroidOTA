@@ -3,6 +3,29 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250310 =====
+!!! Attention !!!
+Now we will use a KernelSU Next.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Switch KernelSU rsuntk fork to KernelSU Next 1.0.5 with SUSFS v1.5.5
+- Fixed quick share issue
+- SystemUI: Only show battery shield on default icon
+- SystemUI: Fix up large clock top margin with pixel-fw
+- AudioService: fix voice volume adjustments
+- Small launcher improvements
+- addons: Update themed icons
+- Jelly: Update Yahoo search engine url
+- Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
+- Update Twelve
+- Update stock Chromium Webview to 133.0.6943.137
+- Some more small fixes here and there
+
 ===== 20250303 =====
 - Kernel: Update KernelSU @rsuntk to 12097 with SUSFS v1.5.5 support
 - SystemUI: updated some theme logic
