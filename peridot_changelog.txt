@@ -4,8 +4,38 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 14
 
-===== 20250308 =====
+===== 20250311 =====
 
+!!! Attention !!!
+Now are using ISIS Kernel that kernel use a KernelSU Next.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Switch to ISIS Kernel V1.1
+- Improved Fingerprint functionality
+- fingerprint: Clean up useless fingerprint code
+- Include BCR
+- Set renderengine backend to skiavk
+- Enable QTI Memory Optimization
+- interfaces: Import reversed aidl interface for IDisplayFeature
+- Fixed quick share issue
+- SystemUI: Only show battery shield on default icon
+- SystemUI: Fix up large clock top margin with pixel-fw
+- AudioService: fix voice volume adjustments
+- Small launcher improvements
+- addons: Update themed icons
+- Jelly: Update Yahoo search engine url
+- Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
+- Update Twelve
+- Update stock Chromium Webview to 133.0.6943.137
+- Some more small fixes here and there
+
+===== 20250308 =====
 
 peridot bump input_boost_ms to 200
 peridot: tune Rate Limits for reduced power usage and improved performance and interactivity
