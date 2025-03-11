@@ -4,7 +4,7 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 14
 
-===== 20250311 =====
+===== 20250311 =====Hotfix
 
 !!! Attention !!!
 Now are using ISIS Kernel that kernel use a KernelSU Next.
@@ -16,10 +16,12 @@ modules and the KernelSU manager itself.
 After updating the firmware, you can reinstall the kernelSU manager.
 You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
 
+- Added dolby Atoms suport  Hardware/xiaomi
+- Include BCR
+- Revert "peridot: Setup sim restart shell script"
 - Switch to ISIS Kernel V1.1
 - Improved Fingerprint functionality
 - fingerprint: Clean up useless fingerprint code
-- Include BCR
 - Set renderengine backend to skiavk
 - Enable QTI Memory Optimization
 - interfaces: Import reversed aidl interface for IDisplayFeature
