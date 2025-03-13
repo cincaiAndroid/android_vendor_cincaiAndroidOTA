@@ -6,6 +6,13 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+14th March, 2025
+
+* Reworked hiding navigation bar hint and IME space
+* Performance improvements and various fixes
+* salami: Updated blobs/firmware/kernel from CPH2449_15.0.0.600
+ 
+==================================
 16th February, 2025
 
 * Android February 2025 Security Update
