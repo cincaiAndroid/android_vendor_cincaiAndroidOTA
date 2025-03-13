@@ -1,8 +1,20 @@
 ====================
-     01-22-2025
+     03-13-2025
 ====================
 
-* v.11.2 Stable build.
+* v11.2 build update.
+* Dirty flash over v11.2 stable is fine.
+* Updating over OTA is recommended.
+* Add support for Dolby Atmos - from Oneplus 9RT.
+* Add 48MP rear camera sensor from miui A13.
+* Add LHDC support for bluetooth
+* And a few more minor changes.
+
+====================
+     02-22-2025
+====================
+
+* v11.2 Stable build.
 * Clean flash is necessary from the v11.1 stable 20-Jan build due to complete rebase of the trees.
 * Switch to N0kernel.
 * Remove Dolby and add MiSound (dirac) and Viper4Android.
