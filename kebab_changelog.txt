@@ -4,19 +4,32 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     02-25-2025
+     03-14-2025
 ====================
  
-- kernel: February 2025 Security Update
-- kernel: Re-calculate & optimize for OnePlus 8T Based on freqbench, an EEMBC CoreMark implementation. More info can be found here: dreamisbaka/freqbench@6565f0d
-- kernel: Overclock GPU to 670mhz for OnePlus8T
-- kernel: enable Clang Polly optimizations
-- kernel: adreno: Properly set GPU timeout
-- kernel: Fix GPU target frequency calculation for high refresh rates
-- kernel: Relax CPU latency requirements to save power
-- Fix nav bar flickering when dialog shows
+- dolby: Add custom profile
+- dolby: Add icons for dolby profiles
+- dolby: Make bass enhancer available on speakers as well
+- dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background colo 
 - Messaging: Replace AOSP illustrations
-- ThemePicker: Wait for transition end before setting active option
-- Settings: Change range of battery saver schedule seekbar
-- ChargingControl: Prevent crash against very frequent power toggle
-- Launcher3: Fix Navbar height issue
+- Fixed quick share issue
+- SystemUI: Only show battery shield on default icon
+- SystemUI: Fix up large clock top margin with pixel-fw
+- AudioService: fix voice volume adjustments
+- Small launcher improvements
+- addons: Update themed icons
+- Jelly: Update Yahoo search engine url
+- Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
+- Update Twelve
+- Update stock Chromium Webview to 133.0.6943.137
+- Fixed mic in calls with some carriers
+- SystemUI: updated some theme logic
+- Fixed Updater failing to install updates in some cases
+- Launcher3: Improve restart logic
+- addons: iconshapes: Remove config_dialogCornerRadius
+- addons: Improve overlays for no hint and space under keyboard
+- Reworked IME space under keyboard feature
+- Some more small fixes here and there
+- Updated built-in fingerprint to the latest A16 beta (PIF)
+- Updated Twelve, Jelly, Glimpse, DeskClock, Aperture, Catapult
+- Updated translations
