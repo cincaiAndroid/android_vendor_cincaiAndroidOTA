@@ -6,6 +6,9 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:15/03/2025
+- Disable stereo support for voip (Fixes in-game voice chat)
+
 Changelog:09/03/2025
 - Added Sony Dolby with c2 audio decoders
 
