@@ -1,11 +1,23 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: OnePlus 8 (instantnoodle)
-Device maintainer: Shobhit Singh (iamshobhit5)
+====================
+     03-17-2025
+====================
 
-====================
-     02-18-2025
-====================
- 
-- Initial crDroid 11.2 release
+   * Kernel SU Next:
+Added kernel se next support
+   * OplusExtras:
+Add unlimit edge touch support
+More options for alert slider
+Add icons to OplusExtra menus
+
+   * frameworks/av
+f92fbf849c Skip setDevice to HAL for AUDIO_DEVICE_NONE
+203a9bec81 libaudiohal: fix the device mask conversion
+1b4e04ce30 Fix sanitizer overflow crash in mp4 extractor.
+
+   * frameworks/base
+064c4bccc16d audiomanager: fix orphan focus holder when using ext focus policy
+
+   * packages/apps/Jelly
+a621293 Jelly: Update Yahoo search engine url
+2dbb5f0 Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
 
