@@ -2,8 +2,12 @@ Highlights & Device Specific Changes:
 Build type: Weekly
 Device: Poco F5 Pro / K60
 Device maintainer: Keosh
-===== 12/03/2025 =====
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
+===== 22/03/2025 =====
+- Upstream kernel to 5.10.232,
+- Update KernelSU-Next and Susfs4ksu.
+
+===== 12/03/2025 =====
 - Add BCR,
 - Update HyperOS Gallery and Gallery Editor, 
 - Included per app refresh rate,
@@ -33,6 +37,7 @@ Device maintainer: Keosh
 - kernel: Update KernelSU-Next and SUSFS4KSU to the latest version,
 - kernel: Add hide scripts from Wild Plus Kernel thanks to @TheWildJames,
 - and more .......... 
+
 ===== 16/02/2025 =====
 - Testing Fix for SMS/USSD issues,
 - Sepolicy: Remove duplicate snxxx AIDL rules,
