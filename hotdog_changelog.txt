@@ -3,6 +3,14 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250403 =====
+!!! Attention !!!
+We strongly recommend installing the update via 'sideload'.
+Also, you need to install new Google Apps.
+
+- Initial crDroid 11.3 (QPR2)
+- Updated security patches to March 2025
+
 ===== 20250310 =====
 !!! Attention !!!
 Now we will use a KernelSU Next.
