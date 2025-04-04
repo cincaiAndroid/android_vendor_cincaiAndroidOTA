@@ -6,7 +6,7 @@ Device maintainer: Lup Gabriel (gwolfu)
 ===== 03 April, 2025 =====
 
 - Initial crDroid 11.3
-- Updated security patches to February 2025 (android-15.0.0_r23)
+- Updated security patches to March 2025 (android-15.0.0_r23)
 - More info on blog post
 
 ===== 09 March, 2025 =====
