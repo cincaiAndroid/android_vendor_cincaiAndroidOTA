@@ -7,12 +7,12 @@ Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
 !!! Attention !!!
-Custom recovery is no longer supported
+Flashing custom recovery and kernel is no longer supported
 
 ===== 03-04-2025 =====
 
 * Initial crDroid 11.3 based on March 2025 Quarterly Platform Release
-* stone: Switched to OSS kernel (custom recovery not supported)
+* stone: Switched to OSS kernel (custom recovery and kernel not supported)
 * stone: Allow restart SystemUI
 * stone: Configure SQLite to operate in MEMORY mode
 * stone: Disable alpha compositing in WM
