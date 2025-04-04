@@ -6,6 +6,23 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+!!! Attention !!!
+Custom recovery is no longer supported
+
+===== 03-04-2025 =====
+
+* Initial crDroid 11.3 based on March 2025 Quarterly Platform Release
+* stone: Switched to OSS kernel (custom recovery not supported)
+* stone: Allow restart SystemUI
+* stone: Configure SQLite to operate in MEMORY mode
+* stone: Disable alpha compositing in WM
+* stone: Disable Matlog
+* stone: Disable SDM rotator downscaler
+* stone: Extend audio offload buffer size to 256kb
+* stone: Set debug.sf.defer_refrash_rate_when_off=1
+* stone: Use HintManager for HWUI
+* Various fixes and improvements
+
 ===== 08-03-2025 =====
 
 * Synced with latest crDroidAndroid source code
