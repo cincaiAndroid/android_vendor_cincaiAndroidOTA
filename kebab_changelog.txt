@@ -4,32 +4,13 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     03-14-2025
+     04-04-2025
 ====================
  
-- dolby: Add custom profile
-- dolby: Add icons for dolby profiles
-- dolby: Make bass enhancer available on speakers as well
-- dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background colo 
-- Messaging: Replace AOSP illustrations
-- Fixed quick share issue
-- SystemUI: Only show battery shield on default icon
-- SystemUI: Fix up large clock top margin with pixel-fw
-- AudioService: fix voice volume adjustments
-- Small launcher improvements
-- addons: Update themed icons
-- Jelly: Update Yahoo search engine url
-- Jelly: Add Ecosia, GOOD, Startpage, and Qwant search engines
-- Update Twelve
-- Update stock Chromium Webview to 133.0.6943.137
-- Fixed mic in calls with some carriers
-- SystemUI: updated some theme logic
-- Fixed Updater failing to install updates in some cases
-- Launcher3: Improve restart logic
-- addons: iconshapes: Remove config_dialogCornerRadius
-- addons: Improve overlays for no hint and space under keyboard
-- Reworked IME space under keyboard feature
-- Some more small fixes here and there
-- Updated built-in fingerprint to the latest A16 beta (PIF)
-- Updated Twelve, Jelly, Glimpse, DeskClock, Aperture, Catapult
-- Updated translations
+- Initial crDroid 11.3
+- Updated security patches to March 2025 (android-15.0.0_r23)
+- More info on blog post
+- fix for auto brightness
+- switch from oplus to Oplusextras key handler (now bubles working for alert slider)
+- audio: Remove direct flag for VOIP RX (now audio for VIOP is OK)
+- merged latest CAF tag LA.UM.9.12.1.r1-11000-SMxx50.QSSI12.0 for kernel
