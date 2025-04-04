@@ -3,6 +3,14 @@ Build type: Monthly
 Device: POCO F3 (alioth)
 Device maintainer: raystef66
 
+===== 04-04-2025 =====
+
+* Initial crDroid 11.3 stable release
+* Updated to sec. patch level 2025.03 (QPR2)
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 22-03-2025 =====
 
 * Leica fix (preview/FC)
