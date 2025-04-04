@@ -4,6 +4,14 @@ Device: POCO X3/NFC (surya)
 Device maintainer: shoya0x00
 
 ====================
+     03-04-2025
+====================
+- Latest source Changes
+- March security patch
+- Removed Dolby Support
+- Misc Changes and Improvement
+
+====================
      15-02-2025
 ====================
 - Latest source Changes
