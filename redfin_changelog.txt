@@ -6,6 +6,14 @@ Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 Highlights & Device Specific Changes:
 =====================================
 
+===== 3rd April, 2025 =====
+
+- crDroid 11.3 release
+  * March SPL
+  * A15 QPR2
+  * Kernel Security Patches
+  *Hotspot NEXT - Fixed hotspot WPA3, hotspot WiFi routing, hotspot 2.4/5GHz selection
+
 ===== 16th February, 2025 =====
 
 - crDroid 11.2 release
