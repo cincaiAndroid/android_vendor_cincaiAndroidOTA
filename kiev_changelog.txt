@@ -3,6 +3,15 @@ Build type: Weekly
 Device: Motorola Moto G 5G
 Device maintainer: tilt-rgb
 
+== 04 April , 2025 =====
+
+- Switch to common bootctrl HAL
+- Rollback to stock CarrierConfig
+- Move to AIDL Health HAL
+- Move to sensors AIDL multihal
+- Update Codec2 blobs to redfin_beta
+- Synced latest crDroid changes (QPR2)
+
 == 23 February , 2025 =====
 
 - Synced latest crDroid changes
