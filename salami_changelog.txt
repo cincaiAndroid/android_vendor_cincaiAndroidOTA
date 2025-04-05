@@ -6,6 +6,15 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+5th April, 2025
+
+* Android 15 QPR2 update + March 2025 Security Update
+* Navigation tab and customization options removed, with compatible settings migrated to System settings.
+* Complete overhaul of DND, integrating it into the new Modes system.
+* Improved custom Weather customization for lockscreen and launcher
+* Various optimization and fixes
+ 
+==================================
 14th March, 2025
 
 * Reworked hiding navigation bar hint and IME space
