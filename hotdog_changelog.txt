@@ -3,6 +3,28 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250406 =====
+- Update KernelSU Next to v1.0.6
+- Launcher3: QuickSpace: Media events fixes and improvements
+- Launcher3: Use translatable strings for weather condition text
+- Launcher3: QuickSpace: Use raw weather conditions for english language
+- Launcher3: Optimize launcher animations
+- Launcher3: Fix app freeze issues when gesture hint is disabled
+- SystemUI: Implement Reverse-engineered Smartspace
+- SystemUI: Fix smartspace layout
+- SystemUI: Fix up large clock top margin with pixel-fw
+- SystemUI: Bring back smartspace start paddings to what they were before
+- SystemUI: don't hide date text on lockscreen when media is playing
+- SystemUI: ToastUI: Fixup toast theme again
+- SliderHapticFeedbackProvider: Improve slider haptics
+- screenrecord: Set entire screenrecord as the default option
+- Fixed support for double line clock in lockscreen
+- Import brightness fluctuation fix from Android 16 Beta 3.1
+- Fixed some dark mode UI elements that don't have proper dark mode
+- Improved custom Weather customization for lockscreen and launcher
+- Updated translations
+- Various optimization and fixes
+
 ===== 20250403 =====
 !!! Attention !!!
 We strongly recommend installing the update via 'sideload'.
