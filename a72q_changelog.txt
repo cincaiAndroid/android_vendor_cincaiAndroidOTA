@@ -1,15 +1,23 @@
 ====================
-     04-05-2025
+     04-06-2025
 ====================
 
    * art
 2f0d920 Turn on whole program vtables
 
-   * device/samsung/a52q
-0a93d6a Update proprietary-files.txt - add missing symlinks
-
    * device/samsung/a72q
 f1240c7 Update device.mk - adapt for a72q
+
+   * vendor/samsung/a72q
+c3a2324 Regen for Camera symlinks
+
+- Fix fingerprint radius
+====================
+     04-05-2025
+====================
+
+   * device/samsung/a52q
+0a93d6a Update proprietary-files.txt - add missing symlinks
 
    * device/samsung/sm7125-common
 04b4e6f Update proprietary-files.txt - Add camera symlinks
@@ -30,7 +38,6 @@ f0b3cec Messaging: Replace AOSP illustrations
 8e6eef0 Regen vendor for QPR2
 
    * vendor/samsung/a72q
-c3a2324 Regen for Camera symlinks
 3fa89e8 Regen vendor for QPR2
 
    * vendor/samsung/sm7125-common
@@ -46,12 +53,18 @@ c3a2324 Regen for Camera symlinks
    * packages/apps/Updater
 59b1a51 Updater: Remove cryptographic signature verification for local updates
 
+   * tools/extract-utils
+caf3702 extract_utils: additional proprietary files and copy files guard example
+
    * vendor/lineage
 63a7626 crdroid: Bump to version 11.3
 
 ====================
      04-03-2025
 ====================
+
+   * android
+5e71a36 Switch to blueprint chromium webview module
 
    * build/make
 e22303e build: Add backuptool by default
@@ -62,6 +75,12 @@ e22303e build: Add backuptool by default
    * device/lineage/sepolicy
 e3f1933 Merge pull request #22 from ionutgherman/15.0
 
+   * frameworks/av
+bd919c8 Audio: fix ~refbase() crash caused by race condition
+
+   * hardware/qcom-caf/sm8450/audio/primary-hal
+b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
+
    * packages/services/OmniJaws
 f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
 
@@ -71,9 +90,6 @@ f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
    * system/update_engine
 a02e728 Merge pull request #2 from ionutgherman/15.0
 
-   * tools/extract-utils
-caf3702 extract_utils: additional proprietary files and copy files guard example
-
    * vendor/certification
 495b3d3 certification: update to the latest A16 beta BP22.250221.015
 
@@ -81,17 +97,8 @@ caf3702 extract_utils: additional proprietary files and copy files guard example
      04-02-2025
 ====================
 
-   * android
-5e71a36 Switch to blueprint chromium webview module
-
-   * frameworks/av
-bd919c8 Audio: fix ~refbase() crash caused by race condition
-
    * hardware/qcom-caf/common
 51c6df9 common: Move QTI surfaceflinger extensions to select
-
-   * hardware/qcom-caf/sm8450/audio/primary-hal
-b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
 
    * packages/apps/Twelve
 5c642b8 Twelve: Implement MediaStore rescan button
@@ -100,24 +107,42 @@ b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
      04-01-2025
 ====================
 
-   * packages/apps/TvSettings
-181d55c TvSettings: Fix energy optimization setting
-
-====================
-     03-31-2025
-====================
-
    * bionic
 3b77e7b bionic: Fix align usage for fast lookup hosts file data
 
    * device/qcom/sepolicy_vndr/legacy-um
 332cd96 sepolicy_vndr: Add permission for USB HAL to access usb sysfs nodes
 
+   * hardware/interfaces
+c99a282 interfaces: bluetooth: Restore LC3 codec support for A2DP
+
+   * lineage-sdk
+8c73f01 ChargingControl: Show notification if device is charging
+
+   * packages/apps/Dialer
+92fc335 New translations (#145)
+
+   * packages/apps/Settings
+f4ac69a Settings: Prevent IllegalArgumentException in storage settings
+
+   * packages/apps/TvSettings
+181d55c TvSettings: Fix energy optimization setting
+
+   * packages/modules/Bluetooth
+fd02252 Bluetooth: Add missing connect permission
+
+====================
+     03-31-2025
+====================
+
    * device/qcom/sepolicy_vndr/sm8650
 2ef3528 sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
 
-   * hardware/interfaces
-c99a282 interfaces: bluetooth: Restore LC3 codec support for A2DP
+   * external/chromium-webview/patches
+091983e Add blueprint module
+
+   * hardware/qcom-caf/sm8150/display
+f90c6e6 Merge 'lineage-22.1-caf-sm8150' into 15.0-caf-sm8150
 
    * hardware/qcom-caf/sm8650/audio/agm
 2364e44 AGMIPC@1.0-impl/libagm: exclude from OSS builds
@@ -137,20 +162,8 @@ ef175ed dataipa: Disable all the debugging
    * hardware/qcom-caf/sm8650/display
 fc6abd0 composer: Separate rc and xml from service
 
-   * lineage-sdk
-8c73f01 ChargingControl: Show notification if device is charging
-
-   * packages/apps/Dialer
-92fc335 New translations (#145)
-
    * packages/apps/LMOFreeform
 d1e7009 SideBarView: Fix sidebar crash
-
-   * packages/apps/Settings
-f4ac69a Settings: Prevent IllegalArgumentException in storage settings
-
-   * packages/modules/Bluetooth
-fd02252 Bluetooth: Add missing connect permission
 
    * vendor/addons
 32517964 addons: Add font package for Google Sans Flex
@@ -162,15 +175,12 @@ fd02252 Bluetooth: Add missing connect permission
    * bootable/recovery
 6ba4a39 recovery: Allow downgrading SPL on non-release builds
 
-   * external/chromium-webview/patches
-091983e Add blueprint module
-
-   * hardware/qcom-caf/sm8150/display
-f90c6e6 Merge 'lineage-22.1-caf-sm8150' into 15.0-caf-sm8150
-
 ====================
      03-29-2025
 ====================
+
+   * lineage/scripts
+e7e5cd6 Reapply "aosp-merger: Check if branch exists before abandoning"
 
    * packages/apps/LineageParts
 e920bae Disable unused components
@@ -185,11 +195,26 @@ c754bf8 crdroid: Show restart systemui dialog when toggling weather
      03-28-2025
 ====================
 
+   * device/qcom/sepolicy_vndr/sm8450
+778685b Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
+
    * device/qcom/sepolicy_vndr/sm8550
 e9df702 Merge tag 'LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0
 
    * frameworks/opt/telephony
 635173d Merge tag 'android-15.0.0_r21' into staging/lineage-22.2_merge-android-15.0.0_r21
+
+   * hardware/qcom-caf/sm8350/audio
+ffc7931 Merge tag 'LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0' into staging/lineage-22.2_merge-LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0
+
+   * hardware/qcom-caf/sm8450/audio/agm
+52b3431 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
+
+   * hardware/qcom-caf/sm8450/audio/pal
+71882f1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+a2bcaf1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
 
    * hardware/qcom-caf/sm8550/audio/agm
 355c69d Merge tag 'AUDIO.LA.8.0.r1-12300-KAILUA.0' into staging/lineage-22.2_merge-AUDIO.LA.8.0.r1-12300-KAILUA.0
@@ -208,31 +233,6 @@ e9df702 Merge tag 'LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0' into staging/linea
 
    * hardware/qcom-caf/wlan
 1ec0087 Merge tag 'LA.VENDOR.14.3.0.r1-19700-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-19700-lanai.QSSI15.0
-
-   * lineage/scripts
-e7e5cd6 Reapply "aosp-merger: Check if branch exists before abandoning"
-
-====================
-     03-27-2025
-====================
-
-   * device/qcom/sepolicy_vndr/sm8450
-778685b Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8350/audio
-ffc7931 Merge tag 'LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0' into staging/lineage-22.2_merge-LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/audio/agm
-52b3431 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/audio/pal
-71882f1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
-a2bcaf1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * packages/apps/WallpaperPicker2
-e7bf611 WallpaperPicker2: Remove the use of smaller images for thumbnails
 
    * vendor/codeaurora/telephony
 a27a138 Merge tag 'LA.QSSI.15.0.r1-14500-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-14500-qssi.0
