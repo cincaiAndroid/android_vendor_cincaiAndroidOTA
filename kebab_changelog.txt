@@ -4,13 +4,8 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     04-04-2025
+     06-04-2025
 ====================
  
-- Initial crDroid 11.3
-- Updated security patches to March 2025 (android-15.0.0_r23)
-- More info on blog post
-- fix for auto brightness
-- switch from oplus to Oplusextras key handler (now bubles working for alert slider)
-- audio: Remove direct flag for VOIP RX (now audio for VIOP is OK)
-- merged latest CAF tag LA.UM.9.12.1.r1-11000-SMxx50.QSSI12.0 for kernel
+- fix VOIP audio for all WhatsUp, Viber...
+
