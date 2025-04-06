@@ -3,5 +3,16 @@ Build type: Monthly
 Device: Redmi 4A/5A (rova)
 Device maintainer: Max (iusmac)
 
+===== 06/04/2025 =====
+- Synced with crDroid 11.3 sources (March security patches).
+  Read official changelog:
+  * https://crdroid.net/blog/2025-04-03-crDroid-11.3-is-now-released
+- Upgraded kernel to 4.19.325-5.1-iusmac
+- Added SUSFS support for KernelSU (KSU) kernel module
+- Disabled 5G toggle on the internet dialog
+- Upgraded built-in KernelSU-Next module to v12430
+- Some minor fixes and improvements
+- Updated translations
+
 ===== 12/02/2025 =====
 - Initial release
