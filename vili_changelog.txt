@@ -6,6 +6,13 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:07/04/2025
+- Android 15 QPR2 update + March 2025 Security Update
+- Switched to py extract utils && regenerated .bp/.mk files
+- DAlby SAlby
+- dolby: Enable elf checks
+- dolby: updated dax-default
+
 Changelog:19/03/2025
 - Fixed audio issue on screen cast
 
