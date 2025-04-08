@@ -4,14 +4,35 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 14
 
-===== 20250311 =====Hotfix
+====================
+     04-08-2025
+====================
 
-!!! Attention !!!
-Now are using ISIS Kernel that kernel use a KernelSU Next.
-If you have the KernelSU manager installed, you must, before updating
-the firmware, revoke the SU permission from all programs that have
-been granted root rights. You must also remove all installed
-modules and the KernelSU manager itself.
+
+?? Attention Everyone! ??
+
+We're now using HyperOS Base 2.0 with a clean flash requirement for moderator builds.
+
+If you're receiving an OTA notification, please note:
+
+ -You CANNOT install this update directly via OTA.
+
+- You must use the HyperOS Base 2.0.100 build and perform a clean flash.
+
+- All required recoveries are available in the Recovery section.
+
+- For more information and support, join the official group:
+ https://t.me/crdroidperidot
+
+========================================
+
+- initial build based in hyper os 2.0
+- Updated blobs to 2.0.100
+- Merged March security patch QPR2
+- sync latest crdroid source 08/04/2025
+
+===== 20250311 =========================
+
 
 After updating the firmware, you can reinstall the kernelSU manager.
 You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
