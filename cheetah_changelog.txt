@@ -6,7 +6,17 @@ Device maintainer:Vikas (Vikas_2_0)
 Highlights & Device Specific Changes:
 
 
+===================
+16th February, 2025
+===================
+ROM changes:
+• initial crDroid 11.3
+• Android March 2025 QPR2  Security Update
 
+Device changes:
+• February 2025 blobs
+• Various fixes and improvements
+===================
 
 
 15th February, 2025
