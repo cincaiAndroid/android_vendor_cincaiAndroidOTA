@@ -5,6 +5,12 @@ Device maintainer: Anush Madhathumkara (anush02198)
 
 
 ====================
+     10-04-2025
+====================
++ Updated to latest source as per cupid-development
++ Removed some logspam
+
+====================
      19-02-2025
 ====================
 + Temporary Removal of Dolby Atmos
