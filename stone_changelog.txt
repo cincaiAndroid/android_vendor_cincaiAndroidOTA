@@ -6,7 +6,18 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
-===== 05-03-2025 =====
+===== 11-04-2025 =====
+
+* stone: Enable blur effect
+* stone: uprev to Audio Hal 7.0
+* Added a toast message when restarting systemui
+* Added notification styles (crDroid settings -> User interface)
+* Added powermenu styles (crDroid settings -> User interface)
+* Implemented new 3-btn-nav layout settings
+* Updated translations
+* Various fixes and improvements
+
+===== 05-04-2025 =====
 
 * Initial crDroid 11.3 based on March 2025 Quarterly Platform Release
 * stone: Allow restart SystemUI
