@@ -1,3 +1,26 @@
+==== 10-04-2025 =====
+
+* Added notification and power menu style customization (crdroid > UI)
+* Fixed dex2oat crashes in ART
+* Fixed app getting non-responsive when navigation hint was hidden
+* Few optimizations
+
+==== 05-04-2025 =====
+ 
+* Android 15 QPR2 update + March 2025 Security Update
+* Navigation tab and customization options removed, with compatible settings migrated to System settings.
+* Complete overhaul of DND, integrating it into the new Modes system.
+* Improved custom Weather customization for lockscreen and launcher
+ 
+==== 02-03-2025 =====
+
+* Removed extra space below keyboard for "Hide navigation hint" and "Narrow space"
+ 
+=== 01-03-2025 =====
+ 
+* Reworked hiding navigation bar hint and IME space
+* Performance improvements and few fixex
+
 ===== 14-02-2025 =====
 
 * Android February 2025 Security Update
