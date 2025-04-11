@@ -6,6 +6,10 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:11/04/2025
+- R-E-S-E-T Dolby Stack
+- Some Source side fixups
+
 Changelog:07/04/2025
 - Android 15 QPR2 update + March 2025 Security Update
 - Switched to py extract utils && regenerated .bp/.mk files
