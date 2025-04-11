@@ -1,35 +1,236 @@
 ====================
+     04-11-2025
+====================
+
+   * Fix lags in custom kernels and add new QPR2 patches
+
+   * device/samsung/a52q
+a65dff6 Update proprietary-files.txt - drop unneded 64 bit blobs
+
+   * device/samsung/a72q
+57d8915 Update proprietary-files.txt - drop unneded 64 bit blobs
+
+   * device/samsung/sm7125-common
+7554389 Update Android.bp - declare vendor.qti.hardware.iop
+
+   * frameworks/av
+36e45f6 audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+
+   * frameworks/base
+8fed68d54 SystemUI: Fix NullPointerException in updateFocusOverlayRadii for missing drawable layer
+
+   * hardware/qcom-caf/common
+06ab24e qcom: Declare hidl_vendor_qti_hardware_sigma_miracast_interface
+
+   * packages/apps/Camelot
+aa5e487 Use string "Share" for sharing, instead of "Send"
+
+   * packages/apps/ColumbusService
+8dba2e5 Add RU translation
+
+   * vendor/samsung/a52q
+ab0b2db Revert "Regen vendor for QPR2"
+
+====================
+     04-10-2025
+====================
+
+   * bionic
+76ba61b libc: Set 100 instr-limit
+
+   * hardware/qcom-caf/sm8650/display
+781c933 display: Remove smmu-proxy and ubwcp headers defaults
+
+   * packages/apps/crDroidSettings
+4d8e920 crdroid: Add notification and powermenu styles
+
+   * packages/modules/Bluetooth
+dccfafb Reconnection from remote failing due to authentication failure
+
+   * system/sepolicy
+42db7b1 Merge pull request #11 from ionutgherman/15.0
+
+   * vendor/addons
+40727f39 addons: Add notification and powermenu styles
+
+====================
+     04-09-2025
+====================
+
+   * hardware/lineage/interfaces
+a7d52a8 aidl: light: Add support for upstream LED timed mode
+
+====================
+     04-08-2025
+====================
+
+   * hardware/samsung
+9ce1aad Automatic translation import
+
+   * packages/apps/Aperture
+3a32124 Automatic translation import
+
+   * packages/apps/AudioFX
+a441c3c Automatic translation import
+
+   * packages/apps/Catapult
+d363e89 Automatic translation import
+
+   * packages/apps/Contacts
+ccb22ce Automatic translation import
+
+   * packages/apps/DeskClock
+569e0a6 Automatic translation import
+
+   * packages/apps/Etar
+fb6f4c7 Automatic translation import
+
+   * packages/apps/FMRadio
+c882fab Automatic translation import
+
+   * packages/apps/FlipFlap
+a68440c Automatic translation import
+
+   * packages/apps/Glimpse
+61b0f72 Automatic translation import
+
+   * packages/apps/Jelly
+b2d83da Automatic translation import
+
+   * packages/apps/Launcher3
+c467c2a Launcher3: Update few strings
+
+   * packages/apps/Profiles
+70ae853 Automatic translation import
+
+   * packages/apps/Recorder
+3d6ddee Automatic translation import
+
+   * packages/apps/Twelve
+3524416 Automatic translation import
+
+   * packages/providers/DownloadProvider
+400fd8e Automatic translation import
+
+   * packages/resources/devicesettings
+ff4f5a3 Automatic translation import
+
+   * vendor/crowdin
+80bdebc Automatic translation import
+
+   * vendor/lineage
+cc5ff49 crdroid: Bump to version 11.3
+
+   * vendor/qcom/opensource/commonsys/fm
+fcd14e3 Automatic translation import
+
+====================
+     04-07-2025
+====================
+
+   * build/make
+011b082 build: disable memory tagging for surfaceflinger
+
+   * build/soong
+5475b57 soong: Forbidden pkg-config again (#24)
+
+   * hardware/qcom-caf/sm8150/display
+b9f1259 sdm: core: allow to skip refresh rate changes
+
+   * hardware/qcom-caf/sm8350/display
+c9a3ec0 display: Bring back gralloc.qcom
+
+   * packages/apps/DocumentsUI
+1a08bb8 fixup! Use proper background in dark theme
+
+   * packages/apps/Settings
+a5363a6 Settings: Implement 3-btn-nav layout settings [3b/3]
+
+   * tools/extract-utils
+b059613 extract_utils: Add support to create filegroups of proprietary files
+
+====================
      04-06-2025
 ====================
 
-   * art
-2f0d920 Turn on whole program vtables
+   * hardware/lineage/compat
+d4bc391 compat: Get rid of libwfdservice_shim versioning
 
-   * device/samsung/a72q
-f1240c7 Update device.mk - adapt for a72q
+   * hardware/qcom-caf/bt
+4ddafd4 bt: Remove CleanSpec.mk
 
-   * vendor/samsung/a72q
-c3a2324 Regen for Camera symlinks
+   * hardware/qcom-caf/msm8953/media
+0830d8a media: Remove CleanSpec.mk
 
-- Fix fingerprint radius
+   * hardware/qcom-caf/msm8996/media
+d549d50 media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/msm8998/media
+f5b08c7 media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sdm660/media
+8a41966 media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sdm845/display
+e162144 display: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sdm845/media
+b25d89b media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sm8150/media
+cfb417a media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sm8250/display
+41b4cae display: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sm8250/media
+df5d631 media: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sm8450/display
+68c0f43 display: Remove CleanSpec.mk
+
+   * hardware/qcom-caf/sm8550/display
+d1371ff display: Remove CleanSpec.mk
+
+   * hardware/qcom/bt
+9776886 bt: Remove CleanSpec.mk
+
+   * hardware/qcom/camera
+0cc221a camera: Remove CleanSpec.mk
+
+   * hardware/qcom/gps
+df8f5e3 gps: Remove CleanSpec.mk
+
+   * hardware/qcom/media
+5abb1e6 media: Remove CleanSpec.mk
+
+   * hardware/qcom/sdm845/display
+7a467ab display: Remove CleanSpec.mk
+
+   * hardware/qcom/sdm845/gps
+841eb90 gps: Remove CleanSpec.mk
+
+   * hardware/qcom/sm7250/display
+d6b531e display: Remove CleanSpec.mk
+
+   * hardware/qcom/sm7250/gps
+deffe91 gps: Remove CleanSpec.mk
+
+   * hardware/qcom/sm8150/display
+1eac7ca display: Remove CleanSpec.mk
+
+   * hardware/qcom/sm8150/gps
+1395200 gps: Remove CleanSpec.mk
+
+   * lineage/scripts
+d096ced device-deps-regenerator: Ignore sm8650/sm8750-devicetrees
+
 ====================
      04-05-2025
 ====================
 
-   * device/samsung/a52q
-0a93d6a Update proprietary-files.txt - add missing symlinks
-
-   * device/samsung/sm7125-common
-04b4e6f Update proprietary-files.txt - Add camera symlinks
-
-   * frameworks/base
-910f8f413 SystemUI: Use raw weather conditions for english language
-
    * frameworks/native
 075eb6d Optimize transformhint updates to aviod buffer reallocation in BBQ.
-
-   * packages/apps/Launcher3
-2185b5b Launcher3: QuickSpace: Use raw weather conditions for english language
 
    * packages/apps/Messaging
 f0b3cec Messaging: Replace AOSP illustrations
@@ -37,55 +238,25 @@ f0b3cec Messaging: Replace AOSP illustrations
    * vendor/samsung/a52q
 8e6eef0 Regen vendor for QPR2
 
-   * vendor/samsung/a72q
-3fa89e8 Regen vendor for QPR2
-
-   * vendor/samsung/sm7125-common
-3fa8d0c Regen for QPR2
-
 ====================
      04-04-2025
 ====================
 
-   * hardware/lineage/compat
-0e5e76e compat: Add libwfdservice_shim
-
    * packages/apps/Updater
 59b1a51 Updater: Remove cryptographic signature verification for local updates
-
-   * tools/extract-utils
-caf3702 extract_utils: additional proprietary files and copy files guard example
-
-   * vendor/lineage
-63a7626 crdroid: Bump to version 11.3
 
 ====================
      04-03-2025
 ====================
 
-   * android
-5e71a36 Switch to blueprint chromium webview module
-
-   * build/make
-e22303e build: Add backuptool by default
-
-   * build/soong
-2304dfe gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds
-
    * device/lineage/sepolicy
 e3f1933 Merge pull request #22 from ionutgherman/15.0
-
-   * frameworks/av
-bd919c8 Audio: fix ~refbase() crash caused by race condition
 
    * hardware/qcom-caf/sm8450/audio/primary-hal
 b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
 
    * packages/services/OmniJaws
 f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
-
-   * system/sepolicy
-173c4a7 Merge pull request #10 from ionutgherman/15.0
 
    * system/update_engine
 a02e728 Merge pull request #2 from ionutgherman/15.0
@@ -97,149 +268,6 @@ a02e728 Merge pull request #2 from ionutgherman/15.0
      04-02-2025
 ====================
 
-   * hardware/qcom-caf/common
-51c6df9 common: Move QTI surfaceflinger extensions to select
-
-   * packages/apps/Twelve
-5c642b8 Twelve: Implement MediaStore rescan button
-
-====================
-     04-01-2025
-====================
-
-   * bionic
-3b77e7b bionic: Fix align usage for fast lookup hosts file data
-
-   * device/qcom/sepolicy_vndr/legacy-um
-332cd96 sepolicy_vndr: Add permission for USB HAL to access usb sysfs nodes
-
-   * hardware/interfaces
-c99a282 interfaces: bluetooth: Restore LC3 codec support for A2DP
-
-   * lineage-sdk
-8c73f01 ChargingControl: Show notification if device is charging
-
-   * packages/apps/Dialer
-92fc335 New translations (#145)
-
-   * packages/apps/Settings
-f4ac69a Settings: Prevent IllegalArgumentException in storage settings
-
-   * packages/apps/TvSettings
-181d55c TvSettings: Fix energy optimization setting
-
-   * packages/modules/Bluetooth
-fd02252 Bluetooth: Add missing connect permission
-
-====================
-     03-31-2025
-====================
-
-   * device/qcom/sepolicy_vndr/sm8650
-2ef3528 sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
-
-   * external/chromium-webview/patches
-091983e Add blueprint module
-
-   * hardware/qcom-caf/sm8150/display
-f90c6e6 Merge 'lineage-22.1-caf-sm8150' into 15.0-caf-sm8150
-
-   * hardware/qcom-caf/sm8650/audio/agm
-2364e44 AGMIPC@1.0-impl/libagm: exclude from OSS builds
-
-   * hardware/qcom-caf/sm8650/audio/pal
-8c81569 Add .gitupstream file
-
-   * hardware/qcom-caf/sm8650/audio/primary-hal
-304cea0 adsprpcd: Drop dependency on proprietary headers and fix build errors
-
-   * hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
-e9144a7 data-ipa-cfg-mgr: Disable all the debugging
-
-   * hardware/qcom-caf/sm8650/dataipa
-ef175ed dataipa: Disable all the debugging
-
-   * hardware/qcom-caf/sm8650/display
-fc6abd0 composer: Separate rc and xml from service
-
-   * packages/apps/LMOFreeform
-d1e7009 SideBarView: Fix sidebar crash
-
-   * vendor/addons
-32517964 addons: Add font package for Google Sans Flex
-
-====================
-     03-30-2025
-====================
-
-   * bootable/recovery
-6ba4a39 recovery: Allow downgrading SPL on non-release builds
-
-====================
-     03-29-2025
-====================
-
-   * lineage/scripts
-e7e5cd6 Reapply "aosp-merger: Check if branch exists before abandoning"
-
-   * packages/apps/LineageParts
-e920bae Disable unused components
-
-   * packages/apps/SetupWizard
-b555015 SetupWizard: Handle navbar and hw keys
-
-   * packages/apps/crDroidSettings
-c754bf8 crdroid: Show restart systemui dialog when toggling weather
-
-====================
-     03-28-2025
-====================
-
-   * device/qcom/sepolicy_vndr/sm8450
-778685b Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * device/qcom/sepolicy_vndr/sm8550
-e9df702 Merge tag 'LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0
-
-   * frameworks/opt/telephony
-635173d Merge tag 'android-15.0.0_r21' into staging/lineage-22.2_merge-android-15.0.0_r21
-
-   * hardware/qcom-caf/sm8350/audio
-ffc7931 Merge tag 'LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0' into staging/lineage-22.2_merge-LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/audio/agm
-52b3431 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/audio/pal
-71882f1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
-a2bcaf1 Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0
-
-   * hardware/qcom-caf/sm8550/audio/agm
-355c69d Merge tag 'AUDIO.LA.8.0.r1-12300-KAILUA.0' into staging/lineage-22.2_merge-AUDIO.LA.8.0.r1-12300-KAILUA.0
-
-   * hardware/qcom-caf/sm8550/audio/pal
-9e99d22 Merge tag 'AUDIO.LA.8.0.r1-12300-KAILUA.0' into staging/lineage-22.2_merge-AUDIO.LA.8.0.r1-12300-KAILUA.0
-
-   * hardware/qcom-caf/sm8550/audio/primary-hal
-57331cf Merge tag 'AUDIO.LA.8.0.r1-12300-KAILUA.0' into staging/lineage-22.2_merge-AUDIO.LA.8.0.r1-12300-KAILUA.0
-
-   * hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
-72529fc Merge tag 'LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0
-
-   * hardware/qcom-caf/sm8550/dataipa
-9d4d16b Merge tag 'LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.13.2.0.r1-26600-KAILUA.QSSI16.0
-
-   * hardware/qcom-caf/wlan
-1ec0087 Merge tag 'LA.VENDOR.14.3.0.r1-19700-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-19700-lanai.QSSI15.0
-
-   * vendor/codeaurora/telephony
-a27a138 Merge tag 'LA.QSSI.15.0.r1-14500-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-14500-qssi.0
-
-   * vendor/qcom/opensource/audio-hal/st-hal
-9077c0b Merge tag 'LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0' into staging/lineage-22.2_merge-LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0
-
-   * vendor/qcom/opensource/commonsys/fm
-23f613b Merge tag 'LA.QSSI.15.0.r1-14500-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-14500-qssi.0
+   * android
+5e71a36 Switch to blueprint chromium webview module
 
