@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250411 =====
+- Added notification and power menu style customization (crdroid > UI)
+- Fixed dex2oat crashes in ART
+- Fixed app getting non-responsive when navigation hint was hidden
+- Few optimizations
+- Various optimization and fixes
+
 ===== 20250406 =====
 - Update KernelSU Next to v1.0.6
 - Launcher3: QuickSpace: Media events fixes and improvements
