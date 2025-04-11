@@ -4,6 +4,37 @@ Device: POCO F2 Pro
 Device maintainer: raystef66
 Required firmware: V14.0.1.0.SJKMIXM
 
+===== 11-04-2025 =====
+
+* Added powermenu styles (crDroid settings -> User interface)
+* Added notification styles (crDroid settings -> User interface)
+* Added a toast message when restarting systemui
+* Implemented new 3-btn-nav layout settings
+* Fixed dex2oat crashes in ART
+* Fixed app getting non-responsive when navigation hint was hidden
+* Fixed audio issues with VoIP apps
+* Fixed A2DP volume issue with multiple outputs
+* Disabled safe media volume management
+* Launcher3: QuickSpace: Media events fixes and improvements
+* Launcher3: Use translatable strings for weather condition text
+* Launcher3: QuickSpace: Use raw weather conditions for english language
+* Launcher3: Optimize launcher animations
+* Launcher3: Fix app freeze issues when gesture hint is disabled
+* SystemUI: Implement Reverse-engineered Smartspace
+* SystemUI: Fix smartspace layout
+* SystemUI: Fix up large clock top margin with pixel-fw
+* SystemUI: Bring back smartspace start paddings to what they were before
+* SystemUI: don't hide date text on lockscreen when media is playing
+* SystemUI: ToastUI: Fixup toast theme again
+* SliderHapticFeedbackProvider: Improve slider haptics
+* Screenrecord: Set entire screenrecord as the default option
+* Fixed support for double line clock in lockscreen
+* Import brightness fluctuation fix from Android 16 Beta 3.1
+* Fixed some dark mode UI elements that don't have proper dark mode
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 04-04-2025 =====
 
 * Clean Flash recommended
