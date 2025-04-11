@@ -3,6 +3,18 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 11 April, 2025 =====
+
+- Added powermenu styles (crDroid settings -> User interface)
+- Added notification styles (crDroid settings -> User interface)
+- Added a toast message when restarting systemui
+- Implemented new 3-btn-nav layout settings
+- Fixed app getting non-responsive when navigation hint was hidden
+- Fixed A2DP volume issue with multiple outputs
+- Disabled safe media volume management
+- Some other small fixed
+- Updated translations
+
 ===== 06 April, 2025 =====
 
 - Update KernelSU Next to v1.0.6
