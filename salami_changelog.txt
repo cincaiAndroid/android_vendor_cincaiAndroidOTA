@@ -6,6 +6,15 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+11th April, 2025
+
+* Added notification and power menu style customization (crdroid > UI)
+* Fixed dex2oat crashes in ART
+* Fixed app getting non-responsive when navigation hint was hidden
+* Few optimizations
+* salami: Fix issue with WiFi not turning on
+ 
+==================================
 5th April, 2025
 
 * Android 15 QPR2 update + March 2025 Security Update
