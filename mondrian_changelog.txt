@@ -3,6 +3,28 @@ Build type: Weekly
 Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
+
+===== 11/04/2025 =====
+- Initial crDroid 11.3 stable release,
+- Updated to sec. patch level 2025.03 (QPR2),
+- Synced with latest sources,
+- Updated translations,
+- Clean flash Recommended (if you want to dirty flash backup your data 1st i didn't try dirty flash),
+- Update blobs from cupid OS2.0.1.0.VLCMIXM,
+- Media: Update from cupid OS2.0.1.0.VLCMIXM,
+- Drop gralloc priv handle configuration,
+- Remove unnecessary display board flags,
+- Copy card-defs and microphone_characteristics XMLs from audio HAL,
+- Config: Update Auto Brightness debounce and ambient threshold setting,
+- Update darkening light debounce to 2s,
+- Modify maxGamma value of short-term model,
+- FW included and updated to OS2.0.5.0.VMNMIXM,	
+- HyperOS Camera app included + Reduce noise in low light environments,
+- Fix Wireless Display issue (Cast),
+- Included KSU Next and susfs4ksu,
+- Drop Dolby Atmos for now,
+- Some other fixes and improvements.
+
 ===== 22/03/2025 =====
 - Upstream kernel to 5.10.232,
 - Update KernelSU-Next and Susfs4ksu.
