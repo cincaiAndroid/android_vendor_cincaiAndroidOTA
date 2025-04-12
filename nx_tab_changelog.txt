@@ -4,6 +4,21 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 04-12-2025 =====
+- Update to crDroid 10.4
+- fixup! nx: allow bootloader-passed oc
+- extract: Don't fail l4t extract if drivers missing
+- fixup! extract: Extract bootloader blobs if available
+- usb: gadget: tegra ucd: improve detection
+- ASoC: codecs: rt5640: correct eq multi reg writing
+- ASoC: codecs: rt5640: use manual hp amp depop
+- ASoC: codecs: rt5640: remove clicks/pops on hp plug-in
+- soc/tegra: fuse: allow overrides for unfused sku
+- ASoC: codecs: rt5640: optimize EQ setting
+- power: supply: bq2419x: add CE pin support
+- power: supply: bq2419x: add no battery support
+- power: supply: bq2419x: active HiZ manage
+
 ===== 04-04-2025 =====
 - Update to crDroid 10.3
 - Add quick tap
