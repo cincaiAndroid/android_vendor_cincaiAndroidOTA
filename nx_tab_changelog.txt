@@ -5,7 +5,7 @@ Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
 ===== 04-12-2025 =====
-- Update to crDroid 10.4
+- Update to crDroid 11.4
 - fixup! nx: allow bootloader-passed oc
 - extract: Don't fail l4t extract if drivers missing
 - fixup! extract: Extract bootloader blobs if available
@@ -20,7 +20,7 @@ Required firmware: Hekate 6.1.0
 - power: supply: bq2419x: active HiZ manage
 
 ===== 04-04-2025 =====
-- Update to crDroid 10.3
+- Update to crDroid 11.3
 - Add quick tap
 - Uprev vendor security patch to match 9.2.0
 - nx: Update fingerprint to 9.2.0
