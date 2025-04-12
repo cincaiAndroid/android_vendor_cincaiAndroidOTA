@@ -5,6 +5,14 @@ Device maintainer: Thereache
 
 ~ Firmware Flash is Mandatory
 
+====== 12-04-2025 =====
+* Synced with letest source | With April(V11.4) Security Patch
+* add computer vision firmware
+* camera: Import Qualcomm CameraX Vendor Extensions
+* Gps issue fixed
+* Mi remote Fixed
+* Much More
+
 ====== 08-04-2025 ======
 * Synced with letest source | With March Security Patch
 * Blobs Is up-to-date redwood: Update blobs from OS1.0.15.0.UMSMIXM
