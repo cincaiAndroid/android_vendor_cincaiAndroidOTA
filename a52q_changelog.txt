@@ -1,7 +1,15 @@
 ====================
-     04-11-2025
+     04-12-2025
 ====================
-   * Fix lags in custom kernels and add new QPR2 patches
+
+   * android
+d86e481 Merge 'lineage-22.2' into 15.0
+
+   * build/make
+f13f491 build: disable memory tagging for surfaceflinger
+
+   * build/soong
+79928d1 Merge 'lineage-22.2' into 15.0
 
    * device/samsung/a52q
 a65dff6 Update proprietary-files.txt - drop unneded 64 bit blobs
@@ -10,16 +18,16 @@ a65dff6 Update proprietary-files.txt - drop unneded 64 bit blobs
 57d8915 Update proprietary-files.txt - drop unneded 64 bit blobs
 
    * device/samsung/sm7125-common
-e3456be Update extract-files.sh - fix libs that couldn't be linked in crDroid.
-
-   * frameworks/av
-36e45f6 audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+7554389 Update Android.bp - declare vendor.qti.hardware.iop
 
    * frameworks/base
-8fed68d54 SystemUI: Fix NullPointerException in updateFocusOverlayRadii for missing drawable layer
+66f887690 SystemUI: VolumeDialog: Do not check previous state when updating rows
 
-   * hardware/qcom-caf/common
-06ab24e qcom: Declare hidl_vendor_qti_hardware_sigma_miracast_interface
+   * frameworks/native
+d6a939c Optimize transformhint updates to aviod buffer reallocation in BBQ.
+
+   * lineage-sdk
+4b3e4a9 ChargingControl: Show notification if device is charging
 
    * packages/apps/Camelot
 aa5e487 Use string "Share" for sharing, instead of "Send"
@@ -27,8 +35,69 @@ aa5e487 Use string "Share" for sharing, instead of "Send"
    * packages/apps/ColumbusService
 8dba2e5 Add RU translation
 
+   * packages/apps/Dialer
+573c87d Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/DocumentsUI
+5f7e002 Use proper background in dark theme
+
+   * packages/apps/Launcher3
+5075d7e Launcher3: Fix NPE with navbar button layout settings
+
+   * packages/apps/LineageParts
+d765916 Disable unused components
+
+   * packages/apps/Messaging
+9768878 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Settings
+7f2648a Settings: Implement 3-btn-nav layout settings [3b/3]
+
+   * packages/apps/SetupWizard
+2217773 SetupWizard: Handle navbar and hw keys
+
+   * packages/apps/ThemePicker
+8996755 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Updater
+88b2dc0 Updater: Remove cryptographic signature verification for local updates
+
    * packages/apps/crDroidSettings
-4d8e920 crdroid: Add notification and powermenu styles
+96f6108 New Crowdin updates (#1231)
+
+   * packages/inputmethods/LatinIME
+72aab94 Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Bluetooth
+24ea187 Merge 'lineage-22.2' into 15.0
+
+   * packages/services/Telecomm
+ac1a73e Fix NullPointerException issue due to threads race
+
+   * packages/services/Telephony
+87d60e4 Create MobileNetworkSettings for correct SIM
+
+   * vendor/lineage
+320527a crdroid: Bump to version 11.4
+
+   * vendor/samsung/a52q
+ab0b2db Revert "Regen vendor for QPR2"
+
+====================
+     04-11-2025
+====================
+
+   * frameworks/av
+36e45f6 audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+
+   * hardware/google/graphics/common
+ae5904b Merge tag 'android-15.0.0_r26' into staging/lineage-22.2_merge-android-15.0.0_r26
+
+   * hardware/qcom-caf/common
+06ab24e qcom: Declare hidl_vendor_qti_hardware_sigma_miracast_interface
+
+   * vendor/addons
+40727f39 addons: Add notification and powermenu styles
 
 ====================
      04-10-2025
@@ -40,14 +109,8 @@ aa5e487 Use string "Share" for sharing, instead of "Send"
    * hardware/qcom-caf/sm8650/display
 781c933 display: Remove smmu-proxy and ubwcp headers defaults
 
-   * packages/modules/Bluetooth
-dccfafb Reconnection from remote failing due to authentication failure
-
    * system/sepolicy
 42db7b1 Merge pull request #11 from ionutgherman/15.0
-
-   * vendor/addons
-40727f39 addons: Add notification and powermenu styles
 
 ====================
      04-09-2025
@@ -93,9 +156,6 @@ a68440c Automatic translation import
    * packages/apps/Jelly
 b2d83da Automatic translation import
 
-   * packages/apps/Launcher3
-c467c2a Launcher3: Update few strings
-
    * packages/apps/Profiles
 70ae853 Automatic translation import
 
@@ -114,9 +174,6 @@ ff4f5a3 Automatic translation import
    * vendor/crowdin
 80bdebc Automatic translation import
 
-   * vendor/lineage
-cc5ff49 crdroid: Bump to version 11.3
-
    * vendor/qcom/opensource/commonsys/fm
 fcd14e3 Automatic translation import
 
@@ -124,23 +181,11 @@ fcd14e3 Automatic translation import
      04-07-2025
 ====================
 
-   * build/make
-011b082 build: disable memory tagging for surfaceflinger
-
-   * build/soong
-5475b57 soong: Forbidden pkg-config again (#24)
-
    * hardware/qcom-caf/sm8150/display
 b9f1259 sdm: core: allow to skip refresh rate changes
 
    * hardware/qcom-caf/sm8350/display
 c9a3ec0 display: Bring back gralloc.qcom
-
-   * packages/apps/DocumentsUI
-1a08bb8 fixup! Use proper background in dark theme
-
-   * packages/apps/Settings
-a5363a6 Settings: Implement 3-btn-nav layout settings [3b/3]
 
    * tools/extract-utils
 b059613 extract_utils: Add support to create filegroups of proprietary files
@@ -225,18 +270,15 @@ d096ced device-deps-regenerator: Ignore sm8650/sm8750-devicetrees
      04-05-2025
 ====================
 
-   * frameworks/native
-075eb6d Optimize transformhint updates to aviod buffer reallocation in BBQ.
-
-   * packages/apps/Messaging
-f0b3cec Messaging: Replace AOSP illustrations
+   * vendor/samsung/a52q
+8e6eef0 Regen vendor for QPR2
 
 ====================
      04-04-2025
 ====================
 
-   * packages/apps/Updater
-59b1a51 Updater: Remove cryptographic signature verification for local updates
+   * vendor/certification
+495b3d3 certification: update to the latest A16 beta BP22.250221.015
 
 ====================
      04-03-2025
@@ -253,14 +295,4 @@ f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
 
    * system/update_engine
 a02e728 Merge pull request #2 from ionutgherman/15.0
-
-   * vendor/certification
-495b3d3 certification: update to the latest A16 beta BP22.250221.015
-
-====================
-     04-02-2025
-====================
-
-   * android
-5e71a36 Switch to blueprint chromium webview module
 
