@@ -3,55 +3,186 @@ Device: Mi 11 Lite 4G (courbet,courbetin)
 Device maintainer: Melo Longo (melo159)
 Highlights & Device Specific Changes:
 
-===== 07 April 2025 =====
--Migrate to QTI USB Gadget AIDL HAL
--Enable USB and skin temperature warnings
--Implemented DeviceAsWebcam service
--Audio improvements
--Support WiFi6
--Increased non-rapid charge current to 2A (2000mA)
--Some other minor fixes and improvements
+====================
+     12 April 2025
+====================
+
+-crDroid v11.4 with April 2025 security patches
+More info below:
 
 ====================
-     04-07-2025
+     04-12-2025
+====================
+
+   * android
+d86e481 Merge 'lineage-22.2' into 15.0
+
+   * build/make
+f13f491 build: disable memory tagging for surfaceflinger
+
+   * build/soong
+79928d1 Merge 'lineage-22.2' into 15.0
+
+   * frameworks/base
+66f887690 SystemUI: VolumeDialog: Do not check previous state when updating rows
+
+   * frameworks/native
+d6a939c Optimize transformhint updates to aviod buffer reallocation in BBQ.
+
+   * lineage-sdk
+4b3e4a9 ChargingControl: Show notification if device is charging
+
+   * packages/apps/Camelot
+aa5e487 Use string "Share" for sharing, instead of "Send"
+
+   * packages/apps/ColumbusService
+8dba2e5 Add RU translation
+
+   * packages/apps/Dialer
+573c87d Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/DocumentsUI
+5f7e002 Use proper background in dark theme
+
+   * packages/apps/Launcher3
+5075d7e Launcher3: Fix NPE with navbar button layout settings
+
+   * packages/apps/LineageParts
+d765916 Disable unused components
+
+   * packages/apps/Messaging
+9768878 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Settings
+7f2648a Settings: Implement 3-btn-nav layout settings [3b/3]
+
+   * packages/apps/SetupWizard
+2217773 SetupWizard: Handle navbar and hw keys
+
+   * packages/apps/ThemePicker
+8996755 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Updater
+88b2dc0 Updater: Remove cryptographic signature verification for local updates
+
+   * packages/apps/crDroidSettings
+96f6108 New Crowdin updates (#1231)
+
+   * packages/inputmethods/LatinIME
+72aab94 Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Bluetooth
+24ea187 Merge 'lineage-22.2' into 15.0
+
+   * packages/services/Telecomm
+ac1a73e Fix NullPointerException issue due to threads race
+
+   * packages/services/Telephony
+87d60e4 Create MobileNetworkSettings for correct SIM
+
+   * vendor/lineage
+320527a crdroid: Bump to version 11.4
+
+====================
+     04-11-2025
+====================
+
+   * frameworks/av
+36e45f6 audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+
+   * hardware/google/graphics/common
+ae5904b Merge tag 'android-15.0.0_r26' into staging/lineage-22.2_merge-android-15.0.0_r26
+
+   * hardware/qcom-caf/common
+06ab24e qcom: Declare hidl_vendor_qti_hardware_sigma_miracast_interface
+
+   * vendor/addons
+40727f39 addons: Add notification and powermenu styles
+
+====================
+     04-10-2025
+====================
+
+   * bionic
+76ba61b libc: Set 100 instr-limit
+
+   * hardware/qcom-caf/sm8650/display
+781c933 display: Remove smmu-proxy and ubwcp headers defaults
+
+   * system/sepolicy
+42db7b1 Merge pull request #11 from ionutgherman/15.0
+
+====================
+     04-09-2025
+====================
+
+   * hardware/lineage/interfaces
+a7d52a8 aidl: light: Add support for upstream LED timed mode
+
+====================
+     04-08-2025
 ====================
 
    * hardware/xiaomi
 ed7b4db dolby: Fix compilation error in TooltipIconButton
 
-   * packages/apps/DocumentsUI
-1a08bb8 fixup! Use proper background in dark theme
+   * packages/apps/Aperture
+3a32124 Automatic translation import
 
-   * packages/apps/Launcher3
-853eecf Launcher3: Implement 3-btn-nav layout settings [2/3]
+   * packages/apps/AudioFX
+a441c3c Automatic translation import
 
-   * packages/apps/Settings
-a5363a6 Settings: Implement 3-btn-nav layout settings [3b/3]
+   * packages/apps/Catapult
+d363e89 Automatic translation import
 
-   * packages/apps/crDroidSettings
-9b2f9ee crdroid: Add general string for default value
+   * packages/apps/Contacts
+ccb22ce Automatic translation import
+
+   * packages/apps/DeskClock
+569e0a6 Automatic translation import
+
+   * packages/apps/Etar
+fb6f4c7 Automatic translation import
+
+   * packages/apps/FMRadio
+c882fab Automatic translation import
+
+   * packages/apps/FlipFlap
+a68440c Automatic translation import
+
+   * packages/apps/Glimpse
+61b0f72 Automatic translation import
+
+   * packages/apps/Jelly
+b2d83da Automatic translation import
+
+   * packages/apps/Profiles
+70ae853 Automatic translation import
+
+   * packages/apps/Recorder
+3d6ddee Automatic translation import
+
+   * packages/apps/Twelve
+3524416 Automatic translation import
+
+   * packages/providers/DownloadProvider
+400fd8e Automatic translation import
+
+   * packages/resources/devicesettings
+ff4f5a3 Automatic translation import
+
+   * vendor/crowdin
+80bdebc Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+fcd14e3 Automatic translation import
 
 ====================
-     04-06-2025
+     04-07-2025
 ====================
-
-   * build/make
-011b082 build: disable memory tagging for surfaceflinger
-
-   * build/soong
-5475b57 soong: Forbidden pkg-config again (#24)
 
    * device/xiaomi/sm6150-common
 235f58b sm6150-common: rootdir: Add "system" group to Audio HAL
-
-   * frameworks/base
-7cdae9e88 base: Implement 3-btn-nav layout settings [1/3]
-
-   * hardware/lineage/compat
-d4bc391 compat: Get rid of libwfdservice_shim versioning
-
-   * hardware/qcom-caf/common
-2692eb2 qcril-database: Add host tool to generate qcrilNr.db from migrations
 
    * hardware/qcom-caf/sm8150/display
 b9f1259 sdm: core: allow to skip refresh rate changes
@@ -62,24 +193,15 @@ c9a3ec0 display: Bring back gralloc.qcom
    * kernel/xiaomi/sm6150
 fb5bfa674 power: supply: qcom: Increase current for non-QC charging
 
-   * lineage/scripts
-d096ced device-deps-regenerator: Ignore sm8650/sm8750-devicetrees
-
    * tools/extract-utils
 b059613 extract_utils: Add support to create filegroups of proprietary files
 
-   * vendor/lineage
-755db34 overlays: Define circle to search overlays for vanilla builds
-
 ====================
-     04-05-2025
+     04-06-2025
 ====================
 
-   * art
-2f0d920 Turn on whole program vtables
-
-   * frameworks/native
-075eb6d Optimize transformhint updates to aviod buffer reallocation in BBQ.
+   * hardware/lineage/compat
+d4bc391 compat: Get rid of libwfdservice_shim versioning
 
    * hardware/qcom-caf/bt
 4ddafd4 bt: Remove CleanSpec.mk
@@ -117,9 +239,6 @@ df5d631 media: Remove CleanSpec.mk
    * hardware/qcom-caf/sm8550/display
 d1371ff display: Remove CleanSpec.mk
 
-   * hardware/qcom-caf/sm8650/display
-c302392 display: Remove CleanSpec.mk
-
    * hardware/qcom/bt
 9776886 bt: Remove CleanSpec.mk
 
@@ -150,35 +269,26 @@ deffe91 gps: Remove CleanSpec.mk
    * hardware/qcom/sm8150/gps
 1395200 gps: Remove CleanSpec.mk
 
+   * lineage/scripts
+d096ced device-deps-regenerator: Ignore sm8650/sm8750-devicetrees
+
+====================
+     04-05-2025
+====================
+
 ====================
      04-04-2025
-====================
-
-   * packages/apps/Messaging
-f0b3cec Messaging: Replace AOSP illustrations
-
-   * packages/apps/Updater
-59b1a51 Updater: Remove cryptographic signature verification for local updates
-
-====================
-     04-03-2025
 ====================
 
    * vendor/certification
 495b3d3 certification: update to the latest A16 beta BP22.250221.015
 
 ====================
-     04-02-2025
+     04-03-2025
 ====================
-
-   * android
-5e71a36 Switch to blueprint chromium webview module
 
    * device/lineage/sepolicy
 e3f1933 Merge pull request #22 from ionutgherman/15.0
-
-   * frameworks/av
-bd919c8 Audio: fix ~refbase() crash caused by race condition
 
    * hardware/qcom-caf/sm8450/audio/primary-hal
 b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
@@ -186,82 +296,6 @@ b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
    * packages/services/OmniJaws
 f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
 
-   * system/sepolicy
-173c4a7 Merge pull request #10 from ionutgherman/15.0
-
    * system/update_engine
 a02e728 Merge pull request #2 from ionutgherman/15.0
-
-====================
-     04-01-2025
-====================
-
-   * packages/apps/TvSettings
-181d55c TvSettings: Fix energy optimization setting
-
-   * packages/apps/Twelve
-5c642b8 Twelve: Implement MediaStore rescan button
-
-====================
-     03-31-2025
-====================
-
-   * bionic
-3b77e7b bionic: Fix align usage for fast lookup hosts file data
-
-   * device/qcom/sepolicy_vndr/legacy-um
-332cd96 sepolicy_vndr: Add permission for USB HAL to access usb sysfs nodes
-
-   * hardware/interfaces
-c99a2827 interfaces: bluetooth: Restore LC3 codec support for A2DP
-
-   * hardware/qcom-caf/sm8650/audio/primary-hal
-304cea0 adsprpcd: Drop dependency on proprietary headers and fix build errors
-
-   * hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
-e9144a7 data-ipa-cfg-mgr: Disable all the debugging
-
-   * hardware/qcom-caf/sm8650/dataipa
-ef175ed dataipa: Disable all the debugging
-
-   * lineage-sdk
-8c73f01 ChargingControl: Show notification if device is charging
-
-   * packages/apps/Dialer
-92fc335 New translations (#145)
-
-   * packages/apps/LMOFreeform
-d1e7009 SideBarView: Fix sidebar crash
-
-   * packages/modules/Bluetooth
-fd02252 Bluetooth: Add missing connect permission
-
-   * vendor/addons
-32517964 addons: Add font package for Google Sans Flex
-
-====================
-     03-30-2025
-====================
-
-   * bootable/recovery
-6ba4a39 recovery: Allow downgrading SPL on non-release builds
-
-   * device/qcom/sepolicy_vndr/sm8650
-2ef3528 sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
-
-   * device/xiaomi/courbet
-ef08c8a courbet: Disable OMX service
-
-   * external/chromium-webview/patches
-091983e Add blueprint module
-
-   * hardware/qcom-caf/sm8650/audio/agm
-2364e44 AGMIPC@1.0-impl/libagm: exclude from OSS builds
-
-   * hardware/qcom-caf/sm8650/audio/pal
-8c81569 Add .gitupstream file
-
-====================
-     03-29-2025
-====================
 
