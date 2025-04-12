@@ -6,6 +6,15 @@ Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 Highlights & Device Specific Changes:
 =====================================
 
+===== 12th April, 2025 =====
+
+- crDroid 11.4 release
+  * April SPL
+  * Gesture issues should be fixed
+  * Button navigation should be fixed
+  * App uninstallation via recents is fixed
+  * Per-app volume control visual glitches have been fixed
+
 ===== 3rd April, 2025 =====
 
 - crDroid 11.3 release
