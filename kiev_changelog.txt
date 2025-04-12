@@ -3,6 +3,13 @@ Build type: Weekly
 Device: Motorola Moto G 5G
 Device maintainer: tilt-rgb
 
+== 12 April , 2025 =====
+
+-crDroid v11.4 with April 2025 security patches
+- Updated DolbyAtmos blobs to Oneplus 9RT
+- Moved to LineageOS offline charger
+- implemented bypass charging support use this kernel manager: https://github.com/Rve27/RvKernel-Manager
+
 == 04 April , 2025 =====
 
 - Switch to common bootctrl HAL
