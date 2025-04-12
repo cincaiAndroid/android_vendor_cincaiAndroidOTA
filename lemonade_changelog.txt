@@ -3,6 +3,14 @@ Build type: Weekly
 Device: OnePlus 9 (lemonade)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 12 April, 2025 =====
+
+- Initial crDroid 11.4
+- Updated security patches to April 2025 (android-15.0.0_r26)
+- Fixed an issue with 3-btn-nav layout crashing
+- SystemUI: VolumeDialog: Fix up touchable region with per-app volume
+- Updated translations
+
 ===== 11 April, 2025 =====
 
 - Added powermenu styles (crDroid settings -> User interface)
