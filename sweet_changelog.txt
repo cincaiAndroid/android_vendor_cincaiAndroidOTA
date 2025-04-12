@@ -6,6 +6,13 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+12th April, 2025
+
+* Android April 2025 Security Update
+* Fixed crDroid Home crash in some scenarios
+* Misc improvements
+ 
+==================================
 10th April, 2025
 
 * Added notification and power menu style customization (crdroid > UI)
