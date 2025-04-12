@@ -3,6 +3,46 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 13 April, 2025 =====
+- FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
+- latest orange fox is compulsory to be used
+- Whatsapp Audio bug still exsists :-(
+- use 13_april ksunext file
+- Update display ids with display hardware port id changes
+- Update blobs and firmware from OS2.0.1.0.VMRMIXM for device
+- light: Switch to shared_ptr to avoid memory leaks
+- overlay: Align auto brightness config comments with AOSP
+- overlay: Commonize several auto brightness configs
+- Remove unused Android.mk
+- move vibrator effect stream config to select
+- Shim camera libs
+- Enable elfchecks for camera libs
+- props: Enable compress voip audio feature
+- Import missing permissions for QCC app
+- Set manufacturer soc property
+- overlay: Disable turbulence noise
+- Modify maxGamma value of short-term model
+- update darkening light debounce to 2s
+- Config: Update Auto Brightness debounce and ambient threshold setting
+- Copy card-defs and microphone_characteristics XMLs from audio HAL
+- Remove unnecessary display board flags
+- Drop gralloc priv handle configuration
+- media: Update from cupid OS2.0.1.0.VLCMIXM
+- Build QtiTelephonyCompat
+- Update blobs from cupid OS2.0.1.0.VLCMIXM for common tree
+- Add libwfdservice_shim for WFD
+- Enable ELF checks for libwpa_client dependent libs
+- Don't explicitly set as an AB target
+- rootdir: Add "system" group to Audio HAL
+- qcril-database: Add migration to turn off poweron_opt
+- qcril-database: Add migration to turn off redir_party_num
+- qcril-database: Add missing migration for db 15.0
+- Generate qcrilNr.db during build
+- nonui-notifier: Switch to shared_ptr to avoid memory leaks
+- udfps: Switch to unique fd and shared pointer to avoid memory leaks
+- Drop PRODUCT_PACKAGES_DEBUG entry
+- move to aidl bootctrl hal
+
 ===== 16 Feburary, 2025 =====
 - Clean Flash is MANDATORY
 - ORANGE FOX recovery is compulsory
