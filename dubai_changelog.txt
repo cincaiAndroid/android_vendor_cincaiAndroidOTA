@@ -3,6 +3,22 @@ Build type: Weekly
 Device: Motorola Edge 30 (dubai)
 Device maintainer: Rakhshan (shan_rakh)
 
+
+====================
+     12-04-2025
+====================
+- QPR2 April Security Patch
+- Upated KernelSU Next to v1.0.5
+- Setup 6gb Dalvik
+- Swiched to Pixel Power Hal AIDL
+- Stopped unnecessary CPU boosting
+- Decrease CPU usage on Audio Playback
+- Reduce power consumption when screen is off
+- Increase priority on UDFPS
+- Enable Suspend to Ram (Improved Idle drain)
+- Not pinning camera in RAM, Save memory
+- Etc..
+
 ====================
      20-02-2025
 ====================
