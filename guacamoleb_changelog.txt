@@ -5,6 +5,13 @@ Device maintainer: Nora (eepymeowers)
 Required firmware: OxygenOS 12
 
 
+
+====================
+     04-13-2025
+====================
+* Update to crDroid 11.4. Apologies for missing 11.3.
+
+
 ====================
      02-23-2025
 ====================
