@@ -7,6 +7,13 @@ Device maintainer: shoya0x00
      03-04-2025
 ====================
 - Latest source Changes
+- April security patch
+- Misc Changes and Improvement
+
+====================
+     03-04-2025
+====================
+- Latest source Changes
 - March security patch
 - Removed Dolby Support
 - Misc Changes and Improvement
