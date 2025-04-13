@@ -1,3 +1,14 @@
+=== 13-04-2025 =====
+
+* Fixed statusbar padding
+* Switched to user build
+* April Security Patch merged
+* Fixed an issue with 3-btn-nav layout crashing
+* Fixed crDroid Home crash in some scenarios
+* VolumeDialog: Do not check previous state when updating rows
+* VolumeDialog: Fix up touchable region with per-app volume
+* Updated translations
+
 ==== 10-04-2025 =====
 
 * Added notification and power menu style customization (crdroid > UI)
