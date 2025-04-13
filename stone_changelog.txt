@@ -6,6 +6,17 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 12-04-2025 =====
+
+* April 2025 security patch (android-15.0.0_r26)
+* stone: fixed "Charging Rapidly" info on lockscreen
+* stone: Update blobs from OS2.0.1.0.UMQMIXM
+* stone: Update kernel from OS2.0.1.0.UMQMIXM
+* Fixed an issue with 3-btn-nav layout crashing
+* SystemUI: VolumeDialog: Fix up touchable region with per-app volume
+* Updated translations
+* Various fixes and improvements
+
 ===== 11-04-2025 =====
 
 * stone: Enable blur effect
