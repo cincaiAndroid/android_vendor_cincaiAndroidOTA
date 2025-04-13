@@ -3,6 +3,17 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250413 =====
+- Initial crDroid 11.4
+- Android April 2025 Security Update
+- Kernel Updates
+- Fixed an issue with 3-btn-nav layout crashing
+- Fixed crDroid Home crash in some scenarios
+- VolumeDialog: Do not check previous state when updating rows
+- VolumeDialog: Fix up touchable region with per-app volume
+- Updated translations
+- Misc improvements
+
 ===== 20250411 =====
 - Added notification and power menu style customization (crdroid > UI)
 - Fixed dex2oat crashes in ART
