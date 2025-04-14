@@ -14,3 +14,9 @@ Device maintainer: Anush02198
 + Added bunch of enchancement from Westcoast XX
 + Fixes for Volume control on WhatsApp and TG
 + Some minor optimization for improved smothness.
+
+====================
+  14-04-2025
+====================
++ Add Torch Brightness adjustment control.
++ Some minor optimization for improved smothness.
