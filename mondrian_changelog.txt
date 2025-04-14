@@ -4,6 +4,27 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 14/04/2025 =====
+- crDroid 11.4 stable release
+- Updated to sec. patch level 2025.04 (QPR2)
+- Drop unused xiaomi mdss display config
+- Update display ids after display-drivers change
+- (possible) Fixed audio issues with VoIP apps
+- Add support for Dolby Atmos + JamesDSPManager + Viper4A "only use one mode dont make a sauce xD"
+- Build DSPVolumeSynchronizer
+- rootdir: Allow all filesystems for USB-OTG
+- rootdir: Change permissions for /dev/diag
+- rootdir: Remove unnecessary QTI logkit directories
+- gps: Localise NTP to improve GPS TTFF
+- wlan: Enable Optimized Power Management
+- init: Remove IO read_ahead_kb tune
+- manifest: Drop wfdhdcp
+- Added powermenu styles (crDroid settings -> User interface)
+- Added notification styles (crDroid settings -> User interface)
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 11/04/2025 =====
 - Initial crDroid 11.3 stable release,
 - Updated to sec. patch level 2025.03 (QPR2),
