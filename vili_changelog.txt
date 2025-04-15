@@ -6,6 +6,9 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:15/04/2025
+- Fixed previous issue
+
 Changelog:13/04/2025
 - crDroid 11.4 with Android April 2025 Security Update
 
