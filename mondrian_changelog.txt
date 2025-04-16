@@ -4,6 +4,9 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 17/04/2025 =====
+HOTFIX : Fix speakers not working on cellular calls
+
 ===== 16/04/2025 =====
 - crDroid 11.4 stable release
 - Updated to sec. patch level 2025.04 (QPR2)
