@@ -4,6 +4,18 @@ Device: Samsung Galaxy Note 10+ (<d2s>)
 Device maintainer: Pedro Araujo (pxdrx)
 
 ====================
+     16-04-2025
+====================
+
+- Bump to crDroid 11.4
+- Android April 2025 Security Update
+- Fixed an issue with 3-btn-nav layout crashing
+- crDroid Home updates
+- Add notification and powermenu styles
+- Misc improvements 
+- Updated translations
+
+====================
      07-04-2025
 ====================
 
