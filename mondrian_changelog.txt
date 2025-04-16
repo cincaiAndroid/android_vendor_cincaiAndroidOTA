@@ -4,6 +4,35 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 16/04/2025 =====
+- crDroid 11.4 stable release
+- Updated to sec. patch level 2025.04 (QPR2)
+- props: Enable compress voip audio feature
+- props: Add a property to enable prefetching video
+- properties: Set frame rate multiple threshold to 120
+- properties: Allow more cached apps in the background
+- Disable frp
+- Disable ART debug
+- init: Rm package cache on early boot
+- Apply dex2oat optimizations
+- Compile HWUI for performance
+- properties: Use HintManager for HWUI
+- overlay: Declare 6ghz wifi support
+- overlay: Enable 5G SA and NSA
+- Build missing Wi-Fi Display lib
+- gps: Set sv pvt capability bit only when it is supported
+- gps: Fix unused parameter warnings in new cases
+- gps: Enable unused parameter and format warnings
+- gps: Make sure wearables supports in GPS is disabled
+- gps: Drop deprecated volatile in loc_read_process_conf()
+- gps: Remove race condition while mSupportNfwControl read
+- gps: Avoid access of deprecated LocUnorderedSetMap entry
+- gps: GNSS adapter: simplify getElapsed real time logic in PVT report
+- rootdir: Restrict apps access to /proc/net/unix
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 14/04/2025 =====
 - crDroid 11.4 stable release
 - Updated to sec. patch level 2025.04 (QPR2)
