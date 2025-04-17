@@ -5,6 +5,12 @@ Device maintainer: Thereache
 
 ~ Firmware Flash is Mandatory
 
+====== 17-04-2025 =====
+* fixed alaram ring , timer ring,call ring while headphone is connected
+* redwood: nuck unwanted soc things
+* So much audio side changes
+* much more changes you can see crdroid org redwood sources for more changes
+
 ====== 12-04-2025 =====
 * Synced with letest source | With April(V11.4) Security Patch
 * add computer vision firmware
