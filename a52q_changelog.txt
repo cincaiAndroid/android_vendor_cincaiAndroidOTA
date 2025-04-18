@@ -1,4 +1,107 @@
 ====================
+     04-18-2025
+====================
+   * Added flash intensity support
+
+   * frameworks/av
+0095329 Fix SwAudioOutputCollection indexing in closeOutput()
+
+   * frameworks/base
+7829cc6d6 Fix incorrect NULL check in IncFsFileMap reference assertions
+
+   * packages/apps/Twelve
+21c51c4 Twelve: No empty strings please.
+
+====================
+     04-17-2025
+====================
+
+   * build/soong
+e1ce1a3 Merge remote-tracking branch 'lineage-22.2' into 15.0
+
+   * packages/apps/Launcher3
+0bc6653 New Crowdin updates (#488)
+
+   * packages/apps/crDroidSettings
+91760e9 New Crowdin updates (#1233)
+
+====================
+     04-16-2025
+====================
+
+   * hardware/samsung
+20ba9e3 Automatic translation import
+
+   * packages/apps/Aperture
+8d0a313 Automatic translation import
+
+   * packages/apps/AudioFX
+9eb8650 Automatic translation import
+
+   * packages/apps/Camelot
+153ddf1 Automatic translation import
+
+   * packages/apps/Catapult
+744ef9a Automatic translation import
+
+   * packages/apps/Contacts
+7ff70b4 Automatic translation import
+
+   * packages/apps/DeskClock
+03def55 Automatic translation import
+
+   * packages/apps/Etar
+3af4f61 Automatic translation import
+
+   * packages/apps/FMRadio
+e1affed Automatic translation import
+
+   * packages/apps/Glimpse
+ce77e3d Automatic translation import
+
+   * packages/apps/Jelly
+9b9605d Automatic translation import
+
+   * packages/apps/Recorder
+a6b4a84 Automatic translation import
+
+   * packages/providers/DownloadProvider
+10e50a1 Automatic translation import
+
+   * packages/resources/devicesettings
+676986c Automatic translation import
+
+   * vendor/crowdin
+5ec80da Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+0d16da0 Automatic translation import
+
+====================
+     04-15-2025
+====================
+
+   * lineage-sdk
+bc525ea lineage-sdk: Fix charging notification crash due to faulty strings
+
+   * lineage/scripts
+f55b048 set-default-branch: Initial commit
+
+====================
+     04-14-2025
+====================
+
+   * hardware/qcom-caf/common
+119eacf qcom: Allow legacy devices to use /firmware for symlinks
+
+   * packages/services/Telecomm
+bec843b Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+
+====================
+     04-13-2025
+====================
+
+====================
      04-12-2025
 ====================
 
@@ -8,41 +111,23 @@ d86e481 Merge 'lineage-22.2' into 15.0
    * build/make
 f13f491 build: disable memory tagging for surfaceflinger
 
-   * build/soong
-79928d1 Merge 'lineage-22.2' into 15.0
-
    * device/samsung/a52q
-a65dff6 Update proprietary-files.txt - drop unneded 64 bit blobs
+7ae5eda Add new QPR2 patches
 
    * device/samsung/a72q
-57d8915 Update proprietary-files.txt - drop unneded 64 bit blobs
+10baaf6 Add new QPR2 patches
 
    * device/samsung/sm7125-common
-7554389 Update Android.bp - declare vendor.qti.hardware.iop
-
-   * frameworks/base
-66f887690 SystemUI: VolumeDialog: Do not check previous state when updating rows
+dd0832d Add new QPR2 patches
 
    * frameworks/native
 d6a939c Optimize transformhint updates to aviod buffer reallocation in BBQ.
-
-   * lineage-sdk
-4b3e4a9 ChargingControl: Show notification if device is charging
-
-   * packages/apps/Camelot
-aa5e487 Use string "Share" for sharing, instead of "Send"
-
-   * packages/apps/ColumbusService
-8dba2e5 Add RU translation
 
    * packages/apps/Dialer
 573c87d Merge 'lineage-22.2' into 15.0
 
    * packages/apps/DocumentsUI
 5f7e002 Use proper background in dark theme
-
-   * packages/apps/Launcher3
-5075d7e Launcher3: Fix NPE with navbar button layout settings
 
    * packages/apps/LineageParts
 d765916 Disable unused components
@@ -62,17 +147,11 @@ d765916 Disable unused components
    * packages/apps/Updater
 88b2dc0 Updater: Remove cryptographic signature verification for local updates
 
-   * packages/apps/crDroidSettings
-96f6108 New Crowdin updates (#1231)
-
    * packages/inputmethods/LatinIME
 72aab94 Merge 'lineage-22.2' into 15.0
 
    * packages/modules/Bluetooth
 24ea187 Merge 'lineage-22.2' into 15.0
-
-   * packages/services/Telecomm
-ac1a73e Fix NullPointerException issue due to threads race
 
    * packages/services/Telephony
 87d60e4 Create MobileNetworkSettings for correct SIM
@@ -81,20 +160,23 @@ ac1a73e Fix NullPointerException issue due to threads race
 320527a crdroid: Bump to version 11.4
 
    * vendor/samsung/a52q
-ab0b2db Revert "Regen vendor for QPR2"
+776ac73 Regen vendor for new patches
+
+   * vendor/samsung/a72q
+6b16c8d Regen vendor for new QPR2 patches
+
+   * vendor/samsung/sm7125-common
+a4b544a Regen vendor for new QPR2 patches
 
 ====================
      04-11-2025
 ====================
 
-   * frameworks/av
-36e45f6 audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
-
    * hardware/google/graphics/common
 ae5904b Merge tag 'android-15.0.0_r26' into staging/lineage-22.2_merge-android-15.0.0_r26
 
-   * hardware/qcom-caf/common
-06ab24e qcom: Declare hidl_vendor_qti_hardware_sigma_miracast_interface
+   * packages/apps/ColumbusService
+8dba2e5 Add RU translation
 
    * vendor/addons
 40727f39 addons: Add notification and powermenu styles
@@ -118,181 +200,4 @@ ae5904b Merge tag 'android-15.0.0_r26' into staging/lineage-22.2_merge-android-1
 
    * hardware/lineage/interfaces
 a7d52a8 aidl: light: Add support for upstream LED timed mode
-
-====================
-     04-08-2025
-====================
-
-   * hardware/samsung
-9ce1aad Automatic translation import
-
-   * packages/apps/Aperture
-3a32124 Automatic translation import
-
-   * packages/apps/AudioFX
-a441c3c Automatic translation import
-
-   * packages/apps/Catapult
-d363e89 Automatic translation import
-
-   * packages/apps/Contacts
-ccb22ce Automatic translation import
-
-   * packages/apps/DeskClock
-569e0a6 Automatic translation import
-
-   * packages/apps/Etar
-fb6f4c7 Automatic translation import
-
-   * packages/apps/FMRadio
-c882fab Automatic translation import
-
-   * packages/apps/FlipFlap
-a68440c Automatic translation import
-
-   * packages/apps/Glimpse
-61b0f72 Automatic translation import
-
-   * packages/apps/Jelly
-b2d83da Automatic translation import
-
-   * packages/apps/Profiles
-70ae853 Automatic translation import
-
-   * packages/apps/Recorder
-3d6ddee Automatic translation import
-
-   * packages/apps/Twelve
-3524416 Automatic translation import
-
-   * packages/providers/DownloadProvider
-400fd8e Automatic translation import
-
-   * packages/resources/devicesettings
-ff4f5a3 Automatic translation import
-
-   * vendor/crowdin
-80bdebc Automatic translation import
-
-   * vendor/qcom/opensource/commonsys/fm
-fcd14e3 Automatic translation import
-
-====================
-     04-07-2025
-====================
-
-   * hardware/qcom-caf/sm8150/display
-b9f1259 sdm: core: allow to skip refresh rate changes
-
-   * hardware/qcom-caf/sm8350/display
-c9a3ec0 display: Bring back gralloc.qcom
-
-   * tools/extract-utils
-b059613 extract_utils: Add support to create filegroups of proprietary files
-
-====================
-     04-06-2025
-====================
-
-   * hardware/lineage/compat
-d4bc391 compat: Get rid of libwfdservice_shim versioning
-
-   * hardware/qcom-caf/bt
-4ddafd4 bt: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/msm8953/media
-0830d8a media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/msm8996/media
-d549d50 media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/msm8998/media
-f5b08c7 media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sdm660/media
-8a41966 media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sdm845/display
-e162144 display: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sdm845/media
-b25d89b media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sm8150/media
-cfb417a media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sm8250/display
-41b4cae display: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sm8250/media
-df5d631 media: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sm8450/display
-68c0f43 display: Remove CleanSpec.mk
-
-   * hardware/qcom-caf/sm8550/display
-d1371ff display: Remove CleanSpec.mk
-
-   * hardware/qcom/bt
-9776886 bt: Remove CleanSpec.mk
-
-   * hardware/qcom/camera
-0cc221a camera: Remove CleanSpec.mk
-
-   * hardware/qcom/gps
-df8f5e3 gps: Remove CleanSpec.mk
-
-   * hardware/qcom/media
-5abb1e6 media: Remove CleanSpec.mk
-
-   * hardware/qcom/sdm845/display
-7a467ab display: Remove CleanSpec.mk
-
-   * hardware/qcom/sdm845/gps
-841eb90 gps: Remove CleanSpec.mk
-
-   * hardware/qcom/sm7250/display
-d6b531e display: Remove CleanSpec.mk
-
-   * hardware/qcom/sm7250/gps
-deffe91 gps: Remove CleanSpec.mk
-
-   * hardware/qcom/sm8150/display
-1eac7ca display: Remove CleanSpec.mk
-
-   * hardware/qcom/sm8150/gps
-1395200 gps: Remove CleanSpec.mk
-
-   * lineage/scripts
-d096ced device-deps-regenerator: Ignore sm8650/sm8750-devicetrees
-
-====================
-     04-05-2025
-====================
-
-   * vendor/samsung/a52q
-8e6eef0 Regen vendor for QPR2
-
-====================
-     04-04-2025
-====================
-
-   * vendor/certification
-495b3d3 certification: update to the latest A16 beta BP22.250221.015
-
-====================
-     04-03-2025
-====================
-
-   * device/lineage/sepolicy
-e3f1933 Merge pull request #22 from ionutgherman/15.0
-
-   * hardware/qcom-caf/sm8450/audio/primary-hal
-b3ba68f fixup! audio-ar: compilation fix for KS sync path change.
-
-   * packages/services/OmniJaws
-f57f5a8 WeatherAppWidgetProvider: Fix crash when checking outline icon pack
-
-   * system/update_engine
-a02e728 Merge pull request #2 from ionutgherman/15.0
 
