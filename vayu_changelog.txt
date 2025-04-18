@@ -6,6 +6,15 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+18th April, 2025
+
+* Added toggle to enable haptics on volume dialog (crdroid > sound)
+* Fixed SystemUI restart not working on navigation bar / weather toggle
+* Fixed signal/wifi custom icons not working with custom system icon styles
+* Fixed system reboot issue when audio route is invalid
+* Various trivial fixes and improvements
+ 
+==================================
 12th April, 2025
 
 * Android April 2025 Security Update
