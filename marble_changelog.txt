@@ -3,6 +3,32 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 18 April, 2025 =====
+- FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
+- latest orange fox is compulsory to be used available on download page
+- use 13_april ksunext file
+- Dolby Atmos is removed and whatsapp audio bug is fixed with it :-)
+- Drop prebuilt audio configs and blobs and moved to oss audio
+- Move acdbdata to ukee_mtp and drop unused ones
+- Import audio configs from LA.VENDOR.1.0.r1-26900-WAIPIO.QSSI15.0
+- audio: Apply xiaomi mixer path changes
+- audio: Change backend of some devices to tdm
+- audio: Use deep buffer calibration for voice recognition streams
+- audio: Use handset-dmic-endfire as default handset mic
+- audio: Use speaker-dmic-endfire for calls
+- audio: Use default handset mic for raw streams
+- audio: Use separate calibration for bluetooth a2dp low latency
+- audio: Use EC enabled streams for hotword capture and single mic in lp mode
+- audio: Switch handset, speaker and wired audio out to 24/32bit
+- audio: Bump speaker samplerate to 96000
+- audio: Enable volume set param for compressed, pcm offload and voip streams
+- Update blobs and firmware from OS2.0.1.0.VMRMIXM global
+- Drop prebuilt libdisplayconfig.qti
+- Drop unused xiaomi mdss display config
+- Move displayconfig to vendor
+- gps: Remove CleanSpec.mk
+- props: Enable compress voip audio feature
+
 ===== 13 April, 2025 =====
 - FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
 - latest orange fox is compulsory to be used
