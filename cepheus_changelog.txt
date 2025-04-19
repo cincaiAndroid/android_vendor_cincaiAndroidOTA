@@ -4,6 +4,14 @@ Device: Xiaomi MI9 (cepheus)
 Device maintainer: raystef66
 Required firmware: V12.5.6.0.RFACNXM
 
+===== 19.04.2025 =====
+
+* Initial crDroid 11.4 stable release
+* Updated to sec. patch level 2025.04
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 11.04.2025 =====
 
 * Added powermenu styles (crDroid settings -> User interface)
