@@ -18,8 +18,8 @@ ROM changes:
 • Added notification and power menu style customization (crdroid > UI)
 • Fixed dex2oat crashes in ART
 • Fixed app getting non-responsive when navigation hint was hidden
-• Navigation tab and customization options removed, with compatible settings migrated to System settings.
-• Complete overhaul of DND, integrating it into the new Modes system.
+• Navigation tab and customization options removed, with compatible settings migrated to System settings
+• Complete overhaul of DND, integrating it into the new Modes system
 • Improved custom Weather customization for lockscreen and launcher
 • Various optimization and fixes and more that I cannot fit here (since last release)
 Device changes:
