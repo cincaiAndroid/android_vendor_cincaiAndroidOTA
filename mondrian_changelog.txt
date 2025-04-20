@@ -4,8 +4,27 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 20/04/2025 =====
+- gps: Remove CleanSpec.mk
+- props: Enable compress voip audio feature
+- overlay: Set fixed refresh rate on keyguard
+- overlay: Enable volume steps settings
+- overlay: Enable Refresh rate Configs
+- overlay: Enable tap to ambient
+- ootdir: Do not allow foreground tasks to run on CPU7
+- rootdir: Move background cpuset to CPU0-1
+- rootdir: Set restricted cpuset to the same CPUs as system-background
+- configs: audio: Disable DRC
+- Build android.media.audio.common.types-V2-cpp
+- Provide doze_mode permission
+- Nuke KSU-Next to be integerated for non root or magisk users and make a seperated ksu.img flash it as boot (check sourceforge)
+- net: tcp: Add BBRv3 support for Linux 5.10
+- kernel: Add KernelSU system call hooks for root access control
+- proc: Implement path spoofing for LineageOS and JIT cache memory mappings
+- sched/fair: Implement constant granularity values for BORE scheduler
+
 ===== 17/04/2025 =====
-HOTFIX : Fix speakers not working on cellular calls
+- HOTFIX : Fix speakers not working on cellular calls
 
 ===== 16/04/2025 =====
 - crDroid 11.4 stable release
