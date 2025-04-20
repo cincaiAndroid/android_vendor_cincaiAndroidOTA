@@ -6,6 +6,14 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+20th April, 2025
+
+* Fixed clicking mem info in recents not opening Running Services
+* Fixed disabling QS Brightness slider vibration
+* Few misc optimization and fixes
+* sweet: Updated sound trigger implementation to fix few crashes
+ 
+==================================
 18th April, 2025
 
 * Added toggle to enable haptics on volume dialog (crdroid > sound)
