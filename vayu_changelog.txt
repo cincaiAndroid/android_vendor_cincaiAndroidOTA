@@ -6,6 +6,11 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+21st April, 2025
+
+* vayu: Fixed sound issue on some apps like Whatsapp
+ 
+==================================
 20th April, 2025
 
 * Fixed clicking mem info in recents not opening Running Services
