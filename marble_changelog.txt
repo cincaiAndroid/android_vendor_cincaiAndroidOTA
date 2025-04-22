@@ -3,6 +3,25 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 22 April, 2025 =====
+- FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
+- latest orange fox is compulsory to be used available on download page
+- use 13_april ksunext file from install documents
+- dirty flashable from 11.2 newer updates
+- Update blobs and firmware from OS2.0.3.0.VMRMIXM for device
+- update camera from OS2.0.3.0.VMRMIXM
+- sensor: Increase size of unused array in _oem_msg to match stock padding
+- Rm package cache on early boot
+- Compile HWUI for performance
+- properties: Use HintManager for HWUI
+- Introduce GameBar v2.0
+- parts: move gamebar to system settings and add icon as well
+- Parts: move to M3 switch for gamespace2.0
+- Add a property to enable prefetching video
+- rootdir: Restrict apps access to /proc/net/unix
+- props: Add missing layer buffer slots cache clear property
+- switch to user build from userdebug
+
 ===== 18 April, 2025 =====
 - FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
 - latest orange fox is compulsory to be used available on download page
