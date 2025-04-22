@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Nothing Phone (2) (Pong)
 Device maintainer: SeminaAlexandru (semialex16)
 
+===== 22-04-2025 =====
+- Introduce GameBar 3.0
+- Switch to Sony Dolby
+- Update vendor blobs to Pong_V3.0-250304-1717
+- Improvements to performance and system stability
+
 ===== 06-04-2025 =====
 - Initial crDroid 11.3 release
 - Fix dolby sepolicy
