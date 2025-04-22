@@ -3,6 +3,19 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 22 April, 2025 =====
+
+- Fixed scramble pin layout when unlocking
+- SystemUI: Fixed restart prompt on settings changes
+- SystemUI: Fix keyguard user avatar margins
+- ThemePicker: Fixed some issues
+- DeskClock: Fixed select all text in label dialog
+- Settings: Fix loading iconpack-based Wellbeing icon
+- Settings: Update build number before display
+- Add support for manually installed google sound picker
+- Updated Chromium Webview to 135.0.7049.100
+- Updated translations
+
 ===== 12 April, 2025 =====
 
 - Initial crDroid 11.4
