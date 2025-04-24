@@ -5,6 +5,13 @@ Device maintainer: Thereache
 
 ~ Firmware Flash is Mandatory
 
+====== 24-04-2025 =====
+* Synced with letest crDroid 
+* Update blobs to redwood OS2.0.3.0.UMSMIXM
+* Importe device features configaration
+* Camera is Update to OS2.0.3.0.UMSMIXM
+* Camera side some missing mod is implemented 
+
 ====== 17-04-2025 =====
 * fixed alaram ring , timer ring,call ring while headphone is connected
 * redwood: nuck unwanted soc things
