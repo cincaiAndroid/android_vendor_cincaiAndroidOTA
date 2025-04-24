@@ -4,6 +4,23 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 24/04/2025 =====
+- Nuke all audio mods (clean recommended and if you want dirty backup impo. data and use ofox dont use updater) 
+- Build DeviceAsWebcam
+- rootdir: Set restricted cpuset to the same CPUs as system-background
+- props: For smoother scrolling and better responsiveness
+- overlay: Disable turbulence noise
+- Remove FM Tuner from audio input devices
+- sensor: Increase size of unused array in _oem_msg to match stock padding
+- overlay: configure SQLite to operate in MEMORY mode
+- sepolicy: Allow cameraserver to get vendor_default_prop
+- parts: Multi-language implementation for GameBar
+- parts: Add Chinese translation
+- fixing connecting BLE (bt 5.x) devices (smart watches, etc.)
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 20/04/2025 =====
 - gps: Remove CleanSpec.mk
 - props: Enable compress voip audio feature
@@ -22,6 +39,9 @@ Device maintainer: Keosh
 - kernel: Add KernelSU system call hooks for root access control
 - proc: Implement path spoofing for LineageOS and JIT cache memory mappings
 - sched/fair: Implement constant granularity values for BORE scheduler
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
 
 ===== 17/04/2025 =====
 - HOTFIX : Fix speakers not working on cellular calls
