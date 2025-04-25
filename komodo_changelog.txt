@@ -6,6 +6,19 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+25th April, 2025
+
+* Fixed clicking mem info in recents not opening Running Services
+* Fixed disabling QS Brightness slider vibration
+* Updated GameSpace manager for better performance
+* Added GameSpace manager service to automatically add newly installed game to GameSpace
+* Improved Three Finger Swipe implementation
+* Updated SystemUI boost framework
+* Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
+* Updated FreeForm implementation with trivial bug fixes
+* Few misc optimization and fixes
+ 
+==================================
 18th April, 2025
 
 * Added toggle to enable haptics on volume dialog (crdroid > sound)
