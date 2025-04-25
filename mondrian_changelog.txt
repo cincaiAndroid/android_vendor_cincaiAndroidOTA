@@ -4,6 +4,13 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 25/04/2025 =====
+- Fix speakers and playback issue on Youtube ....etc
+- audio: use QCOM Implementation for Audio Effects
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 24/04/2025 =====
 - Nuke all audio mods (clean recommended and if you want dirty backup impo. data and use ofox dont use updater) 
 - Build DeviceAsWebcam
