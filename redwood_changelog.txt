@@ -3,8 +3,23 @@ Build type: Weekly
 Device: Redmi Note 12 Pro Speed/POCO X5 Pro 5G (redwood) 
 Device maintainer: Thereache
 
-~ Firmware Flash is Mandatory
+note:
+    * Firmware Flash is Mandatory
+    * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+====== 26-04-2025 =====
+* device tree cleanup
+* fixup audio files
+* soc specific audio configs track from vendor
+* Updated GameSpace manager for better performance
+* Added GameSpace manager service to automatically add newly installed game to GameSpace
+* Improved Three Finger Swipe implementation
+* Updated SystemUI boost framework especially to tackle lag on older devices
+* Experimental: Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
+* Updated FreeForm implementation with trivial bug fixes
+* Many Moreo
+
+ 
 ====== 24-04-2025 =====
 * Synced with letest crDroid 
 * Update blobs to redwood OS2.0.3.0.UMSMIXM
