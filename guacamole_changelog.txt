@@ -3,6 +3,15 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 27 April, 2025 =====v
+
+- Launcher3: Do not use bottom sheet for app info in recents
+- Launcher3: Fixed allow disabling workspace edit
+- Launcher3: Fixed implement taskbar toggle
+- powershare: Fix PowerShare QS tile state toggle
+- Added Comss DNS provider
+- Updated translations
+
 ===== 22 April, 2025 =====
 
 - Fixed scramble pin layout when unlocking
