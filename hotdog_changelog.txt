@@ -3,6 +3,20 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250427 =====
+- Launcher3: Do not use bottom sheet for app info in recents
+- Launcher3: Fixed allow disabling workspace edit
+- Launcher3: Fixed implement taskbar toggle
+- powershare: Fix PowerShare QS tile state toggle
+- Added Comss DNS provider
+- Updated GameSpace manager for better performance
+- Added GameSpace manager service to automatically add newly installed game to GameSpace
+- Improved Three Finger Swipe implementation
+- Updated SystemUI boost framework especially to tackle lag on older devices
+- Experimental: Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
+- Updated FreeForm implementation with trivial bug fixes
+- Updated translations
+
 ===== 20250422 =====
 - SystemUI: Fix IndexOutOfBoundsException in NotificationBackgroundView
 - SystemUI: Prevent systemui crash when resolving notif background
