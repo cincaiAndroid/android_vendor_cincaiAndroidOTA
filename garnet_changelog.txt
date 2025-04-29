@@ -1,4 +1,21 @@
 ====================
+     04-29-2025
+====================
+
+   * device
+Switch to XiaomiDolby
+Fix notification sounds again
+Fix random sound issues (glitch on headphones etc.)
+Add ldac and lhdc
+Nuke unsupported haptics output conf
+Bring back to old kernel
+Fix 200MP mode(?)
+Top speaker fix
+
+   * source
+Sync to latest
+ 
+====================
  04-23-2025 HotFix
 ====================
 
