@@ -4,6 +4,23 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 29/04/2025 =====
+*Clean Flash recommended or backup you data if you want to dirty* 
+- Change build type to user
+- Match the latest changes from cupid-development
+- miuicamera: Update patches and blobs to OS2.0.1.0.VLCMIXM
+- Fix wireless display green screen issue
+- Add Baidu network location support for China region
+- props: For smoother scrolling and better responsiveness
+- properties: Allow more cached apps in the background
+- overlay: Update CarrierConfig from cupid OS2.0.1.0.VLCMIXM
+- gps: Localise NTP to improve GPS TTFF
+- Ship rom with ksu next again and will be non root image "rootless.img" for magisk and non root users
+- susfs4ksu: Bump version to v1.5.7
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 25/04/2025 =====
 - Fix speakers and playback issue on Youtube ....etc
 - audio: use QCOM Implementation for Audio Effects
