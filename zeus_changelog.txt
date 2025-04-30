@@ -5,6 +5,13 @@ Device maintainer: Anush Madhathumkara (anush02198)
 
 
 ====================
+     29-04-2025
+====================
++ Fix Bluetooth bug while connecting to any Bluetooth device
++ Updated to HyperOS 2 cam and camera blobs
++ Fix potrait filter issues on front camera.
+
+====================
      10-04-2025
 ====================
 + Updated to latest source as per cupid-development
