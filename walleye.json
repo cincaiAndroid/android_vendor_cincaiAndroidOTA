@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Ionut Gherman",
-			"oem": "Google",
-			"device": "Pixel 2",
-            "filename": "crDroidAndroid-15.0-20250419-walleye-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/walleye/11.x/crDroidAndroid-15.0-20250419-walleye-v11.4.zip/download",
-            "timestamp": 1745028052,
-            "md5": "ba106c900971b562fc74bfb25fedd41a",
-            "sha256": "b4b5987436250de233966cf8929998f0fd2867d2672fb72cc696fa363778af84",
-            "size": 1139128616,
+    "response": [
+        {
+            "maintainer": "Ionut",
+            "oem": "Google",
+            "device": "Pixel 2",
+            "filename": "crDroidAndroid-15.0-20250430-walleye-v11.4.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/walleye/11.x/crDroidAndroid-15.0-20250430-walleye-v11.4.zip/download",
+            "timestamp": 1746003520,
+            "md5": "b648fb56c9c11756253017a6dc9fff60",
+            "sha256": "e8aa28921b208111e44fd32a86044bfc7e4e13570d878ceec7c989dd0ab37c81",
+            "size": 1139832494,
             "version": "11.4",
             "buildtype": "Monthly",
-			"forum": "https://xdaforums.com/t/rom-15-walleye-taimen-crdroid-11-official.4652984/",
-			"gapps": "https://nikgapps.com/ionutgherman",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/walleye/11.x/recovery",
-			"paypal": "https://paypal.me/igherman96",
-			"telegram": "https://t.me/ionutbuilds",
-			"dt": "https://github.com/crdroidandroid/android_device_google_walleye",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_wahoo",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo "
-		}
-	]
+            "forum": "https://xdaforums.com/t/rom-15-walleye-taimen-crdroid-11-official.4652984/",
+            "gapps": "https://nikgapps.com/ionutgherman",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/walleye/11.x/recovery",
+            "paypal": "https://paypal.me/igherman96",
+            "telegram": "https://t.me/ionutbuilds",
+            "dt": "https://github.com/crdroidandroid/android_device_google_walleye",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_wahoo",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo"
+        }
+    ]
 }

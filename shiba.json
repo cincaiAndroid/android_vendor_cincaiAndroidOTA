@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Ionut",
-			"oem": "Google",
-			"device": "Pixel 8",
-            "filename": "crDroidAndroid-15.0-20250419-shiba-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/crDroidAndroid-15.0-20250419-shiba-v11.4.zip/download",
-            "timestamp": 1745026086,
-            "md5": "87915f3dfbe0d52fa82ff872c348b1a2",
-            "sha256": "39fa326aa6582911de84538906edea122d64119e89dfe9e5c98baa3fc214f0ea",
-            "size": 1836891056,
+    "response": [
+        {
+            "maintainer": "Ionut",
+            "oem": "Google",
+            "device": "Pixel 8",
+            "filename": "crDroidAndroid-15.0-20250430-shiba-v11.4.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/crDroidAndroid-15.0-20250430-shiba-v11.4.zip/download",
+            "timestamp": 1746000215,
+            "md5": "08e70d3bdefe92d25ae8727dec75fe0c",
+            "sha256": "708fd177fe1d5088f3dcc9a64b78da762a57d7bf07382d769c1bd6f9679a31cd",
+            "size": 1837676415,
             "version": "11.4",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-15-shiba-husky-akita-crdroid-11-official.4650502/",
-			"gapps": "https://nikgapps.com/ionutgherman",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/recovery",
-			"paypal": "https://paypal.me/igherman96",
-			"telegram": "https://t.me/ionutbuilds",
-			"dt": "https://github.com/crdroidandroid/android_device_google_shusky",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_zuma",
-			"kernel": "https://android.googlesource.com/device/google/shusky-kernels/5.15"
-		}
-	]
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-shiba-husky-akita-crdroid-11-official.4650502/",
+            "gapps": "https://nikgapps.com/ionutgherman",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/recovery",
+            "paypal": "https://paypal.me/igherman96",
+            "telegram": "https://t.me/ionutbuilds",
+            "dt": "https://github.com/crdroidandroid/android_device_google_shusky",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_zuma",
+            "kernel": "https://android.googlesource.com/device/google/shusky-kernels/5.15"
+        }
+    ]
 }

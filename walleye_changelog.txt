@@ -5,6 +5,28 @@ Device maintainer: Ionut Gherman (ionutgherman)
 
 Highlights & Device Specific Changes:
 =====================================
+30th April, 2025
+================
+ROM changes:
+• Fixed clicking mem info in recents not opening Running Services
+• Fixed disabling QS Brightness slider vibration
+• Fixed PowerShare QS tile state toggle
+• Launcher3: Do not use bottom sheet for app info in recents
+• Launcher3: Fixed allow disabling workspace edit
+• Launcher3: Fixed implement taskbar toggle
+• Added Comss DNS provider
+• Added GameSpace manager service to automatically add newly installed game to GameSpace
+• Improved Three Finger Swipe implementation
+• Updated SystemUI boost framework
+• Updated FreeForm implementation with trivial bug fixes
+• Updated default webview to 135.0.7049.100
+• Updated translations
+• Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
+• Few misc optimization and fixes
+Device changes:
+• Improved ZRAM usage
+• Improve smoothness of the UI
+================
 19th April, 2025
 ================
 It's recommended to do a dirty flash via recovery and not use Updater since a lot of changes are made and QPR2 was merged also and need updated Gapps. If you use NikGapps, use latest available builds!

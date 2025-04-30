@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Ionut Gherman",
-			"oem": "Google",
-			"device": "Pixel 2 XL",
-            "filename": "crDroidAndroid-15.0-20250419-taimen-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/taimen/11.x/crDroidAndroid-15.0-20250419-taimen-v11.4.zip/download",
-            "timestamp": 1745026953,
-            "md5": "b97146861d3f1f4346b6077868888d29",
-            "sha256": "1f32f8cc5e58daba698255ff30f9415b6158fd8e97fb2b3bb0a6c887e17df7b8",
-            "size": 1144319334,
+    "response": [
+        {
+            "maintainer": "Ionut",
+            "oem": "Google",
+            "device": "Pixel 2 XL",
+            "filename": "crDroidAndroid-15.0-20250430-taimen-v11.4.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/taimen/11.x/crDroidAndroid-15.0-20250430-taimen-v11.4.zip/download",
+            "timestamp": 1746001178,
+            "md5": "e44dd5dad7b6671004cbf05f39685b81",
+            "sha256": "65748d57cfa77c7708da08eaae57472287b4341bf53810c6ebbf2ff2fbec1bf7",
+            "size": 1144843655,
             "version": "11.4",
             "buildtype": "Monthly",
-			"forum": "https://xdaforums.com/t/rom-15-walleye-taimen-crdroid-11-official.4652984/",
-			"gapps": "https://nikgapps.com/ionutgherman",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/taimen/11.x/recovery",
-			"paypal": "https://paypal.me/igherman96",
-			"telegram": "https://t.me/ionutbuilds",
-			"dt": "https://github.com/crdroidandroid/android_device_google_taimen",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_wahoo",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo "
-		}
-	]
+            "forum": "https://xdaforums.com/t/rom-15-walleye-taimen-crdroid-11-official.4652984/",
+            "gapps": "https://nikgapps.com/ionutgherman",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/taimen/11.x/recovery",
+            "paypal": "https://paypal.me/igherman96",
+            "telegram": "https://t.me/ionutbuilds",
+            "dt": "https://github.com/crdroidandroid/android_device_google_taimen",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_wahoo",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo"
+        }
+    ]
 }
