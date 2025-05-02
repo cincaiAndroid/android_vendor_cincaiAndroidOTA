@@ -4,18 +4,20 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     14-04-2025
+     28-04-2025
 ====================
  
-- Initial crDroid 11.4
-- Android April 2025 Security Update
-- Fixed an issue with 3-btn-nav layout crashing
-- Fixed crDroid Home crash in some scenarios
-- VolumeDialog: Do not check previous state when updating rows
-- VolumeDialog: Fix up touchable region with per-app volume
-- Switch to crDroid doze
-- full LLVM compilation on kernel
-- Optimize for Cortex-A76 CPU
+- Launcher3: Do not use bottom sheet for app info in recents
+- Launcher3: Fixed allow disabling workspace edit
+- Launcher3: Fixed implement taskbar toggle
+- powershare: Fix PowerShare QS tile state toggle
+- Added Comss DNS provider
+- Updated GameSpace manager for better performance
+- Added GameSpace manager service to automatically add newly installed game to GameSpace
+- Improved Three Finger Swipe implementation
+- Updated SystemUI boost framework especially to tackle lag on older devices
+- Experimental: Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
+- Updated FreeForm implementation with trivial bug fixes
 - Updated translations
-- Misc improvements
+- fix audio for Voip WeChat and Signal
 
