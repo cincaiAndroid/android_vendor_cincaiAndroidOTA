@@ -4,6 +4,35 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 15 HOS 2.0.xxx
 
+
+====================
+     05-05-2025
+====================
+!! Attention Everyone !! 
+
+-We're now using HyperOS Base 2.0 with a clean flash requirement for moderator builds if you come from v11.2 .
+
+-if you already on v11.3 dirty flash will be ok 
+
+- For more information and support, join the official group:
+ https://t.me/crdroidperidot
+==========================
+-Sync to latest source 02-May-225
+
+- Update blobs to OS2.0.100.0.VNPMIXM
+- Enable control charging
+- init: adjust thread count and cpuset after setup wizard
+- init: Manually place msm_drm and msm_kgsl_3d0 IRQs
+- init: Enable uclamp latency_sensitive for top-app
+- XiaomiParts: Add Gamebar v4
+- XiaomiParts: Add Turbo Charging
+- Switch to AIDL thermal HAL
+- Initialized Spatial Audio
+- Initialized DSPVolumeSynchronizer
+- Apply dex2oat optimizations
+- Silence some spammy logging
+- Various optimization and fixes and more that I cannot fit here (since last release)
+
 ====================
      04-08-2025
 ====================
