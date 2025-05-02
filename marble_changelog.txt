@@ -8,6 +8,14 @@ Device maintainer: Chaitanya
 - latest orange fox is compulsory to be used available on download page
 - use 01_May ksunext file from install documents
 - dirty flashable from 11.2 newer updates
+- fixed high cpu usage while playing audio
+- reserve more space for bigger gapps packages
+
+===== 02 May, 2025 =====
+- FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
+- latest orange fox is compulsory to be used available on download page
+- use 01_May ksunext file from install documents
+- dirty flashable from 11.2 newer updates
 - Update blobs and firmware from OS2.0.34.0.VMRMIXM for device
 - Bring Back Dolby Atmos With whatsapp call bug fixed
 - Enable support for IEEE80211AC
