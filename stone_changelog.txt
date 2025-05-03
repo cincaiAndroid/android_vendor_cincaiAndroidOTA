@@ -6,6 +6,13 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 02-05-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: rootdir: Remove wigig components
+* stone: overlay: Set shutdown battery temp to 58 degC
+* Various fixes and improvements
+
 ===== 25-04-2025 =====
 
 * Synced with latest crDroidAndroid source code
