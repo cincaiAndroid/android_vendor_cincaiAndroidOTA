@@ -7,6 +7,18 @@ note:
     * Firmware Flash is Mandatory
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+====== 03-05-2025 =====
+* synced with letest source
+* switch to privious blobs from OS1.0.15.0.UMSMIXM
+* timer, notification & alarm ring issue fixed 
+* Switched to Sony Dolby
+* Sync with Spatial Audio
+* Switch to Audio Hal V7
+* Netflix l1 & hdr issue fixed
+* import missing bluetooth libs
+* Import ant+ blob
+* Much More
+
 ====== 26-04-2025 =====
 * device tree cleanup
 * fixup audio files
