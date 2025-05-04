@@ -6,6 +6,9 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:04/05/2025
+- dolby: The Last Dance
+
 Changelog:01/05/2025
 - The Final Build
 
