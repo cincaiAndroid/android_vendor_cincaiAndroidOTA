@@ -4,6 +4,28 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 04/05/2025 =====
+*Clean Flash recommended or backup you data if you want to dirty* 
+- Match the latest changes from cupid-development
+- Upstream Kernal to 5.10.234
+- Fix earpiece speaker low sound on voip calls
+- Return back Dolby Atmos with new configs should not conflict with voip calls ... ETC, Thanks to dkpost3 ofr helping ?
+- fixed high cpu usage while playing audio
+- Revert: miuiGallery : override packages
+- sepolicy: Allow ueventd to load aw882xx calibration file
+- Enable support for IEEE80211AC
+- wlan: Drop unused vendor_cmd.xml
+- wlan: Enable self recovery for qca6490
+- Do not balance msm_drm and kgsl_3d0 IRQs
+- Dynamically set IRQ affinity for KGSL and MSM_DRM
+- Move Lineage Health HAL to select()
+- Move Lineage PowerShare HAL to select()
+- Dont flash current rootless.img will not boot diff kernel
+- and alot more .......
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 29/04/2025 =====
 *Clean Flash recommended or backup you data if you want to dirty* 
 - Change build type to user
