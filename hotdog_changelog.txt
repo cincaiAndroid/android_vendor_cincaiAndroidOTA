@@ -3,6 +3,16 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250505 =====
+- Device: Switch to NCM USB tethering
+- Launcher3: Use match_parent for navigation button dimensions
+- Launcher3: Rework home button double tap handling
+- GameSpace: DanmakuService: Cleanup and improvements
+- GameSpace: DanmakuService: Fix notification handling
+- GameSpace: DanmakuService: Fix ClassCastException during onNotificationPosted
+- Some other general fixes and improvements
+- Updated translations
+
 ===== 20250427 =====
 - Launcher3: Do not use bottom sheet for app info in recents
 - Launcher3: Fixed allow disabling workspace edit
