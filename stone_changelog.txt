@@ -6,6 +6,25 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 06-05-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: Set vendor.post_boot.parsed=1
+* stone: Migrate Lineage Health to soong_config_set
+* stone: Set camera override format from reserved via soong
+* stone: Set vendor init lib via soong config
+* stone: overlay: Disable bluetooth by default
+* stone: overlay: Disable DT2W by default
+* stone: overlay: Enable auto-brightness by default
+* Launcher3: Use match_parent for navigation button dimensions
+* Launcher3: Rework home button double tap handling
+* GameSpace: DanmakuService: Cleanup and improvements
+* GameSpace: DanmakuService: Fix notification handling
+* GameSpace: DanmakuService: Fix ClassCastException during onNotificationPosted
+* Some other general fixes and improvements
+* Updated translations
+* Various fixes and improvements
+
 ===== 02-05-2025 =====
 
 * Synced with latest crDroidAndroid source code
