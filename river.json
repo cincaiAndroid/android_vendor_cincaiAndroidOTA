@@ -1,15 +1,15 @@
 {
     "response": [
         {
-            "maintainer": "Lightzin021",
+            "maintainer": "",
             "oem": "Motorola",
             "device": "Moto G7",
-            "filename": "crDroidAndroid-15.0-20250413-river-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/river/11.x/crDroidAndroid-15.0-20250413-river-v11.4.zip/download",
-            "timestamp": 1744549958,
-            "md5": "b0345b7f8665eb56de40922c481b43b1",
-            "sha256": "4e2aa156308cba5523033bb09b6b1a6071389d30fca38b3009822f4f4ece7f43",
-            "size": 985304504,
+            "filename": "crDroidAndroid-15.0-20250505-river-v11.4.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/river/11.x/crDroidAndroid-15.0-20250505-river-v11.4.zip/download",
+            "timestamp": 1746442625,
+            "md5": "e94e26a23a879a4ec75f466869c444e6",
+            "sha256": "ef72d31cccefc4ce6dca1ca4ac07763384c8c0a876053f832b4243ec23e84a99",
+            "size": 985884183,
             "version": "11.4",
             "buildtype": "Monthly",
             "forum": "https://xdaforums.com/t/rom-15-0-river-official-crdroid-v11-2-27-02-2025.4721220/",

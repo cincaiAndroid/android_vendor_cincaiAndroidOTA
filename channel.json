@@ -1,15 +1,15 @@
 {
     "response": [
         {
-            "maintainer": "Lightzin021",
+            "maintainer": "",
             "oem": "Motorola",
             "device": "Moto G7 Play",
-            "filename": "crDroidAndroid-15.0-20250413-channel-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/channel/11.x/crDroidAndroid-15.0-20250413-channel-v11.4.zip/download",
-            "timestamp": 1744556849,
-            "md5": "1719933c900a5ebeef3777a1d4c8c163",
-            "sha256": "d09500e4b89ad1ccab0fcf69724176f37b62c7cdd9eb497d9b23e582997444e9",
-            "size": 967786551,
+            "filename": "crDroidAndroid-15.0-20250505-channel-v11.4.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/channel/11.x/crDroidAndroid-15.0-20250505-channel-v11.4.zip/download",
+            "timestamp": 1746400620,
+            "md5": "461146036653b426dcb2256ee02a4d48",
+            "sha256": "95331127967731ec1dbc028a1cd5c69f93e5968cc4a5e1863103d3fa6b26329e",
+            "size": 968267158,
             "version": "11.4",
             "buildtype": "Monthly",
             "forum": "https://xdaforums.com/t/rom-15-0-channel-crdroid-v11-1-2025-01-26.4695318/",
