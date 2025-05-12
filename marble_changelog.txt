@@ -3,6 +3,26 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 12 May, 2025 =====
+- Firmware is removed download from the download page only hos2 firmware
+- latest orange fox is compulsory to be used available on download page
+- use 01_May ksunext file from install documents
+- dirty flashable from 11.2 newer updates
+- Includes Powertools,dolbyAtmos,gamebar
+- properties: Disable continuous transaction tracing on all build types
+- textclassifier: Add and ship prebuilt TextClassifier
+- overlay: configure SQLite to operate in MEMORY mode
+- Introduce thermal profile tile service
+- parts: Rework per-app thermal profile
+- parts: Fixup Thermal profile tile service
+- parts: ThermalTileService: Refactor Thermal Tile Service and CPU Governor Management
+- parts: Add support for long-press actions on QS tiles
+- parts: ThermalTileService: Introduce Gaming Mode with per-game optimizations
+- parts: ThermalTileService: Refactor Thermal Profile QS tile
+- Refactor: Migrate SaturationUtils to Kotlin
+- parts: Introduce PowerTools v3.0
+- sepolicy: Rework sepolicy and drop neverallows
+
 ===== 02 May, 2025 =====
 - FIRMWARE flashing is not required latest hos2 global fw is pre-included in the rom itself
 - latest orange fox is compulsory to be used available on download page
