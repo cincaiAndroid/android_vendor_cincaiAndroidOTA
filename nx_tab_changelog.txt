@@ -4,6 +4,27 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 05-11-2025 =====
+- Update to crDroid 11.5
+- uscript: improve ddr200 detection and enabling
+- nx: Don't build resize2fs_static
+- jc_setup: update bash path
+- jc_setup: update for 15
+- nx: Update fingerprint from 9.2.1
+- extract: Add l4t r32 source
+- extract: Update to t210 stock 9.2.1 releases
+- common: vendor: Label ro.wifi.sdmmc
+- Label script to symlink userdata partition
+- dts: enable multi-driver probing for IMUs
+- fixup! dts: Disable imu sensors for Vali
+- iio: imu: adapt drivers for multi-driver hw selection
+- iio: imu: Add driver for TDK Invensense ICM-42607x IMU family
+- fixup! iio: imu: Add driver for TDK Invensense ICM-42607x IMU family
+- common: Update nvgpu from stock t210 9.2.1
+- common: Update nvcpl from stock t210 9.2.1
+- common: Update nvcamera from stock t210 9.2.1
+- common: Update nvaudio from stock t210 9.2.1
+
 ===== 04-12-2025 =====
 - Update to crDroid 11.4
 - fixup! nx: allow bootloader-passed oc
