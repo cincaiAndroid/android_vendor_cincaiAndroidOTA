@@ -1,4 +1,19 @@
 ====================
+     05-12-2025
+====================
+
+* v11.5 update.
+* May security patch.
+* Dirty Flash should be fine from v11.4 but backing up user data is recommended in case things go south.
+* Added back AOSP native colors.
+* Fixed whatsapp call issue.
+* Adjust idle touch timer.
+* Added back 48MP sensor for Redmi K40S.
+* Updated vendor security patch to April.
+* Dropped 90hz from the kernel.
+* And many more optimizations.
+
+====================
      04-12-2025
 ====================
 
