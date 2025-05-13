@@ -4,20 +4,26 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     28-04-2025
+     12-05-2025
 ====================
  
-- Launcher3: Do not use bottom sheet for app info in recents
-- Launcher3: Fixed allow disabling workspace edit
-- Launcher3: Fixed implement taskbar toggle
-- powershare: Fix PowerShare QS tile state toggle
-- Added Comss DNS provider
-- Updated GameSpace manager for better performance
-- Added GameSpace manager service to automatically add newly installed game to GameSpace
-- Improved Three Finger Swipe implementation
-- Updated SystemUI boost framework especially to tackle lag on older devices
-- Experimental: Release memory with screen on - in background (10 minutes safe window in case multiple on/off)
-- Updated FreeForm implementation with trivial bug fixes
-- Updated translations
-- fix audio for Voip WeChat and Signal
+- Initial crDroid 11.5
+- Android May 2025 Security Update
+- Add prop. to save battery life
+- Compile HWUI for performance * Activates a few optimizing compiler flags for HWUI. * -fno-omit-frame-pointer, -marm, -mapcs
+- Set game default refresh rate to 120
+- Enable aptX(HD) offload As of Android 13 QPR2, AOSP Bluetooth APEX supports aptX/aptX HD out of the box with no way to disable it, so we might as well support offload.
+- Disable stereo speaker in voicecall - Fixes audio distortion in voice call
+- Switch to zstd for ZRAM for better performance and compression https://www.reddit.com/r/Fedora/comments/mzun99/new_zram_tuning_benchmarks/
+- Extend Audio Offload Buffer Size to 256KB Extend buffer size for offload playback to reduce the frequency of CPU wake up. 
+- Enable multi-gen lru by default
+- Modify refresh rate timers * These values may seem absolutely absurd because these just force the higher refresh rate even when the device is idle which avoids the screen tint changing because of different refresh rate.
+-Use speed tuning for performance critical applications The default ART setting is quicken: run DEX code verification and optimize some DEX instructions to get better interpreter performance.
+- Audio: fixup audio io policy voip_rx flags
+- Audio: Fix low mic volume on VoIP (snapchat , telegram...)
+- Launcher3: Use match_parent for navigation button dimensions
+- Launcher3: Rework home button double tap handling
+- GameSpace: DanmakuService: Cleanup and improvements
+- GameSpace: DanmakuService: Fix notification handling
+- GameSpace: DanmakuService: Fix ClassCastException during onNotificationPosted
 
