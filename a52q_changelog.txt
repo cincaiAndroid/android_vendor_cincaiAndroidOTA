@@ -1,203 +1,145 @@
 ====================
-     04-18-2025
+     05-13-2025
 ====================
-   * Added flash intensity support
+
+====================
+     05-12-2025
+====================
 
    * frameworks/av
-0095329 Fix SwAudioOutputCollection indexing in closeOutput()
+5a587db camera: fixup! Add extension to control torch light strength
 
    * frameworks/base
-7829cc6d6 Fix incorrect NULL check in IncFsFileMap reference assertions
+d6926d5b1 Remove ServiceRecord from restart list if restart is cancelled as unnecessary
 
-   * packages/apps/Twelve
-21c51c4 Twelve: No empty strings please.
+   * frameworks/native
+63ffb29 Add prefix and suffix to restrict iteration to optimize search efficiency
 
-====================
-     04-17-2025
-====================
-
-   * build/soong
-e1ce1a3 Merge remote-tracking branch 'lineage-22.2' into 15.0
-
-   * packages/apps/Launcher3
-0bc6653 New Crowdin updates (#488)
-
-   * packages/apps/crDroidSettings
-91760e9 New Crowdin updates (#1233)
+   * vendor/lineage
+2689605 crdroid: Bump to version 11.5
 
 ====================
-     04-16-2025
-====================
-
-   * hardware/samsung
-20ba9e3 Automatic translation import
-
-   * packages/apps/Aperture
-8d0a313 Automatic translation import
-
-   * packages/apps/AudioFX
-9eb8650 Automatic translation import
-
-   * packages/apps/Camelot
-153ddf1 Automatic translation import
-
-   * packages/apps/Catapult
-744ef9a Automatic translation import
-
-   * packages/apps/Contacts
-7ff70b4 Automatic translation import
-
-   * packages/apps/DeskClock
-03def55 Automatic translation import
-
-   * packages/apps/Etar
-3af4f61 Automatic translation import
-
-   * packages/apps/FMRadio
-e1affed Automatic translation import
-
-   * packages/apps/Glimpse
-ce77e3d Automatic translation import
-
-   * packages/apps/Jelly
-9b9605d Automatic translation import
-
-   * packages/apps/Recorder
-a6b4a84 Automatic translation import
-
-   * packages/providers/DownloadProvider
-10e50a1 Automatic translation import
-
-   * packages/resources/devicesettings
-676986c Automatic translation import
-
-   * vendor/crowdin
-5ec80da Automatic translation import
-
-   * vendor/qcom/opensource/commonsys/fm
-0d16da0 Automatic translation import
-
-====================
-     04-15-2025
-====================
-
-   * lineage-sdk
-bc525ea lineage-sdk: Fix charging notification crash due to faulty strings
-
-   * lineage/scripts
-f55b048 set-default-branch: Initial commit
-
-====================
-     04-14-2025
-====================
-
-   * hardware/qcom-caf/common
-119eacf qcom: Allow legacy devices to use /firmware for symlinks
-
-   * packages/services/Telecomm
-bec843b Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
-
-====================
-     04-13-2025
-====================
-
-====================
-     04-12-2025
+     05-11-2025
 ====================
 
    * android
-d86e481 Merge 'lineage-22.2' into 15.0
+e2c7ec5 manifest: Track hardware/google/pixel
+
+   * bootable/recovery
+28f76bd Merge 'lineage-22.2' into 15.0
 
    * build/make
-f13f491 build: disable memory tagging for surfaceflinger
+4607f91 build: disable memory tagging for surfaceflinger
 
-   * device/samsung/a52q
-7ae5eda Add new QPR2 patches
+   * build/soong
+6d448e5 Add LDFlags for FSAFDO
 
-   * device/samsung/a72q
-10baaf6 Add new QPR2 patches
+   * device/lineage/sepolicy
+7b71574 Merge 'lineage-22.2' into 15.0
 
-   * device/samsung/sm7125-common
-dd0832d Add new QPR2 patches
+   * hardware/google/pixel
+36f31de libperfmgr: silence spammy write failures
 
-   * frameworks/native
-d6a939c Optimize transformhint updates to aviod buffer reallocation in BBQ.
+   * hardware/interfaces
+1fc083d Merge 'lineage-22.2' into 15.0
+
+   * hardware/samsung-ext/interfaces
+c130f4c debug-tools: Allow disable audit filter via props
 
    * packages/apps/Dialer
-573c87d Merge 'lineage-22.2' into 15.0
+486dbe0 Merge 'lineage-22.2' into 15.0
 
    * packages/apps/DocumentsUI
-5f7e002 Use proper background in dark theme
-
-   * packages/apps/LineageParts
-d765916 Disable unused components
+163cb21 Merge 'lineage-22.2' into 15.0
 
    * packages/apps/Messaging
-9768878 Merge 'lineage-22.2' into 15.0
+65ae583 Merge 'lineage-22.2' into 15.0
 
    * packages/apps/Settings
-7f2648a Settings: Implement 3-btn-nav layout settings [3b/3]
+1771b04 Settings: Add support for disabling non-system apps
 
    * packages/apps/SetupWizard
-2217773 SetupWizard: Handle navbar and hw keys
+5c5d265 SetupWizard: Handle navbar and hw keys
 
    * packages/apps/ThemePicker
-8996755 Merge 'lineage-22.2' into 15.0
+49d20de Merge 'lineage-22.2' into 15.0
 
    * packages/apps/Updater
-88b2dc0 Updater: Remove cryptographic signature verification for local updates
+6859e8a Updater: Remove cryptographic signature verification for local updates
 
    * packages/inputmethods/LatinIME
-72aab94 Merge 'lineage-22.2' into 15.0
+865b6c0 Merge 'lineage-22.2' into 15.0
 
    * packages/modules/Bluetooth
-24ea187 Merge 'lineage-22.2' into 15.0
+4136da7 Merge 'lineage-22.2' into 15.0
 
-   * packages/services/Telephony
-87d60e4 Create MobileNetworkSettings for correct SIM
-
-   * vendor/lineage
-320527a crdroid: Bump to version 11.4
-
-   * vendor/samsung/a52q
-776ac73 Regen vendor for new patches
-
-   * vendor/samsung/a72q
-6b16c8d Regen vendor for new QPR2 patches
-
-   * vendor/samsung/sm7125-common
-a4b544a Regen vendor for new QPR2 patches
+   * packages/modules/Wifi
+42c575b Merge 'lineage-22.2' into 15.0
 
 ====================
-     04-11-2025
-====================
-
-   * hardware/google/graphics/common
-ae5904b Merge tag 'android-15.0.0_r26' into staging/lineage-22.2_merge-android-15.0.0_r26
-
-   * packages/apps/ColumbusService
-8dba2e5 Add RU translation
-
-   * vendor/addons
-40727f39 addons: Add notification and powermenu styles
-
-====================
-     04-10-2025
-====================
-
-   * bionic
-76ba61b libc: Set 100 instr-limit
-
-   * hardware/qcom-caf/sm8650/display
-781c933 display: Remove smmu-proxy and ubwcp headers defaults
-
-   * system/sepolicy
-42db7b1 Merge pull request #11 from ionutgherman/15.0
-
-====================
-     04-09-2025
+     05-10-2025
 ====================
 
    * hardware/lineage/interfaces
-a7d52a8 aidl: light: Add support for upstream LED timed mode
+12709a5 powershare: Convert to AIDL
+
+   * hardware/samsung
+8e2b9ef powershare: Migrate to AIDL
+
+====================
+     05-09-2025
+====================
+
+   * hardware/qcom-caf/common
+fe3b092 qcom: Pass TARGET_KERNEL_VERSION to qtidisplay
+
+   * packages/services/Iwlan
+83bd433 Remove android.net.ipsec.ike uses-library tag
+
+====================
+     05-08-2025
+====================
+
+====================
+     05-07-2025
+====================
+
+   * frameworks/opt/telephony
+065fa91 Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+
+   * packages/modules/Permission
+ed11e0d Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+
+====================
+     05-06-2025
+====================
+
+   * build/release
+be57613 Update build flags to BP1A.250505.005
+
+   * hardware/qcom/sdm845/gps
+e2b4788 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * hardware/qcom/sm7250/gps
+17b95f9 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * hardware/qcom/sm8150/gps
+537a8b1 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * lineage-sdk
+cab40aa ChargingControl: Prevent crash against null provider
+
+====================
+     05-05-2025
+====================
+
+   * packages/apps/GameSpace
+bd98311 GameSpace: fix and animate panel view translation
+
+====================
+     05-04-2025
+====================
+
+   * packages/apps/LineageParts
+4153ec8 Disable unused components
 
