@@ -4,37 +4,37 @@ Device maintainer: Melo Longo (melo159)
 Highlights & Device Specific Changes:
 
 ====================
-     12 May 2025
+     13 May 2025
 ====================
-
--crDroid v11.5 with May 2025 security patches
-IMPORTANT: backup all your data included internal storage, dirty flash SHOULD work but may not. Try at your own risk
-More info below:
+ 
+-Fixed charging
+-Synced with crDroid sources
+More info below
 
 ====================
-     05-12-2025
+     05-13-2025
 ====================
-
-   * device/xiaomi/courbet
-45791b5 courbet: migrate libinit to select()
 
    * device/xiaomi/sm6150-common
-e3d3bef sm6150-common: move health flags to select()
+4897a42 sm6150-common: move health flags to select()
 
    * frameworks/av
 5a587db camera: fixup! Add extension to control torch light strength
 
    * frameworks/base
-d6926d5b1 Remove ServiceRecord from restart list if restart is cancelled as unnecessary
+6d8837797 New Crowdin updates (#1229)
 
-   * frameworks/native
-63ffb29 Add prefix and suffix to restrict iteration to optimize search efficiency
+   * packages/apps/GameSpace
+8a4949d New Crowdin updates (#110)
+
+   * packages/apps/crDroidSettings
+0d0d213 New Crowdin updates (#1236)
 
    * vendor/lineage
 2689605 crdroid: Bump to version 11.5
 
 ====================
-     05-11-2025
+     05-12-2025
 ====================
 
    * android
@@ -51,6 +51,12 @@ e2c7ec5 manifest: Track hardware/google/pixel
 
    * device/lineage/sepolicy
 7b71574 Merge 'lineage-22.2' into 15.0
+
+   * device/xiaomi/courbet
+45791b5 courbet: migrate libinit to select()
+
+   * frameworks/native
+63ffb29 Add prefix and suffix to restrict iteration to optimize search efficiency
 
    * hardware/google/pixel
 36f31de libperfmgr: silence spammy write failures
@@ -89,11 +95,18 @@ e2c7ec5 manifest: Track hardware/google/pixel
 42c575b Merge 'lineage-22.2' into 15.0
 
 ====================
+     05-11-2025
+====================
+
+====================
      05-10-2025
 ====================
 
    * hardware/lineage/interfaces
 12709a5 powershare: Convert to AIDL
+
+   * packages/services/Iwlan
+83bd433 Remove android.net.ipsec.ike uses-library tag
 
 ====================
      05-09-2025
@@ -101,9 +114,6 @@ e2c7ec5 manifest: Track hardware/google/pixel
 
    * hardware/qcom-caf/common
 fe3b092 qcom: Pass TARGET_KERNEL_VERSION to qtidisplay
-
-   * packages/services/Iwlan
-83bd433 Remove android.net.ipsec.ike uses-library tag
 
 ====================
      05-08-2025
@@ -115,6 +125,9 @@ fe3b092 qcom: Pass TARGET_KERNEL_VERSION to qtidisplay
 
    * frameworks/opt/telephony
 065fa91 Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+
+   * lineage-sdk
+cab40aa ChargingControl: Prevent crash against null provider
 
    * packages/modules/Permission
 ed11e0d Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
@@ -135,42 +148,17 @@ e2b4788 gps: Avoid access of deprecated LocUnorderedSetMap entry
    * hardware/qcom/sm8150/gps
 537a8b1 gps: Avoid access of deprecated LocUnorderedSetMap entry
 
-   * lineage-sdk
-cab40aa ChargingControl: Prevent crash against null provider
-
 ====================
      05-05-2025
-====================
-
-   * packages/apps/GameSpace
-bd98311 GameSpace: fix and animate panel view translation
-
-====================
-     05-04-2025
 ====================
 
    * hardware/xiaomi
 1b34926 dolby: Make sure to persist value after toggling QS tile
 
+====================
+     05-04-2025
+====================
+
    * packages/apps/LineageParts
 4153ec8 Disable unused components
-
-====================
-     05-03-2025
-====================
-
-   * device/qcom/sepolicy_vndr/legacy-um
-b8ecc69 holi: Label another discard_max_bytes sysfs
-
-   * device/qcom/sepolicy_vndr/sm8450
-eca9b52 sepolicy: Drop hal_fingerprint_fpc rules
-
-   * device/qcom/sepolicy_vndr/sm8550
-0b9c1b0 sepolicy: Drop hal_fingerprint_fpc rules
-
-   * packages/apps/Launcher3
-f5fb69a Launcher3: Rework home button double tap handling
-
-   * packages/services/DeviceAsWebcam
-30051e8 DeviceAsWebcam: Don't set VIDEO_ENCODE flag if device opts  out
 
