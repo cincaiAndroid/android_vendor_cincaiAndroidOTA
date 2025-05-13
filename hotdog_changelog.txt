@@ -3,6 +3,21 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250513 =====
+!!! Attention !!!
+Now we will use a KernelSU @rsuntk fork.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rsuntk/KernelSU/releases
+
+- Initial crDroid 11.5
+- Android May 2025 Security Update
+- Back to KernelSU @rsuntk fork. Bye bye KernelSU Next.
+- Updated translations
+
 ===== 20250505 =====
 - Device: Switch to NCM USB tethering
 - Launcher3: Use match_parent for navigation button dimensions
