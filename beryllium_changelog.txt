@@ -3,7 +3,14 @@ Build type: Weekly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
 
-===== 04 May, 2025 =====v
+===== 13 May, 2025 =====
+
+- Initial crDroid 11.5
+- Updated security patches to May 2025 (android-15.0.0_r32)
+- Settings: Add support for disabling non-system apps
+- Some other small changes
+
+===== 04 May, 2025 =====
 
 - Launcher3: Use match_parent for navigation button dimensions
 - Launcher3: Rework home button double tap handling
@@ -13,7 +20,7 @@ Device maintainer: Lup Gabriel (gwolfu)
 - Some other general fixes and improvements
 - Updated translations
 
-===== 27 April, 2025 =====v
+===== 27 April, 2025 =====
 
 - Launcher3: Do not use bottom sheet for app info in recents
 - Launcher3: Fixed allow disabling workspace edit
