@@ -3,7 +3,14 @@ Build type: Monthly
 Device: Samsung M52 5G (m52xq)
 Device maintainer: tilt-rgb
 
-===== 30 May, 2025 =====
+===== 13 May, 2025 =====
+
+- crDroid 11.5 release
+- Updated graphics blobs from "Spacewar"
+- Switched to "sony" dolby (now eac3 codec works)
+- Comes with Miku Kernel, KSU Next prebuilt
+
+===== 30 April, 2025 =====
 
 - Added Dolby Atmos
 - Fixed fingerprint overlay
