@@ -6,6 +6,17 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 12-05-2025 =====
+
+* Initial crDroid 11.5
+* Updated security patches to May 2025 (android-15.0.0_r32)
+* Settings: Add support for disabling non-system apps
+* stone: gps: Avoid access of deprecated LocUnorderedSetMap entry
+* stone: overlay: decouple display state from auto-suspend
+* stone: overlay: Use the new auto network selection UI
+* stone: Replace writepid with task_profiles command for cgroup migration
+* Various fixes and improvements
+
 ===== 06-05-2025 =====
 
 * Synced with latest crDroidAndroid source code
