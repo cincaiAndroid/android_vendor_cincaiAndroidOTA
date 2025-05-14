@@ -6,6 +6,14 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+14th May, 2025
+
+* Android April 2025 Security Update
+* Updated system boost framework for smoother transitions and scrolls
+* Fixed keyboard issue with GameSpace
+* Various improvements and fixes
+ 
+==================================
 21st April, 2025
 
 * vayu: Fixed sound issue on some apps like Whatsapp
