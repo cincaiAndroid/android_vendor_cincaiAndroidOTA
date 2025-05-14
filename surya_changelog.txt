@@ -4,6 +4,14 @@ Device: POCO X3/NFC (surya)
 Device maintainer: shoya0x00
 
 ====================
+     14-05-2025
+====================
+- Latest source Changes
+- May security patch
+- Cleanup Device Tree
+- Misc Changes and Improvement
+
+====================
      03-04-2025
 ====================
 - Latest source Changes
