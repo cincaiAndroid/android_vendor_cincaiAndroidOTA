@@ -4,6 +4,44 @@ Device: OnePlus 7T (hotdogb)
 Device maintainer: Hasan Okarci (frazerecho)
 
 
+===== 20250513 =====
+
+We will use KernelSU from @rsuntk from now on
+If you have any KernelSU Manager installed read below.
+- Remove SU permissions from all Apps that have root access.
+- Remove all modules and the KernelSU Application. Reboot your Phone.
+- Update your Phone using Updater in Settings.
+- Install the KernelSU Next Manager from below.
+
+https://github.com/rsuntk/KernelSU/releases
+
+- Initial crDroid 11.5 release
+- Updated Android Security Patches to May 2025
+- Switch KernelSU Next to KernelSU rsuntk fork
+- Launcher3: Do not use bottom sheet for app info in recents
+- Launcher3: Fixed allow disabling workspace edit
+- Launcher3: Fixed implement taskbar toggle
+- powershare: Fix PowerShare QS tile state toggle
+- Added Comss DNS provider
+- Fixed scramble pin layout when unlocking
+- SystemUI: Fixed restart prompt on settings changes
+- SystemUI: Fix keyguard user avatar margins
+- ThemePicker: Fixed some issues
+- DeskClock: Fixed select all text in label dialog
+- Settings: Fix loading iconpack-based Wellbeing icon
+- Settings: Update build number before display
+- Add support for manually installed google sound picker
+- Updated Chromium Webview to 135.0.7049.100
+- Settings: Add support for disabling non-system apps
+- Launcher3: Use match_parent for navigation button dimensions
+- Launcher3: Rework home button double tap handling
+- GameSpace: DanmakuService: Cleanup and improvements
+- GameSpace: DanmakuService: Fix notification handling
+- GameSpace: DanmakuService: Fix ClassCastException during onNotificationPosted
+- Some other general fixes and improvements
+- Updated translations
+
+
 ===== 20250419 =====
 !!! PLEASE READ !!!
 Strongly recommend you to install the update via 'sideload'.
