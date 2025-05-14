@@ -8,7 +8,7 @@ Highlights & Device Specific Changes:
 ==================================
 14th May, 2025
 
-* Android April 2025 Security Update
+* Android May 2025 Security Update
 * Updated system boost framework for smoother transitions and scrolls
 * Fixed keyboard issue with GameSpace
 * Fixed clicking mem info in recents not opening Running Services
