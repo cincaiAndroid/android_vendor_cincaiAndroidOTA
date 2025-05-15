@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Oneplus Ace 3 Pro(corvette)
 Device maintainer: SakuraKyuo (SakuraKyuo)
 
+===== 15-05-2025 =====
+* Hotfix release
+- Fix volume adjustment
+- Remove some to improve battery save
+
 ===== 14-05-2025 =====
 - crDroid 11.5 release
 - Update Vendor Security Patch to 2025-04-01
