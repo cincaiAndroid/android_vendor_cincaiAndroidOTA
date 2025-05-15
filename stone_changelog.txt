@@ -6,6 +6,10 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 14-05-2025 =====
+
+* stone: Fixed DT2W on AOD
+
 ===== 12-05-2025 =====
 
 * Initial crDroid 11.5
