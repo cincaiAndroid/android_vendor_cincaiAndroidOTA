@@ -4,6 +4,29 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy *
 
+===== 15/05/2025 =====
+- Rom now is rootless and Switch From Ksu-next to Sukisu-Ultra use this root manager instead https://github.com/ShirkNeko/SukiSU-Ultra/releases
+" Check sourceforge folder for SukiSU-Ultra.img" Note: idk if this image will work on older builds or not so dont try it
+- parts: Introduce PowerTools v3.0
+- Refactor: Migrate SaturationUtils to Kotlin
+- parts: Startup: Restore Auto HBM settings on boot
+- parts: ThermalTileService: Refactor Thermal Profile QS tile
+- parts: ThermalTileService: Introduce Gaming Mode with per-game optimizations
+- parts: Add support for long-press actions on QS tiles
+- parts: ThermalTileService: Refactor Thermal Tile Service and CPU Governor Management
+- parts: Introduce thermal profile tile service
+- parts: Implement startup service to restore Saturation Setting
+- parts: Introduce GameBar v4.0
+- Set camera override format from reserved via soong config
+- sensors: Migrate sensor-notifier extension config to soong select
+- Move soong_config_sets from BoardConfig to common.mk
+- Migrate Lineage Health to soong_config_set
+- Switch to NCM USB tethering
+- and alot more .......
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvement
+
 ===== 04/05/2025 =====
 *Clean Flash recommended or backup you data if you want to dirty* 
 - Match the latest changes from cupid-development
