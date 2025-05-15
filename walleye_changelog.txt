@@ -1,10 +1,24 @@
 Highlights & Device Specific Changes:
 Build type: Stable
 Device: Google Pixel 2 (walleye)
-Device maintainer: Ionut Gherman (ionutgherman)
+Device maintainer: Ionut (ionut)
 
 Highlights & Device Specific Changes:
 =====================================
+15th May, 2025
+==============
+ROM changes:
+• Android May 2025 Security Update
+• Added support for disabling non-system apps
+• Updated system boost framework for smoother transitions and scrolls
+• Fixed Powershare QS tile state toggle issues
+• Fixed keyboard issue with GameSpace
+• Various improvements and fixes
+Device changes:
+• Updated WFC app from b4s4
+• Set block_binder_thread_on_incoming_calls
+• Disable handling audio directing changes between call states
+================
 30th April, 2025
 ================
 ROM changes:

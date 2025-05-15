@@ -1,10 +1,25 @@
 Highlights & Device Specific Changes:
 Build type: Stable
 Device: Google Pixel 8 Pro (husky)
-Device maintainer: Ionut Gherman (ionutgherman)
+Device maintainer: Ionut (ionut)
+
+SINCE MAY 2025, SOME ACTIONS NEEDS TO BE MADE. PLEASE FOLLOW THE INSTRUCTIONS PRESENT INTO THE INSTALLATION INSTRUCTIONS: https://crdroid.net/husky/11/install
+I AM NOT RESPONSIBLE IF YOU BREAK YOUR DEVICE! PLEASE CHECK XDA THREAD OR TELEGRAM GROUP ALSO IF YOU NEED HELP
 
 Highlights & Device Specific Changes:
 =====================================
+15th May, 2025
+==============
+ROM changes:
+• Android May 2025 Security Update
+• Added support for disabling non-system apps
+• Updated system boost framework for smoother transitions and scrolls
+• Fixed Powershare QS tile state toggle issues
+• Fixed keyboard issue with GameSpace
+• Various improvements and fixes
+Device changes:
+• May 2025 blobs
+================
 30th April, 2025
 ================
 ROM changes:
