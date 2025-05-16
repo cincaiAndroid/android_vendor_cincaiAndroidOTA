@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Samsung A73 5G (a73xq)
 Device maintainer: alqix
 
+===== 16 May, 2025 =====
+
+- Update to crDroid 11.5 release
+- May Security patch
+
 ===== 22 April, 2025 =====
 
 - Update to crDroid 11.4 release
