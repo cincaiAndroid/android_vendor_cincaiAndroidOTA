@@ -5,6 +5,14 @@ Device maintainer: Rakhshan (shan_rakh)
 
 
 ====================
+     18-05-2025
+====================
+- May Security Patch
+- Revert "Setup 6gb Dalvik"
+- Disabled brightness slider gamma conversion
+- Fixed low brigtness screen flickering
+
+====================
      12-04-2025
 ====================
 - QPR2 April Security Patch
