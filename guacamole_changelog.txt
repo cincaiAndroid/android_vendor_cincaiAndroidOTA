@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 18 May, 2025 =====
+
+- Fixed some BT playback issues in some specific use case
+- Launcher3: fix cloned apps not appearing in app drawer
+- Stop dreaming if global button is a wake key (should fix wake screen in some cases)
+- Some other small changes
+
 ===== 13 May, 2025 =====
 
 - Initial crDroid 11.5
