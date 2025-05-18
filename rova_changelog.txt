@@ -3,6 +3,14 @@ Build type: Monthly
 Device: Redmi 4A/5A (rova)
 Device maintainer: Max (iusmac)
 
+===== 18/05/2025 =====
+- Synced with crDroid 11.5 sources (May security patches).
+  Read official changelog:
+  * https://crdroid.net/blog/2025-05-12-crDroid-11.5-is-now-available
+- Upgraded kernel to 4.19.325-5.3-iusmac
+- Some minor fixes and improvements
+- Updated translations
+
 ===== 12/04/2025 =====
 - Synced with crDroid 11.4 sources (April security patches).
   Read official changelog:
