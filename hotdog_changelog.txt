@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250518 =====
+- Fixed some BT playback issues in some specific use case
+- Launcher3: fix cloned apps not appearing in app drawer
+- Stop dreaming if global button is a wake key (should fix wake screen in some cases)
+- Switch to Touch AIDL
+- Some other small changes
+
 ===== 20250513 =====
 !!! Attention !!!
 Now we will use a KernelSU @rsuntk fork.
