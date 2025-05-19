@@ -17,6 +17,52 @@ Required firmware: Android 15 HOS 2.0.xxx
 - For more information and support, join the official group:
  https://t.me/crdroidperidot
 ==========================
+- Initial crDroid 11.5
+- Android May 2025 Security Update
+- Updated translations
+- Move Lineage Health HAL to select()
+- Set libinit via soong config
+- Add libwfdservice_shim for WFD
+- fixed  touch sampling now it's  500 tsr
+- Enable sofod using stock kernel node
+- Build udfps sensor from hardware xiaomi
+- Switched to stock kernel Hyper OS2.0.102.0.VNPMIXM
+- fstab: Switch to erofs
+-fixed erofs for gapps flashing 
+- Drop full qti perf hal stack
+- Improved|smoothness |performance 
+- Migrate to common libqti-perfd-client and power-libperfmgr
+- Inherit dummy powerhint config
+- Inital powerhint for cliff platform 
+- utilize task_profiles.json + cgroups.json
+- sepolicy: Allow libperfmgr to write on /proc & sysfs
+- Optimize cpu up_rate_limit and down_rate_limit
+- Enable frame pacing
+- udfps: Notify HAL on both FOD press and release events
+- udfps: Disable local HBM immediately on successful auth
+- udfps adopted in fingerprint implementation 
+- wifi: Enable QPower and Deep sleep
+- props: disable enable_hdr10_gpu_target and disable_sdr_dimming for now
+- Switch to armv9-a ARCH variant
+- overlays : Optimize auto brightness adjustment
+- kang auto-brightness configs from houji
+- props: Disable FRP
+- commonise hardware/qcom-caf/bootctrl aidl service
+- Build FastCharge instead of lineage fastcharge I 
+- parts clean turbo charging codes 
+- Included Gamebar v4.0
+- props: tune sf region sampling
+-  updated  missing audio props  from hos2
+- Included Leica camera
+
+
+
+
+
+====================
+     05-05-2025
+====================
+
 -Sync to latest source 02-May-225
 
 - Update blobs to OS2.0.100.0.VNPMIXM
