@@ -1,28 +1,28 @@
 {
     "response": [
         {
-	    "maintainer": "Simone Esposito (DarkJoker360)",
-	    "oem": "Nothing",
-	    "device": "Nothing Phone (1)",
-            "filename": "crDroidAndroid-15.0-20250419-Spacewar-v11.4.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/Spacewar/11.x/crDroidAndroid-15.0-20250419-Spacewar-v11.4.zip/download",
-            "timestamp": 1745048946,
-            "md5": "12f652ab441dbcc28e731ab0fb3388e6",
-            "sha256": "b189ca0e1708da852e2076cc9f24077b1f7fb483764af1507b08907693614b85",
-            "size": 1592496482,
-            "version": "11.4",
+            "maintainer": "Simone Esposito (DarkJoker360)",
+            "oem": "Nothing",
+            "device": "Nothing Phone (1)",
+            "filename": "crDroidAndroid-15.0-20250519-Spacewar-v11.5.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/Spacewar/11.x/crDroidAndroid-15.0-20250519-Spacewar-v11.5.zip/download",
+            "timestamp": 1747671284,
+            "md5": "460706b50a0118d92531db12d5b8cc9a",
+            "sha256": "6a5b5fe6904b6a7f7333a547bc44d82db258938c82ea8503d23ee47ec4f91b48",
+            "size": 1567957848,
+            "version": "11.5",
             "buildtype": "Monthly",
             "forum": "https://xdaforums.com/t/rom-spacewar-15-0-crdroidandroid-v11-x.4732017/",
-	    "gapps": "https://nikgapps.com/crdroid-official",
-	    "firmware": "",
-	    "modem": "",
-	    "bootloader": "",
-	    "recovery": "https://sourceforge.net/projects/darkjoker360-developements/files/Nothing/Phone1/ROM/crdroid/v10.x/recovery/",
-	    "paypal": "https://www.paypal.com/paypalme/Martiriggiano",
-	    "telegram": "https://t.me/DarkJoker360chat",
-	    "dt": "https://github.com/crdroidandroid/android_device_nothing_Spacewar",
-	    "common-dt": "",
-	    "kernel": "https://github.com/crdroidandroid/android_kernel_nothing_sm7325"
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/darkjoker360-developements/files/Nothing/Phone1/ROM/crdroid/v10.x/recovery/",
+            "paypal": "https://www.paypal.com/paypalme/Martiriggiano",
+            "telegram": "https://t.me/DarkJoker360chat",
+            "dt": "https://github.com/crdroidandroid/android_device_nothing_Spacewar",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_nothing_sm7325"
         }
     ]
 }
