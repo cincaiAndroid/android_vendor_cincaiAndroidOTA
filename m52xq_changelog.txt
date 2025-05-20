@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Samsung M52 5G (m52xq)
 Device maintainer: tilt-rgb
 
+===== 20 May, 2025 =====
+
+- Finally fixed VOIP calls, (tested in telegram,whatsapp and discord)
+- Synced latest crdroid sources
+
 ===== 13 May, 2025 =====
 
 - crDroid 11.5 release
