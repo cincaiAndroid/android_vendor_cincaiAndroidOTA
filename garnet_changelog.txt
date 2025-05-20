@@ -1,4 +1,20 @@
 ====================
+     05-20-2025
+====================
+
+   * device
+Optimization and performance changes
+Volte fix on some carriers
+Fast charging fix on some variants
+Idle drain and battery improved
+Switched to new kernel
+Gamebar added
+
+   * source
+Sync to latest (11.5)
+Keyboard fix in games
+
+====================
      04-29-2025
 ====================
 
