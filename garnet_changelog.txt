@@ -1,4 +1,13 @@
 ====================
+     05-21-2025
+====================
+
+   * device
+Dolby optimization
+Top speaker fix (im tired)
+Bring back pocket mode
+
+====================
      05-20-2025
 ====================
 
