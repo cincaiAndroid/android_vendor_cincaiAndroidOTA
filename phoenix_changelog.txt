@@ -6,6 +6,15 @@ Device maintainer: Nikhil (naruto242)
 Highlights & Device Specific Changes:
 
 ==================================
+27th May, 2025
+
+* sm6150-common: gps: Avoid access of deprecated LocUnorderedSetMap entry
+* sm6150-common: Migrate Lineage Health to soong_config_set
+* sm6150-common: Set camera override format from reserved via soong config
+* sm6150-common: Run hvdcp_opti in recovery mode
+* sm6150-common: Switch to $(TARGET_COPY_OUT_RECOVERY)
+
+==================================
 16th May, 2025
 
 * Initial Build
