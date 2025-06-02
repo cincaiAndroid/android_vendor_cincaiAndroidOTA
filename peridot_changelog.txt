@@ -6,17 +6,52 @@ Required firmware: Android 15 HOS 2.0.xxx
 
 
 ====================
+     02-06-2025
+====================
+- May security patch (QPR2) ,HyperOS 2 based v2.0.103
+- Updated blobs from OS2.0.103.0.VNPMIXM
+- Switched to prebuilt stock kernel based on OS2.0.103.0.VNPMIXM
+- Switch to armv9-a ARCH variant
+- Removed -parts:Turbo chargig
+- Added by default fast charging support from yaap & xiaomi/hardware.
+- Drop :Don't build qcom power hal
+- Enable Client Composition Cache
+- udfps: Enable HBM via disp_feature
+- udfps: Notify HAL on both FOD press and release events
+- udfps: Compare against the aidl AcquiredInfo
+- udfps: Disable local HBM immediately on successful auth
+- udfps: Inform hwmodule about press coordinates
+- udfps: Change verbose logging to DEBUG
+- udfps: Add comments about setFingerDown usage
+- udfps: Make libudfpshandler 64-bit only
+- udfps: s/hander/handler
+- udfps: Move fod status path to fod_press_status
+- udfps: Update FINGERPRINT_ACQUIRED_VENDOR value
+- udfps: Remove unused code
+- udfps: Handle failed onAcquired results
+- udfps: Remove fod_press_status polling
+- Implement udfpshandler
+- Drop all mfp-daemon sepolicy
+- Move to Xiaomi fingerprint AIDL
+- Set libinit via soong config
+- powerhint: tweak uclamp ta boost
+- powerhint: improve tuning
+- powerhint: further improve interaction efficiency
+- powerhint: rework interaction for efficiency
+- powerhint: improve interaction jank
+- powerhint: Set GPU max freq to 1100mhz
+- powerhint: Reconfigure for sm8635 credit (@GuidixX)
+- Migrate to common libqti-perfd-client and power-libperfmgr
+- various improvments done underthehood related ,sdr,smoothness,performance improved 
+- Enable HWUI adpf
+
+
+
+
+
+====================
      05-05-2025
 ====================
-!! Attention Everyone !! 
-
--We're now using HyperOS Base 2.0 with a clean flash requirement for moderator builds if you come from v11.2 .
-
--if you already on v11.3 dirty flash will be ok 
-
-- For more information and support, join the official group:
- https://t.me/crdroidperidot
-==========================
 - Initial crDroid 11.5
 - Android May 2025 Security Update
 - Updated translations
