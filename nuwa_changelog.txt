@@ -4,25 +4,258 @@ Device: Xiaomi 13 Pro (Nuwa)
 Device maintainer: TheMysticle
 
 ====================
-     05-26-2025
+     06-03-2025
 ====================
 
 ROM Update:
 • Synced Latest crDroid source
-• Remove Custom Charge Speed Tile
-• Add HyperCharging Tile
-• Fixed Lineage Health Charge Control
-• Added Per App Thermal Profiles
-• Defined Turbo Charging Node For OEM Fast Charger
-• Switched To armv9-a & kryo785
-• Improved Performance With New Props
-• More Audio Is Now Built From Source
-• Updated CarrierConfig From OS2.0.200.7.VMBCNXM
-• Added Missing Telephony Overlays
-• qcrilNr.db Is Now Built From Source
-• Reduced radio.on Value In Power_Profile
-• Updated Kernel To 5.15.184
-• Patched Kernel With Susfs 1.5.7
+• Update from OS2.0.200.10.VMBCNXM
+• Enable dex2oat64
+• Remove Thermal Tile & Instead add PowerTools
+• compile HWUI for Performance
+• Radio region is now global
+• Add missing thermald SEPolicy so it can do its job with thermals
+• Improve sf props to reduce jank
+
+   * device/xiaomi/nuwa
+a16f4f5 nuwa: Update from OS2.0.200.10.VMBCNXM
+
+   * device/xiaomi/sm8550-common
+59d8cdcce sm8550-common: props: improve sf props
+72fb5f0e6 sm8550-common: Update from OS2.0.200.10.VMBCNXM
+821e9d9ee sm8550-common: sepolicy: Add missing thermald SEPolicy
+eb7ffb0db sm8550-common: parts: Prevent ArrayIndexOutOfBounds in ThermalUtils
+6dbe2054a sm8550-common: init: Kill WALT CPU boosting
+
+   * frameworks/av
+9f1f997a17 Merge pull request #50 from Terminator-J/15.0-soong_config_variable-fixes
+3362770372 camera: Fixup2! Add extension to control torch light strength
+388acd999f libcameraservice: Fixup! add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+491acc9fcb libcameraservice: Fixup! Add support to set vendor tag with client package name
+
+====================
+     06-02-2025
+====================
+
+   * device/xiaomi/sm8550-common
+a470e39d0 sm8550-common: parts: Introduce PowerTools v3.0
+273de1d85 sm8550-common: props: change radio region to global
+4fd2ad061 sm8550-common: compile HWUI for Performance
+3ef781bb0 sm8550-common: prop: Add a property enable mag_filter sensors
+989905a5b sm8550-common: Extend audio offload buffer size to 256kb
+9614a1623 sm8550-common: Disable frame rate override feature
+4e240d2f8 sm8550-common: Enable usage of dex2oat64
+3ee5939aa sm8550-common: overlays: fix CarrierConfig priority
+2e09adddb sm8550-common: rootdir: Set dex2oat thread count and cpuset
+
+====================
+     06-01-2025
+====================
+
+   * packages/apps/Aperture
+35d0282 Automatic translation import
+
+   * packages/apps/FMRadio
+fcedf0c FMRadio: Fix press and hold media rewind keys
+6f90646 FMRadio: Make toggling between headset/speakerphone a function
+2d918b2 FMRadio: Display whether headset or speakerphone is selected
+9baa562 FMRadio: Add base support for media buttons
+
+   * packages/apps/Twelve
+89c5fcb Automatic translation import
+
+   * vendor/crowdin
+6179702 Automatic translation import
+
+====================
+     05-31-2025
+====================
+
+   * android
+43f3edf Merge 'lineage-22.2' into 15.0
+
+   * device/lineage/sepolicy
+3a8c17f sepolicy: Support Touch AIDL
+ae41361 common: Always run recovery in permissive domain
+e341bc9 Revert "Make backuptool permissive only in non user builds"
+cc5106d common: Address denial for google services app
+da784ea common: Address launcher app denials
+afba9c7 sepolicy: Add support for boost framework
+fc7e50c sepolicy: Allow gmscore_app to access system_data_file
+e00ab54 sepolicy: Add support for LMOFreeform service
+379c102 Allow launcher to access zram sysfs
+a02f638 Allow apps to access usap pool
+c3e07dc lineage: Make Health service discoverable by Settings app
+05369c6 sepolicy: Label Dolby Sepolicy labels
+c629c98 Allow system app to read navbar config
+c9fedb8 sepolicy: Label more dirty writeback parameters
+139d75e sepolicy: introduce app lock [2/4]
+0dc9865 sepolicy: Label LinearmotorVibratorService
+da4d871 sepolicy: Move in pocket service sepolicy
+262ae48 sepolicy: Label skip unconfigure prop
+b9adf7f Allow updater to read data files
+2d39d88 updater_app: Address uncrypt denials
+604dd6b sepolicy: Allow system_server to read and write to sysfs_battery_supply
+d570572 Update ota_update path
+1111dc7 sepolicy: Allow launcher app to read archiving prop
+784da98 Allow platform app to read memory info
+e401685 sepolicy: Allow platform adjust camera shutter sound
+fcb8519 Allow documents UI to access storage
+688bf89 sepolicy: Allow key disabler access for platform
+ebcc8ae sepolicy: Update custom legal prop
+
+   * device/qcom/sepolicy_vndr/legacy-um
+fd62155cb Revert "Allow init to unmount bt_firmware_file/firmware_file"
+
+   * frameworks/base
+95990d424c3e PixelPropsUtils: Use spoof props for play store
+05af6a791c8a ActivityManagerService: delay on boot system compaction
+683925697457 Merge pull request #1231 from 306bobby-android/15.0
+cdb7606a2861 fixup! PowerShareTile: Migrate to AIDL PowerShare HAL
+152c65845fb9 BluetoothPowerStatsCollector: Handle onBluetoothActivityEnergyInfoError gracefully
+
+   * hardware/lineage/interfaces
+6fe451f Merge 'lineage-22.2' into 15.0
+
+   * vendor/lineage
+0131ae5b Merge pull request #70 from OPACE3PRO/15.0
+
+====================
+     05-30-2025
+====================
+
+   * device/lineage/sepolicy
+f512d3a common: vendor: add rules for IR HAL
+
+   * device/xiaomi/sm8550-common
+b51bff316 sm8550-common: sepolicy: add vendor_shsusrd  permissions
+86649263d sm8550-common: add missing RIL & modem files
+
+   * frameworks/base
+6964797e90a4 New Crowdin updates (#1230)
+
+   * packages/apps/GameSpace
+a3e6025 New Crowdin updates (#111)
+
+   * packages/apps/crDroidSettings
+b83411f2 New Crowdin updates (#1237)
+
+   * vendor/lineage
+98ef5991 kernel: Expose TARGET_BOARD_PLATFORM to external modules
+
+====================
+     05-29-2025
+====================
+
+   * device/xiaomi/sm8550-common
+35bdf9790 sm8550-common: remove vendor.xiaomi.modem.qms
+
+   * frameworks/base
+2749acfa0f25 Activity not finishing even after pressing back key
+47cb89bffa3c Remove redundant null check for newTouchTarget
+5a5553ab9247 Start dispatching broadcast to app when it's really ready
+7d34f7e546b8 Fix app not starting after clearing storage
+c243a0c2d5fd PixelPropsUtils: re-enable hardware attestation
+
+====================
+     05-28-2025
+====================
+
+   * device/qcom/sepolicy
+4a0d2eb0 sepolicy: Added attributes for Aware QSEC services.
+
+   * device/xiaomi/nuwa
+e364f59 nuwa: proprietary-files: decommonize dolby_vision.cfg
+
+   * device/xiaomi/sm8550-common
+95fe4a35f sm8550-common: proprietary-files: decommonize dolby_vision.cfg
+
+   * hardware/qcom-caf/sm8450/audio/pal
+aaf4ea8f5 pal: adapt VI structs usage to graphservices definitions
+
+   * hardware/xiaomi
+9d8d55b dolby: Make sure to persist value after toggling QS tile
+4bf4e43 XiaomiEuicc: Add EuiccGoogle when building XiaomiEuicc
+9412c69 XiaomiEuicc: add EuiccGoogle to manage eSIM
+3ad45e6 XiaomiEuicc: expanded list of esim-enabled devices
+7821299 XiaomiEuicc: Switch to PackageManager.getApplicationInfo()
+4c80222 dolby: Fix compilation error in TooltipIconButton
+53f5ceb dolby: Migrate MainSwitchBar and Switch to Material3
+e53d027 dolby: Add custom profile
+b318287 dolby: Add icons for dolby profiles
+5367150 dolby: Make bass enhancer available on speakers as well
+8d8a83a Add Polish translation (#7)
+573773c DSPVolumeSynchronizer: Do not install for clone apps or private space
+fbf459f Implement DSPVolumeSynchronizer
+382f934 dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background color
+20a48e0 Revert "dolby: Fix Building in Andoid 15"
+033688b vintf: Add IMiSys HAL in compatibility matrix
+dd97713 vintf: Add more hals to fcm
+592202a XiaomiEuicc: Don't fatally crash when euicc package is not exists
+44c4b7a XiaomiEuicc: Remove references to EuiccPixel
+736c9f3 XiaomiEuicc: Move to priv-app and grant required permissions
+3cab9b9 XiaomiEuicc: Disable EuiccGoogle when GMS and GSF are not installed
+0cd85f7 Introduce XiaomiEuicc
+2f29be2 dolby: translate strings to Russian
+0f0b7aa dolby: Exempt installing package in clone or private space
+47b7c36 dolby: Fix Building in Andoid 15
+2c6d1f2 dolby: Add intelligent equalizer setting
+bc50405 dolby: Remove deprecated PlainTooltipBox
+1f1edd2 dolby: Introduce graphical equalizer
+505a9b1 dolby: Add launcher icon
+b256648 fixup! dolby: Restore all settings upon bootup
+520b363 dolby: Override AudioFx
+71ea543 dolby: Use all shared resources from devicesettings
+c56217c dolby: Fix build with kotlinc 1.9.0
+f95f36d dolby: Restore current profile _after_ resetting profiles
+1b6117e dolby: Do not set volume leveler amount
+c5b6077 dolby: Restore all settings upon bootup
+ffdf88f dolby: Rewrite in Kotlin
+c70c29a dolby: Revert "Re-enable speaker virtualization after bootup"
+fa49d6e dolby: Convert to SwitchPreferenceCompat
+c92c07b DolbyManager: Migrate to CompoundButton.OnCheckedChangeListener
+b76ffee dolby: Enable use_resource_processor for all sysui deps
+1707471 xiaomi: Introduce Dolby Atmos
+
+====================
+     05-27-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+fd641f360 trinket: Label read_ahead_kb nodes
+
+   * device/xiaomi/sm8550-common
+981d1901e sm8550-common: log: silence android.hardware.power-service-qti
+e97b2112c sm8550-common: parts: Add Performance Mode Thermal Preset
+
+   * frameworks/base
+5d6acd4b4365 fix upstream RecoverySystem.verifyPackage vulnerability
+be5dd2ce1a4a SystemUI: improve alignment between keyguard clock and date
+ff6359dc4763 bugfix: appropriately set quiet mode when being enabled/disabled
+
+====================
+     05-26-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+06091ca7d trinket: Label wakeup nodes
+bc758c054 sepolicy_vndr: trinket: label video4linux/v4l-subdev nodes
+66cf9a2b4 sepolicy_vndr: Fix video4linux "name" node labeling
+c7f1bee21 trinket: Label discard_max_bytes sysfs
+67a0adf9d sepolicy: Label trinket partitions for fastbootd
+
+   * device/xiaomi/sm8550-common
+74d29c5ab sm8550-common: props: remove dbg ims props
+bf53bbdbf sm8550-common: Build qcrilNr.db from source
+
+   * kernel/xiaomi/sm8550
+5969b88c0e927 defconfig: nuwa: add Susfs Config
+a2aaa2a7458c8 fs: patch kernel with susfs 1.5.7
+b7b8a09b78ac6 Merge remote-tracking branch 'feature-fork-remote/lineage-22.2' into 15.0
+
+====================
+     05-25-2025
+====================
 
    * android
 90516d1 Merge 'lineage-22.2' into 15.0
@@ -73,411 +306,14 @@ bca5c5694 sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_fi
 b338bbb31 sepolicy_vndr: generic: Fix compilation issues for newer upgrade
 
    * device/xiaomi/sm8550-common
-74d29c5a sm8550-common: props: remove dbg ims props
-bf53bbdb sm8550-common: Build qcrilNr.db from source
+d3bd7f108 sm8550-common: CarrierConfig: Set LTE+ threshold bandwidth to 0
+cca3a4f5f sm8550-common: CarrierConfig: Globally enable LTE+ icon
+b611bf260 sm8550-common: overlay: configure SQLite to operate in MEMORY mode
+5bb01f2d1 sm8550-common: overlay: carrierconfig update from nuwa OS2.0.200.7.VMBCNXM
 
    * frameworks/native
 87ae54dde4 CompositionEngine: Request device composition for the Udfps dim layer
 
-   * kernel/xiaomi/sm8550
-a2aaa2a7458c8 fs: patch kernel with susfs 1.5.7
-b7b8a09b78ac6 Merge remote-tracking branch 'feature-fork-remote/lineage-22.2' into 15.0
-
-====================
-     05-25-2025
-====================
-
-   * build/soong
-fa71e46c4 Add vendor_overlay support to fsgen
-
-   * device/xiaomi/sm8550-common
-d3bd7f10 sm8550-common: CarrierConfig: Set LTE+ threshold bandwidth to 0
-cca3a4f5 sm8550-common: CarrierConfig: Globally enable LTE+ icon
-b611bf26 sm8550-common: overlay: configure SQLite to operate in MEMORY mode
-5bb01f2d sm8550-common: overlay: carrierconfig update from nuwa OS2.0.200.7.VMBCNXM
-
-   * frameworks/base
-b7d7311dc75e Fix ArrayIndexOfBoundsException in WallpaperManagerService
-
-   * kernel/xiaomi/sm8550
-eb2c0971caffe Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD
-
-====================
-     05-24-2025
-====================
-
-   * device/xiaomi/nuwa
-fd6a753 nuwa: power_profile: change radio.on value to 22.17
-
-   * device/xiaomi/sm8550-common
-9dedbaa0  sm8550-common: Build more audio blobs from sources
-
-   * kernel/xiaomi/sm8550
-c40a4027b28b2 Merge tag 'ASB-2025-05-05_13-5.15' of https://android.googlesource.com/kernel/common into HEAD
-f74431da9b524 Merge branch 'android13-5.15-lts' of https://android.googlesource.com/kernel/common into HEAD
-ddab177adeaa1 Merge tag 'ASB-2025-04-05_13-5.15' of https://android.googlesource.com/kernel/common into HEAD
-a1d4423451f63 Merge tag 'ASB-2025-03-05_13-5.15' of https://android.googlesource.com/kernel/common into HEAD
-c445f5d84f85b Revert "of: unittest: Add bus address range parsing tests"
-85d4f4f8ba940 Revert "of/address: Add support for 3 address cell bus"
-c78838439d27d Revert "of: address: Fix address translation when address-size is greater than 2"
-71174da0a192b Revert "of: address: Remove duplicated functions"
-513a5c083ff64 Revert "of: address: Store number of bus flag cells rather than bool"
-38cbe045642e3 Revert "of: address: Preserve the flags portion on 1:1 dma-ranges mapping"
-
-====================
-     05-23-2025
-====================
-
-   * android
-5aacf38 qcom: Track audioreach graphservices repo for kalama
-
-   * device/qcom/sepolicy_vndr/sm8450
-c9a013cd9 Revert "sepolicy_vndr: Allow USB HAL to access udc sysfs nodes"
-
-   * device/xiaomi/nuwa
-d4a14a2 nuwa: patch touchfeature to use prebuilt
-
-   * device/xiaomi/sm8550-common
-5d2e49fa sm8550-common: Use HintManager for HWUI
-bf9502be sm8550-common: Switch to Kryo785
-cd99946f sm8550-common: Switch to armv9-a ARCH variant
-d775c9d6 sm8550-common: overlay: Define OEM fast charge sysfs node
-005ded6e sm8550-common: parts: Add per app thermal controls
-
-   * frameworks/base
-5a60ee8d42ef After booting, the networkwatchlistservice will perform a summary scan of the system apk, generating a large number of I/O operations and causing ANR.
-785e7e73a424 Fix the system server restart issue caused by the fingerprint framework
-
-   * hardware/qcom-caf/sm8450/audio/pal
-81cb58787 Session: Allow to set initial master gain for stereo streams
-aa487ecb8 Session: Correct volume payload size
-732839967 PayloadBuilder: Populate key vector for ultrasound RX
-
-   * hardware/qcom-caf/sm8450/audio/primary-hal
-26beab5a7 hal: Add ultrasound proximity support
-
-   * hardware/qcom-caf/sm8650/audio/pal
-15de8ad19 pal: fix constructor reordering
-0b9aaf4b7 pal: fix redefinition of MS_PER_SEC / US_PER_SEC
-252a4c8d3 pal: update SoundTriggerUtils.h
-864ba0a16 pal: update VoiceUIInterface.h
-a1f4a4810 pal: add reversed VUIInterfaceProxy.h
-16270b27e Partially revert "pal: add support for library based vui interfaces"
-2a167809f pal: fix usage of enum as boolean
-48aa67b28 pal: fix usage of typedef without a name
-4f99041d9 pal: fix redefinition of epoll_event
-c57a8c4d7 pal: disable audio feature stats support
-62e2b06bc pal: disable mem logger support
-16559c567 pal: Allow opting-out for libar-pal and pal_ipc_server
-582b4bd20 Add peripheralstate and libvui_dmgr headers
-fb7e05949 Include generated kernel headers for adsp_sleepmon.h
-445b2e448 Fix compilation errors
-7328ea62e Add missing sampling rates
-79b4a80bf Add capi_v2.h from AudioReach
-d05c1434d Add kvh2xml.h from AudioReach
-d2c587bee Add missing libarosal_headers dependencies
-f65fdb05a Disable 32 bit variant of libar-pal for 64 bit audio
-0f5fddf9a Disable 32 bit variants of audio libraries for 64 bit audio targets
-3fe3cc821 pal: Unset LOCAL_USE_VNDK
-9616479a5 Revert "pal: Use ListenSoundModelLib.h from header library"
-587cdb99e pal: Expose more headers under libarpal_headers module
-c155bbd55 ipc: Update own paths
-49e496e68 libpalclient: Do not error on unused parameters, variables and format
-
-   * hardware/qcom-caf/sm8650/audio/primary-hal
-e15acd263 adsprpcd: Separate rc from service
-cddecdcb3 hal: Guard primary audio HAL in case target provides prebuilt
-b9ff64f46 Disable 32 bit variants of audio libraries for 64 bit audio targets
-99c2d17a2 hal: Replace direct pid writes with setting task profiles for audio interfaces
-b43d4fd47 hal: Add dependency on libarpal_headers
-0acb79a02 hal: Enforce -Wno-format
-14ba768df adsprpcd: Import missing string.h header
-
-   * hardware/qcom-caf/wlan
-d1a10c3 Merge tag 'LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0
-
-   * kernel/xiaomi/sm8550
-4b77ae0e7f585 Merge 5.15.184 into android13-5.15-lts
-98f47d0e9b8c5 Linux 5.15.184
-4ad2d3c4d3cc4 x86/modules: Set VM_FLUSH_RESET_PERMS in module_alloc()
-618df75f2e30c ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
-b8d8f53e18581 netfilter: nf_tables: do not defer rule destruction via call_rcu
-a394c160d57f4 netfilter: nf_tables: wait for rcu grace period on net_device removal
-ba674db81a154 netfilter: nf_tables: pass nft_chain to destroy function, not nft_ctx
-7170875083254 btrfs: do not clean up repair bio if submit fails
-d64807ded1b60 btrfs: don't BUG_ON() when 0 reference count at btrfs_lookup_extent_info()
-65ccb2793da74 sctp: add mutual exclusion in proc_sctp_do_udp_port()
-ef3a6d3795068 selftests/mm: compaction_test: support platform with huge mount of memory
-6dacd2514eb9f usb: typec: fix pm usage counter imbalance in ucsi_ccg_sync_control()
-e15fd96c0b701 usb: typec: fix potential array underflow in ucsi_ccg_sync_control()
-9794ffd9d0c39 usb: typec: altmodes/displayport: create sysfs nodes as driver's default device attribute group
-f4bd982563c2f usb: typec: ucsi: displayport: Fix deadlock
-cec4f45bf51e0 clocksource/i8253: Use raw_spinlock_irqsave() in clockevent_i8253_disable()
-4f8244e0a2f4c block: fix direct io NOWAIT flag not work
-d83e52750d9a1 dmaengine: idxd: fix memory leak in error handling path of idxd_setup_groups
-7aa46ac359d34 dmaengine: idxd: fix memory leak in error handling path of idxd_setup_engines
-e7320147cf618 dmaengine: ti: k3-udma: Use cap_mask directly from dma_device structure instead of a local copy
-0ea0433f822ed dmaengine: ti: k3-udma: Add missing locking
-ca5b213bf4b42 wifi: mt76: disable napi on driver removal
-6fe084205a537 phy: renesas: rcar-gen3-usb2: Set timing registers only once
-35968b3f9538f phy: Fix error handling in tegra_xusb_port_init
-72b4e7e9a1599 tracing: samples: Initialize trace_array_printk() with the correct function
-560877a88d047 ftrace: Fix preemption accounting for stacktrace filter command
-deea40f26b9de ftrace: Fix preemption accounting for stacktrace trigger command
-466ef37d5545d ALSA: usb-audio: Add sample rate quirk for Microdia JP001 USB Camera
-e9600f67e8b9f ALSA: usb-audio: Add sample rate quirk for Audioengine D1
-9a51bc5224421 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
-d993895c11c42 ACPI: PPTT: Fix processor subtable walk
-d4175c6f96294 btrfs: fix discard worker infinite loop after disabling discard
-530e67c4b0120 dmaengine: Revert "dmaengine: dmatest: Fix dmatest waiting less when interrupted"
-cfcb2a5affbe8 x86/its: FineIBT-paranoid vs ITS
-e7117657695bd x86/its: Fix build errors when CONFIG_MODULES=n
-1b231a497756e x86/its: Use dynamic thunks for indirect branches
-c9ec159fed9f5 x86/its: Align RETs in BHB clear sequence to avoid thunking
-4804d7974301f x86/its: Add "vmexit" option to skip mitigation on some CPUs
-e30bcefa93a64 x86/its: Enable Indirect Target Selection mitigation
-5d19a0574b755 x86/its: Add support for ITS-safe return thunk
-498afe80ce3ec x86/alternatives: Remove faulty optimization
-a70424c61d5e6 x86/alternative: Optimize returns patching
-858073be8899e x86/its: Add support for ITS-safe indirect thunk
-34be1a3100b08 x86/its: Enumerate Indirect Target Selection (ITS) bug
-da8db23e3c8dd Documentation: x86/bugs/its: Add ITS documentation
-86a34f5eb24c9 x86/speculation: Remove the extra #ifdef around CALL_NOSPEC
-2d69c40c820a4 x86/speculation: Add a conditional CS prefix to CALL_NOSPEC
-175b3cb84685e x86/speculation: Simplify and make CALL_NOSPEC consistent
-8595a7453a5f6 x86,nospec: Simplify {JMP,CALL}_NOSPEC
-65346f970490e NFSv4/pnfs: Reset the layout state after a layoutreturn
-1eccb3a2dfe2e qlcnic: fix memory leak in qlcnic_sriov_channel_cfg_cmd()
-6d7a81a69af50 ALSA: sh: SND_AICA should depend on SH_DMA_API
-c8fe73ea80b49 net: dsa: sja1105: discard incoming frames in BR_STATE_LISTENING
-64675a9c00443 net: cadence: macb: Fix a possible deadlock in macb_halt_tx.
-d3336f746f196 net_sched: Flush gso_skb list too during ->change()
-894b06a72bd61 spi: loopback-test: Do not split 1024-byte hexdumps
-72f552e00c50f nfs: handle failure of nfs_get_lock_context in unlock path
-f8f470e3a7574 RDMA/rxe: Fix slab-use-after-free Read in rxe_queue_cleanup bug
-d91ab703438c6 iio: chemical: sps30: use aligned_s64 for timestamp
-a7a49aaab5787 iio: adc: ad7768-1: Fix insufficient alignment of timestamp.
-67c9081445295 tracing: probes: Fix a possible race in trace_probe_log APIs
-cc64061b90937 platform/x86: asus-wmi: Fix wlan_ctrl_by_user detection
-
-====================
-     05-22-2025
-====================
-
-   * android
-b1541c2 manifest: Track lineage interfaces
-
-   * device/lineage/sepolicy
-976aafa sepolicy: Support Touch AIDL
-
-   * frameworks/av
-972092651c Cache temporary framebuffer per stream
-59914933dc Fix EglFramebuffer leak
-
-   * hardware/lineage/interfaces
-dc1c5e7 touch: Add AIDL HAL
-
-   * lineage-sdk
-5a0f85bb Wire up AIDL touch HAL
-
-   * packages/apps/Backgrounds
-cda83bb Backgrounds: Convert wallpapers to webp
-c1bfc4f Add script for webp conversion
-
-   * packages/apps/Seedvault
-94eb0f1d Merge tag '15-5.6' of https://github.com/seedvault-app/seedvault into HEAD
-19228d66 Merge pull request #920 from seedvault-app/cd/15-5.6
-f357d59b Update CHANGELOG.md
-
-   * packages/apps/Twelve
-3a9bc09 Twelve: Use TwelveRenderersFactory also for local player
-ae26c35 Twelve: Go back to default LoadControl
-d8525b1 Twelve: Add back MIDI support
-dbd8eb9 Twelve: Let ExoPlayer generate an audio session ID for us
-12701a5 Twelve: Go back to default renderers factory
-d9d1270 Twelve: Update AGP to 8.10.0
-
-   * vendor/certification
-879c9dc certification: update to the latest A16 beta BP31.250502.008
-
-   * vendor/lineage
-fa8d4873 Add AIDL touch HAL
-
-====================
-     05-21-2025
-====================
-
-   * device/xiaomi/sm8550-common
-cd594fb2 sm8550-common: parts: Introduce Xiaomi HyperCharge Control
-2d3a9b16 sm8550-common: fixup Lineage Health charge control
-2de17c30 sm8550-common: add some missing telephony overlays
-a9f7f568 sm8550-common: sepolicy: give TurboCharging access to change charging current.
-a5b0dae6 sm8550-common: Change odm and vendor partitions to erofs
-88f69033 sm8550-common:  Set custom QR Tile Activity
-84b43704 sm8550-common: sepolicy: Move miuicamera file_contexts to miuicamera vendor
-72fdad64 sm8550-common: parts: add XiaomiParts icon
-7abc5038 sm8550-common: sepolicy: add charging control sepolicy
-
-   * frameworks/base
-73c35afcc7bb inputmethod: allow hiding navigation ime bar [1/4]
-fe1ed72a8011 Fix grant dialer default permissions on early boot
-8786eebf02c1 Minor code optimization.
-
-   * kernel/xiaomi/sm8550
-56993594bfa40 Merge 5.15.183 into android13-5.15-lts
-
-   * packages/apps/Launcher3
-16475c6c58 taskbar: allow hiding navigation ime bar [4/4]
-
-   * packages/apps/Seedvault
-e8730e56 Release 15-5.6
-ef8cd385 Import translations from Weblate
-51630373 Catch all exceptions on FullBackup#sendData
-bc290d9e Merge pull request #912 from grote/file-backup-prune-logging
-
-   * packages/apps/Settings
-1ff8943c049 gesture: allow hiding navigation ime bar [2/4]
-
-   * packages/apps/crDroidSettings
-1644d6f1 crdroid: strings: allow hiding navigation ime bar [3/4]
-
-====================
-     05-20-2025
-====================
-
-   * device/qcom/sepolicy
-f68f84eb Merge tag 'LA.QSSI.15.0.r1-15400-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-15400-qssi.0
-
-   * device/qcom/sepolicy_vndr/sm8450
-92847aac1 Merge tag 'LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0
-
-   * device/qcom/sepolicy_vndr/sm8650
-c06a82229 Merge tag 'LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0
-
-   * hardware/qcom-caf/sm8450/audio/agm
-9b860b3 Merge tag 'LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0
-
-   * hardware/qcom-caf/sm8450/audio/pal
-616210a5c Merge tag 'LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0
-
-   * hardware/qcom-caf/sm8450/audio/primary-hal
-6989c11d4 Merge tag 'LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0
-
-   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
-f2a1700d Merge tag 'LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27400-WAIPIO.QSSI16.0
-
-   * hardware/qcom-caf/sm8650/audio/pal
-2949c6b15 Merge tag 'AUDIO.LA.9.0.r1-08500-lanai.0' into staging/lineage-22.2_merge-AUDIO.LA.9.0.r1-08500-lanai.0
-
-   * hardware/qcom-caf/sm8650/audio/primary-hal
-74c5b209c Merge tag 'AUDIO.LA.9.0.r1-08500-lanai.0' into staging/lineage-22.2_merge-AUDIO.LA.9.0.r1-08500-lanai.0
-
-   * hardware/qcom-caf/thermal
-8d270eb Merge tag 'LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0
-
-   * vendor/qcom/opensource/commonsys-intf/display
-6f18a906 Merge tag 'LA.QSSI.15.0.r1-15400-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-15400-qssi.0
-
-   * vendor/qcom/opensource/commonsys/fm
-ff598ac Merge tag 'LA.QSSI.15.0.r1-15400-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-15400-qssi.0
-
-   * vendor/qcom/opensource/usb
-8aad768 Merge tag 'LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-20500-lanai.QSSI15.0
-
-====================
-     05-19-2025
-====================
-
-   * frameworks/base
-70d1b8ad08f4 Stop dreaming if global button is a wake key
-320af0c1312e Fix for crash due to ConcurrentModificationException in PrintRecommendationService
-490e3faea178 UsbDeviceManager: Do not set USB config to NONE if CONNECTED uevent is not received for UVC
-
-   * hardware/qcom-caf/wlan
-79444fd wcnss-service: Allow using WCNSS QMI without building with BSP
-
-   * kernel/xiaomi/sm8550
-a68c151521315 Linux 5.15.183
-a1b63a84a789e x86/bhi: Do not set BHI_DIS_S in 32-bit mode
-f9340af845a63 x86/bpf: Add IBHF call at end of classic BPF
-673b19e5ceb4f x86/bpf: Call branch history clearing sequence on exit
-2edc296e2107a Revert "net: phy: microchip: force IRQ polling mode for lan88xx"
-7ced6fd9d6f87 do_umount(): add missing barrier before refcount checks in sync case
-f04583e37b5eb nvme: unblock ctrl state transition for firmware update
-3aaa80e2f394b drm/panel: simple: Update timings for AUO G101EVN010
-aba591c13ba45 MIPS: Fix MAX_REG_OFFSET
-712390196c915 iio: adc: dln2: Use aligned_s64 for timestamp
-0aaf8d478cca8 types: Complement the aligned types with signed 64-bit one
-6b3a2d6fd2c7f usb: usbtmc: Fix erroneous generic_read ioctl return
-d88d487cf85f2 usb: usbtmc: Fix erroneous wait_srq ioctl return
-336fe2d28118c usb: usbtmc: Fix erroneous get_stb ioctl error returns
-3b408eed3515e USB: usbtmc: use interruptible sleep in usbtmc_read
-7804c4d63edfd usb: typec: ucsi: displayport: Fix NULL pointer access
-3e9a34da9dacd usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
-59a24f14c7d48 usb: host: tegra: Prevent host controller crash when OTG port is used
-ed96ab6478de4 usb: gadget: tegra-xudc: ACK ST_RC after clearing CTRL_RUN
-2997957a4edae usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
-815d6afeac3f0 usb: cdnsp: Fix issue with resuming from L1
-07413d8c74ed3 ocfs2: stop quota recovery before disabling quotas
-46c26ae13bd71 ocfs2: implement handshaking with ocfs2 recovery thread
-d8a3d29f6186e ocfs2: switch osb->disable_recovery to enum
-f1c71b4bd721a module: ensure that kobject_put() is safe for module type kobjects
-4d260a5558df4 xenbus: Use kref to track req lifetime
-036aabe178230 usb: uhci-platform: Make the clock really optional
-1d7472e79786c drm/amd/display: Fix wrong handling for AUX_DEFER case
-35b8c0a284983 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
-f3cf233c94653 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
-e5755bf22c218 iio: adis16201: Correct inclinometer channel resolution
-8f9c524b91639 iio: adc: ad7606: fix serial register access
-12f703811af04 x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
-f74c6c87fa759 staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
-632c789764d9f staging: axis-fifo: Remove hardware resets for user errors
-2cb6a49a46f05 staging: iio: adc: ad7816: Correct conditional logic for store mode
-40c8117be6834 Input: synaptics - enable InterTouch on TUXEDO InfinityBook Pro 14 v5
-563ceee84dbdc Input: synaptics - enable SMBus for HP Elitebook 850 G1
-ac5068d975c4e Input: synaptics - enable InterTouch on Dell Precision M3800
-ef9f94a50bf49 Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
-7e821d73ec3d7 Input: synaptics - enable InterTouch on Dynabook Portege X30-D
-44657c9b7a8ce net: dsa: b53: fix learning on VLAN unaware bridges
-7ed8ff2d73d56 net: dsa: b53: always rejoin default untagged VLAN on bridge leave
-da863b205e561 net: dsa: b53: fix VLAN ID for untagged vlan on bridge leave
-8dced52950dd2 net: dsa: b53: fix flushing old pvid VLAN on pvid change
-1b094a7c84b19 net: dsa: b53: fix clearing PVID of a port
-402be90e4ebdd net: dsa: b53: allow leaky reserved multicast
-82c1eb32693bc netfilter: ipset: fix region locking in hash types
-7ef1fdf42f504 can: gw: fix RCU/BH usage in cgw_create_job()
-1b199a17b7443 rcu/kvfree: Add kvfree_rcu_mightsleep() and kfree_rcu_mightsleep()
-3574f537b5b0d can: gw: use call_rcu() instead of costly synchronize_rcu()
-69aa22df4fdcd gre: Fix again IPv6 link-local address generation.
-47f7f00cf2fa3 openvswitch: Fix unsafe attribute parsing in output_userspace()
-b589c02776b7e can: mcp251xfd: mcp251xfd_remove(): fix order of unregistration calls
-7be7548a3ec67 can: mcan: m_can_class_unregister(): fix order of unregistration calls
-
-   * packages/apps/Messaging
-9025249 Messaging: Replace AOSP illustrations
-8af1282 Messaging: Remove setHost() logic
-6161d0f Messaging: Get rid of everything around the local apn database
-aad904a Messaging: Use Start and End instead of Left and Right
-2f9b138 Messaging: Remove unused or not required classes and methods
-f0b25f0 Messaging: Remove unused resources
-c4bbba9 Messaging: We don't need to check for verbose logging everywhere
-8613b6b Messaging: Fix wrong super() call
-9fd4fa6 Messaging: Explicitly specify Locale where needed
-37e5757 Messaging: Extend AppCompatImageView instead of ImageView
-7acbc6a Messaging: No need to access private color members
-37ac798 Messaging: Remove VisibleForAnimation
-
-====================
-     05-18-2025
-====================
-
-   * device/xiaomi/nuwa
-eb4e344 nuwa: Strip debug from libailab_rawhdr and libxmi_high_dynamic_range_cdsp
-
-====================
-     05-17-2025
-====================
-
-   * kernel/xiaomi/sm8550-modules
-ec06395c12 camera-kernel: Reset to Xiaomi state & Define a crc_error_divisor field
+   * hardware/qcom-caf/msm8953/media
+63e77df8f9 Revert "media: venc: Change order of default resolution setting."
 
