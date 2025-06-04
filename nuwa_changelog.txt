@@ -4,28 +4,35 @@ Device: Xiaomi 13 Pro (Nuwa)
 Device maintainer: TheMysticle
 
 ====================
-     06-03-2025
+     06-04-2025
 ====================
 
 ROM Update:
 • Synced Latest crDroid source
-• Update from OS2.0.200.10.VMBCNXM
-• Enable dex2oat64
-• Remove Thermal Tile & Instead add PowerTools
-• compile HWUI for Performance
-• Radio region is now global
-• Add missing thermald SEPolicy so it can do its job with thermals
-• Improve sf props to reduce jank
+• Fixed Adaptive Refreshrate which broke after yesterdays update in certain circumstances
+• Thermals are now Fixed & Battery lasts longer
+• 120W Charging reaches full speed only when screen is turned off (Part of fixing thermals)
+
+   * device/xiaomi/sm8550-common
+3bc050f9f sm8550-common: props: improve sf props
+2d438b7cc sm8550-common: Update from OS2.0.200.10.VMBCNXM
+52f7fcd07 sm8550-common: sepolicy: Add missing thermald SEPolicy
+1e2dd03b2 sm8550-common: parts: Prevent ArrayIndexOutOfBounds in ThermalUtils
+c394c588f sm8550-common: init: Kill WALT CPU boosting
+0ec2bdacd sm8550-common: parts: Introduce PowerTools v3.0
+b43cea717 sm8550-common: props: change radio region to global
+e87842c11 sm8550-common: prop: Add a property enable mag_filter sensors
+477e1163b sm8550-common: Extend audio offload buffer size to 256kb
+
+   * kernel/xiaomi/sm8550
+3d32d9f2f83bf kernel: add KernelSU-Next submodule
+
+====================
+     06-03-2025
+====================
 
    * device/xiaomi/nuwa
 a16f4f5 nuwa: Update from OS2.0.200.10.VMBCNXM
-
-   * device/xiaomi/sm8550-common
-59d8cdcce sm8550-common: props: improve sf props
-72fb5f0e6 sm8550-common: Update from OS2.0.200.10.VMBCNXM
-821e9d9ee sm8550-common: sepolicy: Add missing thermald SEPolicy
-eb7ffb0db sm8550-common: parts: Prevent ArrayIndexOutOfBounds in ThermalUtils
-6dbe2054a sm8550-common: init: Kill WALT CPU boosting
 
    * frameworks/av
 9f1f997a17 Merge pull request #50 from Terminator-J/15.0-soong_config_variable-fixes
@@ -38,12 +45,6 @@ eb7ffb0db sm8550-common: parts: Prevent ArrayIndexOutOfBounds in ThermalUtils
 ====================
 
    * device/xiaomi/sm8550-common
-a470e39d0 sm8550-common: parts: Introduce PowerTools v3.0
-273de1d85 sm8550-common: props: change radio region to global
-4fd2ad061 sm8550-common: compile HWUI for Performance
-3ef781bb0 sm8550-common: prop: Add a property enable mag_filter sensors
-989905a5b sm8550-common: Extend audio offload buffer size to 256kb
-9614a1623 sm8550-common: Disable frame rate override feature
 4e240d2f8 sm8550-common: Enable usage of dex2oat64
 3ee5939aa sm8550-common: overlays: fix CarrierConfig priority
 2e09adddb sm8550-common: rootdir: Set dex2oat thread count and cpuset
@@ -252,68 +253,4 @@ bf53bbdbf sm8550-common: Build qcrilNr.db from source
 5969b88c0e927 defconfig: nuwa: add Susfs Config
 a2aaa2a7458c8 fs: patch kernel with susfs 1.5.7
 b7b8a09b78ac6 Merge remote-tracking branch 'feature-fork-remote/lineage-22.2' into 15.0
-
-====================
-     05-25-2025
-====================
-
-   * android
-90516d1 Merge 'lineage-22.2' into 15.0
-
-   * build/soong
-46699fb53 Add LDFlags for FSAFDO
-fe169696f gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds
-e1668dea9 soong: Disable sandbox
-d653de8eb soong: Set ro.crdroid.device
-bb79ad849 check_boot_jars: Add LMODroid packages
-533efcdb1 check_boot_jars: add more OnePlus packages to whitelist
-7eb28f708 soong: Allow flock for changelog generation
-56b76c956 gen_build_prop: Always return release-keys
-28dff8344 soong: Add out/soong/*.glob* to installclean
-a16869ac9 cc/lto: enable unified LTO
-8f1161ff9 cc/lto: add property for not restricting instr limit
-93faf344d lto: enable O3 optimizations on explicit lto modules
-07b6a2d09 cc/lto: instr limit of 40 for explicit LTO modules
-2e0eb72f0 Remove workaround for Qualcomm Kryo 385
-d1728155e Enable crypto extensions for armv9-a
-544d399b9 config: Update cortex a75 flags
-b19f44a0f config: do not force cortex-a76 as cortex-a75
-21891515a cc: Enable more features when using armv8.2-a+dotprod
-aab1eb454 soong: Add kryo300 variant support
-6d7e1e3c1 soong: add kryo785 architecture variant for arm64.
-ad8fe798d arm_device: Change cortex-a76 mcpu from a55 to a75
-05cc86517 arm64_device: Change cortex-a76 mcpu from a55 to a75
-d8942aaf5 Use -march=armv9-a+nosve for Armv9-A arch variant
-bdfc8e249 Introduce Cortex-A510 CPU variant
-cd130a400 soong: increase heap size for metalava
-a5f8188f4 soong: Allow various path commands
-cdd2c5e4a soong: Change to CR_VERSION
-e7bd9f4b6 soong: Always return release-keys
-722b0a9eb Revert "Remove timestamp from local build number"
-
-   * device/qcom/sepolicy_vndr/sm8650
-cfc3938bc seapp_context: Fix build error.
-38f334e6d sepolicy_vndr: Fix avc denials for extcon rules
-a2643897b sepolicy_vndr: Add ubwcp lib as same_process_hal
-8e4c77f28 sepolicy_vndr: label nq and non nq nxp nfc service
-f4fbcc85c sepolicy_vndr: Allow init/vendor_init to write proc firmware config
-53e045727 sepolicy_vndr: Label proc firmware config node
-38446503c sepolicy: Add sys_module capability for hal_wifi_default
-72b2b895c Relax neverallows for vendor to use /system/bin/sh
-f3924dfb4 sepolicy_vndr: generic: Exclude wpa_supplicant_macsec from neverallow
-a49ff1a07 sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
-bca5c5694 sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
-b338bbb31 sepolicy_vndr: generic: Fix compilation issues for newer upgrade
-
-   * device/xiaomi/sm8550-common
-d3bd7f108 sm8550-common: CarrierConfig: Set LTE+ threshold bandwidth to 0
-cca3a4f5f sm8550-common: CarrierConfig: Globally enable LTE+ icon
-b611bf260 sm8550-common: overlay: configure SQLite to operate in MEMORY mode
-5bb01f2d1 sm8550-common: overlay: carrierconfig update from nuwa OS2.0.200.7.VMBCNXM
-
-   * frameworks/native
-87ae54dde4 CompositionEngine: Request device composition for the Udfps dim layer
-
-   * hardware/qcom-caf/msm8953/media
-63e77df8f9 Revert "media: venc: Change order of default resolution setting."
 
