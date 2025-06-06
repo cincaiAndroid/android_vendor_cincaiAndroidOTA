@@ -1,3 +1,13 @@
+=== 06-06-2025 =====
+
+* Android May 2025 Security Update
+* Updated system boost framework for smoother transitions and scrolls
+* Fixed keyboard issue with GameSpace
+* Added Dolby Support
+* Better ram management
+* Improved irq balance
+* Various improvements and fixes
+
 === 13-04-2025 =====
 
 * Fixed statusbar padding
