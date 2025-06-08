@@ -1,4 +1,32 @@
 ====================
+     06-09-2025
+====================
+
+   * device tree
+Improve burn-in protection
+Disable C2 CFI checks to fix systemui crash
+Enable multiple vibration strength levels
+Update from OS2.0.10.0 GLOBAL
+Disable speaker protection
+Add fast flag to deep buffer policy
+Fix screen record lag
+Drop parts doze service
+Enable doze auto brightness on aod
+Build bcr
+Fix dolby fully
+
+   * vendor tree
+Disable C2 CFI checks to fix systemui crash
+Fix dolby fully
+Update from OS2.0.10.0 GLOBAL
+
+   * kernel tree
+Update from OS2.0.10.0 GLOBAL
+
+   * source
+Sync to 11.6 update
+
+====================
      05-21-2025
 ====================
 
