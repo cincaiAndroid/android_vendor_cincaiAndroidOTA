@@ -3,6 +3,22 @@ Build type: Weekly
 Device: OnePlus 9 (lemonade)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 08 June, 2025 =====
+
+!!! WARNING WARNING WARNING !!!
+This update requires firmware 14.0.0.1901(EX01)
+Download firmware flash tool, boot to bootloader, install it then sideload crdroid.zip
+If had gapps, also reboot to recovery after crdroid.zip sideload and sideload gapps.zip as per update instructions
+
+- Initial crDroid 11.6
+- Updated security patches to June 2025
+- PixelPropsUtils: Remove gms spoof completely (it's been fun whilte it lasted I guess)
+- PixelPropsUtils: Spoof Delta force as ASUS ROG 6D
+- SystemUI: improve alignment between keyguard clock and date
+- bugfix: appropriately set quiet mode when being enabled/disabled
+- Some other small changes here and there
+- Updated translations
+
 ===== 18 May, 2025 =====
 
 - Fixed SystemUI crash caused by missing powershare hardware capability
