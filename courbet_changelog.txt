@@ -1,164 +1,176 @@
+====================
+     06-08-2025
 Build type: Monthly
 Device: Mi 11 Lite 4G (courbet,courbetin)
 Device maintainer: Melo Longo (melo159)
 Highlights & Device Specific Changes:
 
 ====================
-     13 May 2025
+     08 June 2025
 ====================
  
--Fixed charging
--Synced with crDroid sources
+-crDroid v11.6 update with June security patches
+-Fixed vibrator intensity setting
+-zram improvements
+-Generic hardware improvements
 More info below
 
 ====================
-     05-13-2025
-====================
-
-   * device/xiaomi/sm6150-common
-4897a42 sm6150-common: move health flags to select()
-
-   * frameworks/av
-5a587db camera: fixup! Add extension to control torch light strength
-
-   * frameworks/base
-6d8837797 New Crowdin updates (#1229)
-
-   * packages/apps/GameSpace
-8a4949d New Crowdin updates (#110)
-
-   * packages/apps/crDroidSettings
-0d0d213 New Crowdin updates (#1236)
-
-   * vendor/lineage
-2689605 crdroid: Bump to version 11.5
-
-====================
-     05-12-2025
-====================
 
    * android
-e2c7ec5 manifest: Track hardware/google/pixel
+16d3ee2 Merge 'lineage-22.2' into 15.0
 
-   * bootable/recovery
-28f76bd Merge 'lineage-22.2' into 15.0
+   * art
+8ab45cb Reduce severity of 'cannot load the jdwp agent' logs to remove spam
 
    * build/make
-4607f91 build: disable memory tagging for surfaceflinger
+c6c5034 build: disable memory tagging for surfaceflinger
 
    * build/soong
-6d448e5 Add LDFlags for FSAFDO
+fe208be Merge 'lineage-22.2' into 15.0
 
    * device/lineage/sepolicy
-7b71574 Merge 'lineage-22.2' into 15.0
+66113cf Merge 'lineage-22.2' into 15.0
 
-   * device/xiaomi/courbet
-45791b5 courbet: migrate libinit to select()
+   * device/qcom/sepolicy_vndr/legacy-um
+81b4a3f sepolicy: trinket: Label odm partitions for fastbootd
 
-   * frameworks/native
-63ffb29 Add prefix and suffix to restrict iteration to optimize search efficiency
+   * device/xiaomi/sm6150-common
+7fcebf480 sm6150-common: sepolicy: Label UFS discard_max_bytes
+ba106ad59 sm6150-common: sepolicy: Allow init script access proc
+5dd4e5d30 sm6150-common: lmkd: kill heaviest task instead of any eligible task
+69b05c4e5 sm6150-common: Setup zram with post-boot script
+0e4a6be14 sm6150-common: rootdir: Configure buffered background throttling
+2c7a33936 sm6150-common: sepolicy: Allow parts to set haptic intensity
+37f0fdfe4 sm6150-common: sepolicy: Allow parts to modify thermal config
+4304dc5f7 sm6150-common: Set display props from stock
+535561ed4 sm6150-common: Add back camera aux and privapp props
+bbf129687 sm6150-common: rootdir: Switch to lmkd
+54281ff02 sm6150-common: Disable zram writeback
+79acdbdbd sm6150-common: Don't latch unsignal buffers
+32951617a sm6150-common: Use appropriate arch setup
+dfa04fd4d sm6150-common: livedisplay: Migrate to select()
 
-   * hardware/google/pixel
-36f31de libperfmgr: silence spammy write failures
+   * frameworks/av
+ca61cd1 Merge 'lineage-22.2' into 15.0
+
+   * frameworks/base
+6b0a08303 New Crowdin updates (#1230)
 
    * hardware/interfaces
-1fc083d5 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/Dialer
-486dbe0 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/DocumentsUI
-163cb21 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/Messaging
-65ae583 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/Settings
-1771b04 Settings: Add support for disabling non-system apps
-
-   * packages/apps/SetupWizard
-5c5d265 SetupWizard: Handle navbar and hw keys
-
-   * packages/apps/ThemePicker
-49d20de Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/Updater
-6859e8a Updater: Remove cryptographic signature verification for local updates
-
-   * packages/inputmethods/LatinIME
-865b6c0 Merge 'lineage-22.2' into 15.0
-
-   * packages/modules/Bluetooth
-4136da7 Merge 'lineage-22.2' into 15.0
-
-   * packages/modules/Wifi
-42c575b Merge 'lineage-22.2' into 15.0
-
-====================
-     05-11-2025
-====================
-
-====================
-     05-10-2025
-====================
-
-   * hardware/lineage/interfaces
-12709a5 powershare: Convert to AIDL
-
-   * packages/services/Iwlan
-83bd433 Remove android.net.ipsec.ike uses-library tag
-
-====================
-     05-09-2025
-====================
-
-   * hardware/qcom-caf/common
-fe3b092 qcom: Pass TARGET_KERNEL_VERSION to qtidisplay
-
-====================
-     05-08-2025
-====================
-
-====================
-     05-07-2025
-====================
-
-   * frameworks/opt/telephony
-065fa91 Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+3f498b8 Merge 'lineage-22.2' into 15.0
 
    * lineage-sdk
-cab40aa ChargingControl: Prevent crash against null provider
+25f872e ChargingControl: Prevent crash against null provider
+
+   * packages/apps/Dialer
+8a066a3 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/LineageParts
+c8ed292 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/ManagedProvisioning
+8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
+
+   * packages/apps/Settings
+144d4ba Settings: Use M3 slider for discrete seekbars
+
+   * packages/apps/SetupWizard
+aabcae7 SetupWizard: Handle navbar and hw keys
+
+   * packages/apps/Updater
+df3ffd1 Updater: Remove cryptographic signature verification for local updates
+
+   * packages/inputmethods/LatinIME
+6253d1e Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Bluetooth
+edf3087 Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Connectivity
+42f7754 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
 
    * packages/modules/Permission
-ed11e0d Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
+
+   * vendor/lineage
+23debc5 crdroid: Bump to version 11.6
 
 ====================
-     05-06-2025
+     06-07-2025
+====================
+
+   * packages/apps/Twelve
+6ed5659 Twelve: Fix hashed token authentication for Subsonic
+
+====================
+     06-06-2025
+====================
+
+   * frameworks/native
+37680c3 Fix the bug of priority of binder thread in the SurfaceFlinger process.
+
+   * hardware/qcom-caf/sm8450/audio/pal
+93afa07 PayloadBuilder: Fix retrieving KVs with a custom config
+
+====================
+     06-05-2025
+====================
+
+   * packages/apps/Gallery2
+c17bdc2 Gallery2: Change harcoded toast string to a resource
+
+====================
+     06-04-2025
 ====================
 
    * build/release
-be57613 Update build flags to BP1A.250505.005
+c799ee4 Bump Security String to 2025-06-01
 
-   * hardware/qcom/sdm845/gps
-e2b4788 gps: Avoid access of deprecated LocUnorderedSetMap entry
-
-   * hardware/qcom/sm7250/gps
-17b95f9 gps: Avoid access of deprecated LocUnorderedSetMap entry
-
-   * hardware/qcom/sm8150/gps
-537a8b1 gps: Avoid access of deprecated LocUnorderedSetMap entry
+   * device/xiaomi/sm6150-common
+f7040cc15 sm6150-common: sepolicy: remove duplicate IR rules
 
 ====================
-     05-05-2025
+     06-03-2025
 ====================
 
-   * hardware/xiaomi
-1b34926 dolby: Make sure to persist value after toggling QS tile
-
 ====================
-     05-04-2025
+     06-02-2025
 ====================
 
-   * packages/apps/LineageParts
-4153ec8 Disable unused components
+   * packages/apps/Aperture
+35d0282 Automatic translation import
+
+   * vendor/crowdin
+6179702 Automatic translation import
+
+====================
+     06-01-2025
+====================
+
+   * device/xiaomi/courbet
+287b633 courbet: switch to common AIDL IR service
+
+   * kernel/configs
+f735538 Align s/android-4.14 with s/android-4.19
+
+   * packages/apps/FMRadio
+fcedf0c FMRadio: Fix press and hold media rewind keys
+
+====================
+     05-31-2025
+====================
+
+   * hardware/lineage/interfaces
+6fe451f Merge 'lineage-22.2' into 15.0
+
+====================
+     05-30-2025
+====================
+
+   * packages/apps/GameSpace
+a3e6025 New Crowdin updates (#111)
+
+   * packages/apps/crDroidSettings
+b83411f New Crowdin updates (#1237)
 
