@@ -4,6 +4,14 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, MIUI_users_r_GAY, flakeforever, Adrianyyyy *
 
+===== 08/06/2025 =====
+- Add support for Dolby spatial audio
+- Sepolicy: fix some denials
+- crdroid: Bump to version 11.6
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 01/06/2025 =====
 - Update blobs and firmware from OS2.0.7.0.VMNMIXM
 - common: Update blobs from diting OS2.0.2.0.VLFMIXM
