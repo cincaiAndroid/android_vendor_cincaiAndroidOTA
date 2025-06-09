@@ -4,6 +4,14 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 06-09-2025 =====
+- Update to crDroid 11.6
+- Define TEGRA_NVMAP for drivers using nvmap
+- backlight: pwm_bl: Fix return value of notify function
+- UPSTREAM: loop: add ioctl for changing logical block size
+- UPSTREAM: loop: Add LOOP_SET_BLOCK_SIZE in compat ioctl
+- update to r35.6.1
+
 ===== 05-11-2025 =====
 - Update to crDroid 11.5
 - uscript: improve ddr200 detection and enabling
