@@ -3,6 +3,9 @@ Build type: Monthly
 Device: Nothing Phone (1) (Spacewar)
 Device maintainer: Simone Esposito (DarkJoker360)
 
+===== 09 June, 2025 =====
+* Merged June 2025 security patches
+
 ===== 19 May, 2025 =====
 * Merged May 2025 security patches
 
