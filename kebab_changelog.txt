@@ -4,12 +4,23 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     31-05-2025
+     10-06-2025
 ====================
  
-- Add Aperture cam
-- Remove OOS cam
-- Remove OplusExtra
-- PixelPropsUtils: Use spoof props for play store
-
-
+- Initial crDroid 11.6
+- Updated security patches to June 2025
+- Added: Allow hiding navigation IME bar
+- Fix: After connecting the Bluetooth earphones and projecting the screen, music will play from the earphones. At this point, disconnect the earphones, click play, and the projection will be silent
+- Fix EglFramebuffer leak
+- Fix grant dialer default permissions on early boot
+- Fix the system server restart issue caused by the fingerprint framework
+- Fix: After booting, the networkwatchlistservice will perform a summary scan of the system apk, generating a large number of I/O operations and causing ANR
+- PixelPropsUtils: Remove gms spoof completely (it's been fun whilte it lasted I guess)
+- PixelPropsUtils: Spoof Delta force as ASUS ROG 6D
+- SystemUI: improve alignment between keyguard clock and date
+- Fix app not starting after clearing storage
+- Fix ArrayIndexOfBoundsException in WallpaperManagerService
+- bugfix: appropriately set quiet mode when being enabled/disabled
+- ClockEventController: fix clock plugins animation
+- Some other small changes here and there
+- Updated translations
