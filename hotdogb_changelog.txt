@@ -4,6 +4,20 @@ Device: OnePlus 7T (hotdogb)
 Device maintainer: Hasan Okarci (frazerecho)
 
 
+===== 20250611 =====
+- Initial crDroid 11.6
+- Updated security patches to June 2025
+- PixelPropsUtils: Removed GMS spoof completely
+- PixelPropsUtils: Spoof Delta force as ASUS ROG 6D
+- Fixed some BT playback issues in some specific use cases
+- Launcher3: fix cloned apps not appearing in app drawer
+- Stop dreaming if global button is a wake key (should fix wake screen in some cases)
+- SystemUI: improve alignment between keyguard clock and date
+- Appropriately set Quiet Mode when being enabled/disabled
+- Some other small changes here and there
+- Updated translations
+
+
 ===== 20250513 =====
 
 We will use KernelSU from @rsuntk from now on
@@ -179,3 +193,4 @@ https://github.com/rifsxd/KernelSU-Next/releases
 
 ===== 20241215 =====
 - Initial Release
+
