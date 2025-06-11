@@ -3,6 +3,30 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 11 June, 2025 =====
+- Firmware is removed download from the download page only hos2 firmware
+- latest orange fox is compulsory to be used available on download page
+- use 29_May ksunext file from install documents
+- dirty flashable from 11.2 newer updates
+- Includes Powertools,dolbyAtmos,gamebar,DolbyVison
+- Switch to Touch AIDL
+- Add support for Dolby spatial audio
+- BT: Import LDAC and LHDC prebuilts
+- Enable HWUI adpf
+- init: Make less cores available for background tasks
+- Enable Client Composition Cache
+- zram: Add writeback properties
+- init: Configure max values for background and dex2oat groups
+- Add dual AP/STA to wifi hal interface combinations
+- udfps: s/hander/handler
+- Commonize adreno gmu and sqe firmware
+- Copy media related audio configs from audio hal
+- Disable lhbm on most acquired events
+- Update common blobs from diting OS2.0.2.0.VLFMIXM
+- sepolicy: Allow fingerprint hal to read system dmabuf device
+- switch to common AIDL IR service
+- sepolicy: Allow fingeprint hal to get SYS_NICE capability
+
 ===== 12 May, 2025 =====
 - Firmware is removed download from the download page only hos2 firmware
 - latest orange fox is compulsory to be used available on download page

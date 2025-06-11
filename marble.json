@@ -4,13 +4,13 @@
             "maintainer": "Chaitanya",
             "oem": "Poco",
             "device": "Poco F5",
-            "filename": "crDroidAndroid-15.0-20250512-marble-v11.5.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/marble/11.x/crDroidAndroid-15.0-20250512-marble-v11.5.zip/download",
-            "timestamp": 1747036911,
-            "md5": "a48db5b01e5a31e7124005710529f307",
-            "sha256": "8128b54b335d7f32f240e7ab381f8140d0f0e48a334488b7be7e76f0899e835f",
-            "size": 2035784541,
-            "version": "11.5",
+            "filename": "crDroidAndroid-15.0-20250611-marble-v11.6.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/marble/11.x/crDroidAndroid-15.0-20250611-marble-v11.6.zip/download",
+            "timestamp": 1749646073,
+            "md5": "7581211ff587ece1945692c281beead3",
+            "sha256": "b1ec279e1cc0eefd7f9b8c399183eea36f63759e0567c82e17916be0c35d7086",
+            "size": 2044259847,
+            "version": "11.6",
             "buildtype": "Monthly",
             "forum": "https://xdaforums.com/t/rom-android-14-official-redmi-note-12t-poco-f5-crdroid-v11-x.4688667/",
             "gapps": "https://nikgapps.com/crdroid-official",
@@ -22,7 +22,7 @@
             "telegram": "https://t.me/Chaitanyabuilds",
             "dt": "https://github.com/crdroidandroid/android_device_xiaomi_marble",
             "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8450-common",
-            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8450"
+            "kernel": "https://github.com/LineageOS/android_kernel_xiaomi_sm8450"
         }
     ]
 }
