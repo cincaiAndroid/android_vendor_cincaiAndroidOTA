@@ -3,6 +3,17 @@ Build type: Monthly
 Device: Redmi 4A/5A (rova)
 Device maintainer: Max (iusmac)
 
+===== 11/06/2025 =====
+- Synced with crDroid 11.6 sources (June security patches).
+  Read official changelog:
+  * https://crdroid.net/blog/2025-06-08-crDroid-11.6-is-now-ready
+- Upgraded kernel to 4.19.325-5.4-iusmac
+- Upgraded built-in KernelSU-Next module to v12602 (v1.0.7)
+- Upgraded built-in susfs4ksu module to v1.5.7
+- Fixed resetting of the "Disable HW keys" option after reboot
+- Some minor fixes and improvements
+- Updated translations
+
 ===== 18/05/2025 =====
 - Synced with crDroid 11.5 sources (May security patches).
   Read official changelog:
