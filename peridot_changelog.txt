@@ -5,6 +5,31 @@ Device maintainer: Vikas (Vikas_2_0)
 Required firmware: Android 15 HOS 2.0.xxx
 
 
+
+====================
+     11-06-2025
+====================
+- Initial crDroid 11.6
+- Updated security patches to June 2025
+- Added: Allow hiding navigation IME bar
+- Launcher3: fix cloned apps not appearing in app drawer
+- Fix: After connecting the Bluetooth earphones and projecting the screen, music will play from the earphones. At this point, disconnect the earphones, click play, and the projection will be silent
+- Fix EglFramebuffer leak
+- Fix grant dialer default permissions on early boot
+- Fix the system server restart issue caused by the fingerprint framework
+- Fix: After booting, the networkwatchlistservice will perform a summary scan of the system apk, generating a large number of I/O operations and causing ANR
+- PixelPropsUtils: Remove gms spoof completely (it's been fun whilte it lasted I guess)
+- PixelPropsUtils: Spoof Delta force as ASUS ROG 6D
+- SystemUI: improve alignment between keyguard clock and date
+- bugfix: appropriately set quiet mode when being enabled/disabled
+- Some other small changes here and there
+- Updated translations
+- Updated blobs v2.0.104
+- dropsome powerhint changes 
+
+
+
+
 ====================
      02-06-2025
 ====================
