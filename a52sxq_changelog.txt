@@ -4,23 +4,54 @@ Device: Samsung Galaxy A52s 5G (a52sxq)
 Device maintainer: Nguyen Phong
 
 ====================
-     06-09-2025
+     06-12-2025
 ====================
-   * Update to crDroid 11.6
+   * Fix blur effects
    
-   * June 2025 Security Update
-   
-   * device/samsung/a52sxq
-e1e7272 a52sxq: enable blur effects
+   * external/chromium-webview/prebuilt/arm
+1cdf79d Update Chromium Webview arm to 137.0.7151.72
 
-   * device/samsung/sm7325-common
-f94acb8 sm7325-common: Include Sony Dolby Atmos
+   * external/chromium-webview/prebuilt/arm64
+f8bab97 Update Chromium Webview arm64 to 137.0.7151.72
+
+   * external/chromium-webview/prebuilt/x86
+eba5d0e Update Chromium Webview x86 to 137.0.7151.72
+
+   * external/chromium-webview/prebuilt/x86_64
+d71e61c Update Chromium Webview x86_64 to 137.0.7151.72
 
    * frameworks/base
 b1ba9601a PixelPropsUtils: Remove recent pixel spoofing for gms and play store
 
    * packages/apps/crDroidSettings
 2acf582 crdroid: Remove PIF spoof toggle
+
+====================
+     06-11-2025
+====================
+
+====================
+     06-10-2025
+====================
+
+====================
+     06-09-2025
+====================
+
+   * device/samsung/sm7325-common
+144dd69 sm7325-common: enable blur effects
+
+   * external/chromium-webview/patches
+85e1f86 Update Chromium Webview to 137.0.7151.72
+
+   * frameworks/base
+2b39e3a1d Fix check for pinned shortcut in ShortcutRequestPinProcessor
+
+   * hardware/qcom-caf/sm8450/audio/pal
+4d950a5 pal: Parse LVACFS microphone feature parameter
+
+   * lineage/scripts
+c55758c build-webview: Update default webview to 137.0.7151.72
 
 ====================
      06-08-2025
@@ -44,9 +75,6 @@ fe208be Merge 'lineage-22.2' into 15.0
    * frameworks/av
 ca61cd1 Merge 'lineage-22.2' into 15.0
 
-   * hardware/google/pixel-sepolicy
-bb25323 touch: Migrate to AIDL
-
    * hardware/interfaces
 3f498b8 Merge 'lineage-22.2' into 15.0
 
@@ -68,6 +96,9 @@ aabcae7 SetupWizard: Handle navbar and hw keys
    * packages/apps/Updater
 df3ffd1 Updater: Remove cryptographic signature verification for local updates
 
+   * packages/apps/crDroidSettings
+2acf582 crdroid: Remove PIF spoof toggle
+
    * packages/inputmethods/LatinIME
 6253d1e Merge 'lineage-22.2' into 15.0
 
@@ -84,6 +115,15 @@ c26036c Revert "crdroid: Include vendor/certification when available"
    * device/qcom/sepolicy_vndr/legacy-um
 81b4a3f sepolicy: trinket: Label odm partitions for fastbootd
 
+   * device/samsung/a52sxq
+e1e7272 a52sxq: enable blur effects
+
+   * hardware/google/pixel-sepolicy
+bb25323 touch: Migrate to AIDL
+
+   * hardware/qcom-caf/sm8450/audio/primary-hal
+659f51d hal: Add LVACFS microphone feature
+
    * packages/apps/ManagedProvisioning
 8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
 
@@ -99,9 +139,6 @@ df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
 ====================
      06-06-2025
 ====================
-
-   * hardware/qcom-caf/sm8450/audio/pal
-93afa07 PayloadBuilder: Fix retrieving KVs with a custom config
 
 ====================
      06-05-2025
@@ -129,34 +166,4 @@ e43f5b1 visualizer: do not use GNU old-style field designators
 ====================
      06-03-2025
 ====================
-
-====================
-     06-02-2025
-====================
-
-   * hardware/dolby
-9e66f09 dolby: Update readme
-
-   * packages/apps/Aperture
-35d0282 Automatic translation import
-
-   * vendor/crowdin
-6179702 Automatic translation import
-
-====================
-     06-01-2025
-====================
-
-   * kernel/configs
-f735538 Align s/android-4.14 with s/android-4.19
-
-   * packages/apps/FMRadio
-fcedf0c FMRadio: Fix press and hold media rewind keys
-
-====================
-     05-31-2025
-====================
-
-   * hardware/lineage/interfaces
-6fe451f Merge 'lineage-22.2' into 15.0
 
