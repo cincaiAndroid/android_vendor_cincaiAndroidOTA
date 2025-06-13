@@ -1,4 +1,16 @@
 ====================
+     06-13-2025
+====================
+
+* v11.6 update.
+* June securtiy patch.
+* Updating via OTA is fine but still backup your data before attempting.
+* Switched to Fusion-X kernel (with ksu-next).
+* Added back task profiles.
+* Adjust display cutout to remove unnecessary space around front camera.
+* And quite a few changes on trees.
+
+====================
      05-12-2025
 ====================
 
