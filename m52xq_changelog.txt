@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Samsung M52 5G (m52xq)
 Device maintainer: tilt-rgb
 
+===== 14 June, 2025 =====
+
+- Dropped susfs,due to instability issues, only KernelSU-Next integrated now with manual hooks for now.
+- CrDroid 11.6 Latest Sources
+
 ===== 20 May, 2025 =====
 
 - Finally fixed VOIP calls, (tested in telegram,whatsapp and discord)
