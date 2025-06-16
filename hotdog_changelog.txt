@@ -3,6 +3,20 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250616 =====
+!!! Attention !!!
+Now we will use a KernelSU Next.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Switch KernelSU rsuntk fork to KernelSU Next with SUSFS v1.5.7
+- Fixing many problems of the previous version
+- Updated translations
+
 ===== 20250609 =====
 - Initial crDroid 11.6
 - Updated security patches to June 2025
