@@ -6,6 +6,19 @@ Device maintainer: Nikhil (naruto242)
 Highlights & Device Specific Changes:
 
 ==================================
+16th June, 2025
+
+* Initial crDroid 11.6
+* Updated security patches to June 2025
+* PixelPropsUtils: Remove gms spoof completely (it's been fun whilte it lasted I guess)
+* PixelPropsUtils: Spoof Delta force as ASUS ROG 6D
+* SystemUI: improve alignment between keyguard clock and date
+* Updated translations
+* Kernel: Charging Improvements
+* phoenix: switch to common AIDL IR service
+* sm6150-common: sepolicy: remove duplicate IR rules
+
+==================================
 27th May, 2025
 
 * sm6150-common: gps: Avoid access of deprecated LocUnorderedSetMap entry
