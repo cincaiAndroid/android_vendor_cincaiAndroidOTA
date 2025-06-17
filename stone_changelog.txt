@@ -6,6 +6,16 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 16-06-2025 =====
+
+* Initial crDroid 11.6
+* Updated security patches to June 2025
+* stone: Rebase device tree
+* stone: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+* stone: Set 60Hz max refresh rate on AOD & Ambient Display
+* stone: Don't latch unsignal buffers
+* Various fixes and improvements
+
 ===== 14-05-2025 =====
 
 * stone: Fixed DT2W on AOD
