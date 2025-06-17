@@ -1,18 +1,15 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Samsung Galaxy S10e (<beyond0>)
-Device maintainer: Pedro Araujo (pxdrx)
+Device maintainer: Pedro Araujo (piekkusu)
 
 ====================
-     16-04-2025
+     17-06-2025
 ====================
-
-- Bump to crDroid 11.4
-- Android April 2025 Security Update
-- Fixed an issue with 3-btn-nav layout crashing
-- crDroid Home updates
-- Add notification and powermenu styles
-- Misc improvements 
+- Update to crDroid 11.6 (06/2025 ASB)
+- FrEeRuNnErKeRnEl-v2.6+ + KernelSU Next
+- Fix app start need to click twice
+- Fix bootloop at first boot
 - Updated translations
 
 ====================
