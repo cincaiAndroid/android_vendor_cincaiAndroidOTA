@@ -7,6 +7,16 @@ note:
     * Firmware Flash is Mandatory
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+====== 18-06-2025 =====
+* Update blobs to OS2.0.3.0.UMSMIXM
+* Move to OSS SoundTrigger HAL
+* Gamebar added (huh ;)
+* Add xiaomi mdss display config
+* Move audio_tuning_mixer.txt to proprietary repo
+* Scarlet v2.0 with ksu
+* Switched to sony dolby (with moto ui)
+* Much more chack it out your self
+
 ====== 14-05-2025 =====
 * Implement Torch Light Brightness Control
 * fixup audio mismatch
