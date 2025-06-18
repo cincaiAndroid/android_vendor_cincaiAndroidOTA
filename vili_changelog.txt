@@ -7,6 +7,9 @@ Note:
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
     * Ensure you are on latest available firmware for your device.
 
+Changelog:18/06/2025
+- you know
+
 Changelog:17/05/2025
 - Android May 2025 Security Update
 - Dolby vision
