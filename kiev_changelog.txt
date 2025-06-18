@@ -3,6 +3,14 @@ Build type: Weekly
 Device: Motorola Moto G 5G
 Device maintainer: tilt-rgb
 
+== 18 June , 2025 =====
+
+- Synced latest crdroid 11.6 changes
+- Switch to Motorola Dolby
+- Dropped susfs,switched to backslashxx ksu, download manager here: https://github.com/backslashxx/KernelSU/releases
+- Rebased in LOS tree's
+- Last update from me :/
+
 == 12 April , 2025 =====
 
 -crDroid v11.4 with April 2025 security patches
