@@ -1,176 +1,131 @@
-====================
-     06-08-2025
 Build type: Monthly
 Device: Mi 11 Lite 4G (courbet,courbetin)
 Device maintainer: Melo Longo (melo159)
 Highlights & Device Specific Changes:
 
 ====================
-     08 June 2025
+     19 June 2025
 ====================
- 
--crDroid v11.6 update with June security patches
--Fixed vibrator intensity setting
--zram improvements
--Generic hardware improvements
+     
+-Fixed stuck-on-bootlogo issue
+-Tons of sepolicy denials fixes. Now we have a pruned log
 More info below
 
 ====================
-
-   * android
-16d3ee2 Merge 'lineage-22.2' into 15.0
-
-   * art
-8ab45cb Reduce severity of 'cannot load the jdwp agent' logs to remove spam
-
-   * build/make
-c6c5034 build: disable memory tagging for surfaceflinger
-
-   * build/soong
-fe208be Merge 'lineage-22.2' into 15.0
-
-   * device/lineage/sepolicy
-66113cf Merge 'lineage-22.2' into 15.0
-
-   * device/qcom/sepolicy_vndr/legacy-um
-81b4a3f sepolicy: trinket: Label odm partitions for fastbootd
-
-   * device/xiaomi/sm6150-common
-7fcebf480 sm6150-common: sepolicy: Label UFS discard_max_bytes
-ba106ad59 sm6150-common: sepolicy: Allow init script access proc
-5dd4e5d30 sm6150-common: lmkd: kill heaviest task instead of any eligible task
-69b05c4e5 sm6150-common: Setup zram with post-boot script
-0e4a6be14 sm6150-common: rootdir: Configure buffered background throttling
-2c7a33936 sm6150-common: sepolicy: Allow parts to set haptic intensity
-37f0fdfe4 sm6150-common: sepolicy: Allow parts to modify thermal config
-4304dc5f7 sm6150-common: Set display props from stock
-535561ed4 sm6150-common: Add back camera aux and privapp props
-bbf129687 sm6150-common: rootdir: Switch to lmkd
-54281ff02 sm6150-common: Disable zram writeback
-79acdbdbd sm6150-common: Don't latch unsignal buffers
-32951617a sm6150-common: Use appropriate arch setup
-dfa04fd4d sm6150-common: livedisplay: Migrate to select()
-
-   * frameworks/av
-ca61cd1 Merge 'lineage-22.2' into 15.0
-
-   * frameworks/base
-6b0a08303 New Crowdin updates (#1230)
-
-   * hardware/interfaces
-3f498b8 Merge 'lineage-22.2' into 15.0
-
-   * lineage-sdk
-25f872e ChargingControl: Prevent crash against null provider
-
-   * packages/apps/Dialer
-8a066a3 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/LineageParts
-c8ed292 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/ManagedProvisioning
-8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-   * packages/apps/Settings
-144d4ba Settings: Use M3 slider for discrete seekbars
-
-   * packages/apps/SetupWizard
-aabcae7 SetupWizard: Handle navbar and hw keys
-
-   * packages/apps/Updater
-df3ffd1 Updater: Remove cryptographic signature verification for local updates
-
-   * packages/inputmethods/LatinIME
-6253d1e Merge 'lineage-22.2' into 15.0
-
-   * packages/modules/Bluetooth
-edf3087 Merge 'lineage-22.2' into 15.0
-
-   * packages/modules/Connectivity
-42f7754 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-   * packages/modules/Permission
-df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-   * vendor/lineage
-23debc5 crdroid: Bump to version 11.6
-
-====================
-     06-07-2025
-====================
-
-   * packages/apps/Twelve
-6ed5659 Twelve: Fix hashed token authentication for Subsonic
-
-====================
-     06-06-2025
-====================
-
-   * frameworks/native
-37680c3 Fix the bug of priority of binder thread in the SurfaceFlinger process.
-
-   * hardware/qcom-caf/sm8450/audio/pal
-93afa07 PayloadBuilder: Fix retrieving KVs with a custom config
-
-====================
-     06-05-2025
-====================
-
-   * packages/apps/Gallery2
-c17bdc2 Gallery2: Change harcoded toast string to a resource
-
-====================
-     06-04-2025
-====================
-
-   * build/release
-c799ee4 Bump Security String to 2025-06-01
-
-   * device/xiaomi/sm6150-common
-f7040cc15 sm6150-common: sepolicy: remove duplicate IR rules
-
-====================
-     06-03-2025
+     06-19-2025
 ====================
 
 ====================
-     06-02-2025
+     06-18-2025
 ====================
 
-   * packages/apps/Aperture
-35d0282 Automatic translation import
-
-   * vendor/crowdin
-6179702 Automatic translation import
-
 ====================
-     06-01-2025
+     06-17-2025
 ====================
 
-   * device/xiaomi/courbet
-287b633 courbet: switch to common AIDL IR service
-
-   * kernel/configs
-f735538 Align s/android-4.14 with s/android-4.19
-
-   * packages/apps/FMRadio
-fcedf0c FMRadio: Fix press and hold media rewind keys
-
-====================
-     05-31-2025
-====================
-
-   * hardware/lineage/interfaces
-6fe451f Merge 'lineage-22.2' into 15.0
-
-====================
-     05-30-2025
-====================
+   * hardware/google/pixel
+daf63cf Merge 'lineage-22.2' into 15.0
 
    * packages/apps/GameSpace
-a3e6025 New Crowdin updates (#111)
+39f5e21 New translations (#112)
+
+   * packages/apps/Launcher3
+2aece1c New Crowdin updates (#494)
 
    * packages/apps/crDroidSettings
-b83411f New Crowdin updates (#1237)
+9ffac40 New Crowdin updates (#1240)
+
+====================
+     06-16-2025
+====================
+
+   * frameworks/base
+ce00fe832 Stop watching for system property changes when all view is removed.
+
+   * hardware/qcom-caf/sm8450/display
+3559c46 sdm: mark FOD pressed layer by setting a bit on ZPOS
+
+   * packages/apps/Contacts
+15fd96e Revert "Add README with details about the status of support for this app"
+
+====================
+     06-15-2025
+====================
+
+   * lineage-sdk
+597d598 ChargingControl: Prevent crash against null provider
+
+   * lineage/scripts
+d373893 add-repo: Reduce indent to 2 spaces
+
+   * packages/apps/Aperture
+1676229 Automatic translation import
+
+   * packages/apps/Camelot
+82ccdb3 Automatic translation import
+
+   * packages/apps/Catapult
+52af81a Automatic translation import
+
+   * packages/apps/DeskClock
+4c237b4 Automatic translation import
+
+   * packages/apps/FlipFlap
+bbf2703 Automatic translation import
+
+   * packages/apps/Jelly
+531ff09 Automatic translation import
+
+   * packages/apps/LineageParts
+b4378ac Disable unused components
+
+   * packages/apps/Twelve
+f3240ef Automatic translation import
+
+   * packages/resources/devicesettings
+a0b65b9 Automatic translation import
+
+   * vendor/addons
+8688b655 addons: sysconfig: Add xml for initial state of packages
+
+   * vendor/crowdin
+1ec53f7 Automatic translation import
+
+====================
+     06-14-2025
+====================
+
+====================
+     06-13-2025
+====================
+
+====================
+     06-12-2025
+====================
+
+   * device/xiaomi/sm6150-common
+1ae0453 sm6150-common: sepolicy: allow priv_app to read system_data_file
+
+====================
+     06-11-2025
+====================
+
+====================
+     06-10-2025
+====================
+
+   * external/chromium-webview/prebuilt/arm
+1cdf79d Update Chromium Webview arm to 137.0.7151.72
+
+   * external/chromium-webview/prebuilt/arm64
+f8bab97 Update Chromium Webview arm64 to 137.0.7151.72
+
+   * external/chromium-webview/prebuilt/x86
+eba5d0e Update Chromium Webview x86 to 137.0.7151.72
+
+   * external/chromium-webview/prebuilt/x86_64
+d71e61c Update Chromium Webview x86_64 to 137.0.7151.72
+
+   * hardware/qcom-caf/common
+7d3f8e2 common: Pass TARGET_BOARD_PLATFORM as a kernel flag
 
