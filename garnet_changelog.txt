@@ -1,4 +1,34 @@
 ====================
+     06-20-2025
+====================
+
+   * device tree
+Drop bcr
+Drop viper4
+Fİx systemui crash
+Fix loud speaker on calling
+Fix proximity on calling
+Add debug IMS props to workaround CarrierConfig restrictions
+Add stereo out to supported VOIP RX channels
+Remove compress passthrough profile for HDMI
+Set valid and supported channel mask for earpiece
+Fİx dolby fully
+Add tr-TR language to dolby
+Label some denials
+Introduce PowerTools v3.0 (adjusting cpu and gpu mhzs and perf, powersafe etc presets for your usage)
+Adjust correctly power button location for correct unlock animation
+Fix mic issues in apps like WhatsApp
+Import audio_effets.conf and microphone_characteristics.xml from stock
+Workaround for voip audio routing issue using a monitoring service
+Address ril denials
+Add core control (disabling and opening cores)
+Add charging bypass toggle
+
+   * source
+Sync to latest
+Fix random bootloop issue
+
+====================
      06-09-2025
 ====================
 
