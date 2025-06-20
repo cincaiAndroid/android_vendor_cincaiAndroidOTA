@@ -3,6 +3,19 @@ Build type: Weekly
 Device: OnePlus 9 (lemonade)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 20 June, 2025 =====
+
+- Fixed random system hang on reboot
+- Added KernelSU Next v1.0.8 support
+- Removed SusFS support
+- Launcher3: Improve restart logic
+- Launcher3: SplitToWorkspaceController: Fix nullability crashes
+- Launcher3: Quickspace: Remove introduction logic
+- Launcher3: Quickspace: Avoid creating new random instance everytime
+- Moved Play/pause music playback gestures to Lineage implementation
+- Updated Chromium Webview to 137.0.7151.72
+- Updated translations
+
 ===== 08 June, 2025 =====
 
 !!! WARNING WARNING WARNING !!!
