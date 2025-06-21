@@ -1,10 +1,21 @@
 Highlights & Device Specific Changes:
-Build type:  BETA 
+Build type:  Monthly 
 Device: Google Pixel 7a (lynx)
 Device maintainer:Vikas (Vikas_2_0)
 
 Highlights & Device Specific Changes:
 ====================
+
+==================================
+21th June, 2025
+* Android June 2025 Security Update
+* System stability improvements
+* Reworked boost framework configuration
+* Fixed cloned apps not appearing in launcher
+* Added toggle to hide space under keyboard (gesture navigation settings)Add commentMore actions
+* Removed non-working integrity spoof
+* Added double tap / long touch key action for music play/pause
+
 
 =====================================
 21th April, 2025
