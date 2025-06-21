@@ -4,6 +4,20 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, MIUI_users_r_GAY, flakeforever, Adrianyyyy *
 
+===== 21/06/2025 =====
+- Update sukisu-ulta.img to match the latest changes
+- prop: Update blur props
+- sepolicy: Add rules for Alipay and system app functionality
+- Remove wifilearner HIDL entry from manifest
+- WIP: wlan: Apply xiaomi changes to wcnss config
+- wlan: Remove g_prefer_5g_scc_to_dbs
+- wlan: Use default value for assoc failure timeout
+- Migrate Dolby Vision to soong_config_set
+- Switch to Touch AIDL
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 08/06/2025 =====
 - Add support for Dolby spatial audio
 - Sepolicy: fix some denials
