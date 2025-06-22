@@ -4,81 +4,30 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     15-06-2025
+     22-06-2025
 ====================
  
-- Fix bootloop issue when frash install
-- Fix for kill app an after that start app 
+- QSAnimator: fix random crash
+- Fix splash screen retention issue during transferStartingWindow 
+- Fix the system server restart issue caused by the fingerprint framework
+- Fix ArrayIndexOfBoundsException in WallpaperManagerService
+- CachedAppOptimizer : Pageout File pages during system compaction
+- ActivityManagerService: delay on boot system compaction
+- ActivityManagerService: delay on boot system compaction
+- Remove ServiceRecord from restart list if restart is cancelled as unnecessary
 - SystemUI: Reset when sleeping state change
-- Fix potential crash issues.
 - DSR: Fix DSR when we have toast window
-- DSR: Fix broken DSR
-- ActiveServices: Add delayed service restart (DSR) due to app launch
-- CachedAppOptimizer: Initialize compactProfile and compactTime
-- CachedAppOptimizer: Fix persistent compact skipped
-- CachedAppOptimizer: Set thread group to background
 - SystemUI: clean heap memory on screen off
-- services: clean system_server heap memory on screen off
-- services: optimize memory on device wake
-- services: boost thread priority for critical locks
 - SystemUI: Implement SystemUIBoostFramework
+- Launcher3: QuickSpace: only set marquee effect when needed
+- Launcher3: QuickSpace: Remove expensive invalidate calls during onAnimationUpdate
+- dolby: Fix compilation error in TooltipIconButton
+- dolby: Add custom profile
+- dolby: Add icons for dolby profiles
+- dolby: Make bass enhancer available on speakers as well
+- dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background color
 - services: Implement exit app animation boost
 - services: Implement activity boost optimization
 - services: Implement transition boosting
-- ThemeOverlayApplier: Apply wifi and signal icon styles last
-- telephony: Trim warning log if app not installed
-- Fix wrong pid in event_log when native crash
-- Fix NPE in TextToSpeechManagerPerUserService
-- Fix NPE when IntentFilter doesn't have any data type.
-- core: appcloning: Enable app cloning building blocks by default
-- SystemUI: Add padding end to QS Customizer toolbar
-- SystemUI: fix orientation of keyguard slice view rows
-- SystemUI: Fix slice view widget padding
-- FooterActions: improve foreground services button style
-- SystemUI: VolumeDialog: Add toggle for haptic feedback [1/2]
-- SystemUI: VolumeDialog: Use settings observer for app volume
-- SystemUI: VolumeDialog: Make rows view GONE if not required
-- SystemUI: VolumeDialog: Add haptic feedback for per-app volume
-- SystemUI: ConfigurationControllerImpl: Avoid NullPointerException
-- SystemUI: Prevent systemui crash when resolving notif background
-- SystemUI: Fix IndexOutOfBoundsException in NotificationBackgroundView
-- SystemUI: VolumeDialog: Do not check previous state when updating rows
-- SystemUI: VolumeDialog: Fix up touchable region with per-app volume
-- Fix crash on light/dark theme toggle
-- Fix SystemUI crash when loading album art color
-- Media: Limit Max album artwork bitmap size
-- add workaround for BiometricService.SettingObserver system_server crash
-- SystemUI: fix a screenshot process crash in ScrollCaptureController
-- fix NPE system_server crash in F2fsUtils.getFilesRecursive()
-- SystemUI: Fix NullPointerException in updateFocusOverlayRadii for missing drawable layer
-- disable safe media volume management
-- audio: Fix A2DP volume issue with multiple outputs
-- Use IntArray instead of ArraySet<Integer> to store int lists
-- base: Implement 3-btn-nav layout settings [1/3]
-- SystemUI: Use raw weather conditions for english language
-- SystemUI: WeatherViewController: Fixes and improvements
-- Resources: don't crash the app if font is not found
-- Revert "toast: fix bg color not changing with theme change"
-- Support dark mode for default theme
-- Fix FMQ to use correct total duration
-- SystemUI: Dismiss screenshot window on touch outside
-- screenrecord: Set entire screenrecord as the default option
-- NavigationModeController: Silence log spam
-- SystemUI: add keyguard slice view to split shade layout
-- SystemUI: don't hide date text on lockscreen when media is playing
-- SystemUI: Catch NPE when creating slice provider
-- SliderHapticFeedbackProvider: Improve slider haptics
-- SystemUI: Remove more unnecessary smartspace spaces
-- SystemUI: Bring back smartspace start paddings to what they were before
-- SystemUI: Fix up large clock top margin with pixel-fw
-- SystemUI: Fix smartspace layout
-- SystemUI: Grant additional permissions for smartspace
-- SystemUI: Implement Reverse-engineered Smartspace
-- camera2: StreamConfigurationMap: add another constructor for MIUI camera on A15 QPR2
-- SystemUI: Disable edge gesture if navbar is disabled
-- SystemUI: Fix face unlock indication static calls
-- FaceUnlockImageView: Prevent statusBarStateController memory leak
-- GameSpaceManager: cleanup and improvements
-- GameSpaceManager: Rewrite and fix app detection issu
-- SystemUI: fix keyguard media section placement when split shade is used
+- services: Implement scroll gesture boosting
 
