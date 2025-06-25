@@ -1,3 +1,22 @@
+=== 25-06-2025 =====
+
+* Android June 2025 Security Update
+* System stability improvements
+* Reworked boost framework configuration
+* Fixed cloned apps not appearing in launcher
+* Added toggle to hide space under keyboard (gesture navigation settings)
+* Removed non-working integrity spoof
+* Added double tap / long touch key action for music play/pause
+* FIxed Gpay 
+* Fixed Screenrecorder
+* Fixed Voip Calls
+* Disabled Skia tracing by default
+* Enabled HWUI adpf
+* Zram tweaks 
+* Disabled art for debug
+* Misc improvements
+
+
 === 06-06-2025 =====
 
 * Android May 2025 Security Update
