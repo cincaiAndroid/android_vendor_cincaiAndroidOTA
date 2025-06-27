@@ -5,6 +5,17 @@ Device maintainer: Ionut (ionut)
 
 Highlights & Device Specific Changes:
 =====================================
+25th June, 2025
+===============
+ROM changes:
+• Android June 2025 Security Update
+• System stability improvements
+• Reworked boost framework configuration
+• Fixed cloned apps not appearing in launcher
+• Added toggle to hide space under keyboard (gesture navigation settings)
+• Removed non-working integrity spoof
+• Added double tap / long touch key action for music play/pause
+==============
 15th May, 2025
 ==============
 ROM changes:
