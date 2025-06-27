@@ -4,6 +4,17 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, MIUI_users_r_GAY, flakeforever, Adrianyyyy *
 
+===== 27/06/2025 =====
+- mondrian: Update blobs and firmware from OS2.0.8.0.VMNMIXM
+- sm8450-common: overlay: Drop ambient brightening/darkening thresholds
+- sm8450-common: overlay: Screen Brightening/Darkening thresholds update
+- sm8450-common: overlay: Convert screen brightening thresholds to ints
+- sm8450-common: overlay: Fine tune screen brightening thresholds
+- sm8450-common: overlay: Config overlay to support 2 physical slots
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 21/06/2025 =====
 - Update sukisu-ulta.img to match the latest changes
 - prop: Update blur props
