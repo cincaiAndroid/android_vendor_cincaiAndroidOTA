@@ -6,6 +6,12 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+29th Jun, 2025
+
+* Added ViperFX support
+* Improved performance
+
+==================================
 27th Jun, 2025
 
 * Android Jun 2025 Security Update
