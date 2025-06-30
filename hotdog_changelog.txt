@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250630 =====
+- KernelSU Next changes
+- Launcher3: QuickSpace: only set marquee effect when needed
+- Launcher3: QuickSpace: Remove expensive invalidate calls during onAnimationUpdate
+- Some other small optimizations
+- Updated translations
+
 ===== 20250616 =====
 !!! Attention !!!
 Now we will use a KernelSU Next.
