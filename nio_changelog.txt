@@ -1,3 +1,8 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Moto G100 (nio)
+Device maintainer: vullk4n
+
 ====================
      06-30-2025
 ====================
