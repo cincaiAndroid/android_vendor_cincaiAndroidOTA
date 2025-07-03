@@ -6,6 +6,14 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+03th Jul, 2025
+
+* Bring in default volume configurations
+* Import OEM audio edits
+* Config overlay to support 2 physical slots
+* Decommonize volume configurations
+
+==================================
 29th Jun, 2025
 
 * Added ViperFX support
