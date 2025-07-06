@@ -3,6 +3,12 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 06 July, 2025 =====
+
+- Added more Cloudflare and Quad9 Private DNS options
+- QSAnimator: fix random crash
+- Updated translations
+
 ===== 29 June, 2025 =====
 
 - Launcher3: QuickSpace: only set marquee effect when needed
