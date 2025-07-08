@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250708 =====
+- Added more Cloudflare and Quad9 Private DNS options
+- QSAnimator: fix random crash
+- Fix SELinux denials
+- Some other small changes here and there
+- Updated translations
+
 ===== 20250630 =====
 - KernelSU Next changes
 - Launcher3: QuickSpace: only set marquee effect when needed
