@@ -1,9 +1,22 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: OnePlus 11 5G (salami)
-Device maintainer: Pranav Vashi (neobuddy89)
+Device maintainer: JYR_RC
 
 Highlights & Device Specific Changes:
+
+==================================
+13th Jul, 2025
+
+* Sync sources on July 13, 2025
+* Fixed hiding pill navigation bar
+* Fixed high gloss on fod
+* Drop OnePlus settings
+* Copy media_codecs_vendor to media_codecs
+* Mount oplusreserve2 partition
+* Update fwk matrix for OOS 15.0.2
+* Remove extra configuration options for DTBs
+* Suggested changes for A16
 
 ==================================
 03th Jul, 2025
