@@ -3,7 +3,6 @@ Build type: Monthly
 Device: Samsung Galaxy A71 4G (a71)
 Device maintainer: intelgigabyte9299
 
-
 ====================
      07-10-2025
 ====================
