@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250715 =====
+- kernel: Multiple changes
+- kernel: KernelSU Next 1.0.9
+- Fix SELinux denials
+- Some other small changes here and there
+- Updated translations
+
 ===== 20250708 =====
 - Added more Cloudflare and Quad9 Private DNS options
 - QSAnimator: fix random crash
