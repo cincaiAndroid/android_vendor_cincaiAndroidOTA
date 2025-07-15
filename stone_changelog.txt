@@ -6,6 +6,20 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 14-07-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* stone: Update blobs from OS2.0.3.0.UMQMIXM
+* stone: switch to 5.4.293 oss kernel
+* stone: Relax timers for automatic refresh rate switching
+* stone: Use common libqti-perfd-client and power-libperfmgr
+* stone: switch to common AIDL IR service
+* stone: switch to NCM USB tethering
+* stone: Disable blur
+* Added more Cloudflare and Quad9 Private DNS options
+* QSAnimator: fix random crash
+* Various fixes and improvements
+
 ===== 16-06-2025 =====
 
 * Initial crDroid 11.6
