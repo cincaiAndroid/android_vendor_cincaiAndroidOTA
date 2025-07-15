@@ -4,20 +4,98 @@ Device: Xiaomi 13 Pro (Nuwa)
 Device maintainer: TheMysticle
 
 ====================
-     07-09-2025
+     07-16-2025
 ====================
 
 ROM Update:
 • Update to latest crDroid 11.6 Source
-• Updated KernelSU-Next
-• Added New Kernel Node For Controlling High Touch Polling
-• You Can Now Turn On High Touch Polling In Display Settings
+• Updated KernelSU-Next to 1.0.9
+• Removed Mi_Thermald SEPolicy to control charging speed
+• Fixed 120W Quick Charging (This adjusts itself based on your SOC and temperature)
+• Added HyperCharge setting to turn on and off 120W Charging
+• Added Wifi6 Support Overlay
+• Fixed SoterService
 
    * device/xiaomi/nuwa
-cf6786f nuwa: Build and configure xiaomi touch hal for High Touch Polling
+d90960e nuwa: Commonize Wifi Overlays
+
+   * device/xiaomi/sm8550-common
+96c4393b9 sm8550-common: XiaomiParts: Introduce HyperCharge Control
+270c651cc sm8550-common: sepolicy: Take away thermald write permissions for charging
+e1fdad167 sm8550-common: Import SoterService from diting OS2.0.3.0.VLFMIXM
+a5f1f0ce6 sm8550-common: overlay: Support Wifi6
+7bb68394c sm8550-common: Commonize Wifi Overlay
+d3c1a7f5d sm8550-common: Remove unused Android.mk
+
+   * kernel/xiaomi/sm8550
+02e3fe7563ff0 patches: Update KernelSU-Next Patch for KSU-Next 1.0.9
+
+====================
+     07-15-2025
+====================
+
+====================
+     07-14-2025
+====================
+
+   * packages/apps/LMOFreeform
+e62ecc3 Merge pull request #4 from tavukkdoner/15.0-4
+
+   * packages/apps/Launcher3
+959b825702 New translations (#497)
+
+   * packages/apps/TvSettings
+56deadcbd [TvSettings] fix PendingIntent conflict in RowBuilder actions
+6d202449a [TvSettings] Fix crash in pairing screen after standby resume
+25218ec8a AddAccessoryPreferenceFragment: Switch to Drawable.ConstantState caching
+2d583fd96 Respect WIFI_ALWAYS_REQUESTED setting
+
+   * packages/apps/crDroidSettings
+db15e9bd New Crowdin updates (#1243)
+
+====================
+     07-13-2025
+====================
+
+====================
+     07-12-2025
+====================
+
+   * frameworks/base
+120016257fed Revert "Asynchronous initialization of shader cache." This reverts commit bb18772fc749f19b262388cc37c475f1ded188e9. Creates jitters and unusual latency issues in streaming apps
+
+====================
+     07-11-2025
+====================
+
+   * kernel/xiaomi/sm8550
+872105336aa95 drivers: power: supply: qti_battery_charger: Align xm_property_id with stock
+38f4e8abf9071 drivers: power: supply: qti_battery_charger: Align xm_property_id with stock
+719570df3d5a4 drivers: power: supply: qti_battery_charger: Estimate the capacity using FG1_RSOC
+2e0705c3ed375 drivers: power: supply: qti_battery_charger: Return time to full in seconds
+d5bdbcbb4fb84 drivers: power: supply: qti_battery_charger: Return charge counter in uAh
+7c720b8da4301 drivers: power: supply: qti_battery_charger: Import Xiaomi changes
+7ec7d3cefda4d Return power: supply: revert qti_battery_charger to 9b2c6b811df508841ff2704e2baa680bfb68bf90
+
+====================
+     07-10-2025
+====================
+
+   * build/release
+80d2b3af Bump Security String to 2025-07-01
+
+   * device/qcom/sepolicy_vndr/sm8450
+f8d3dac4f taro: Label additional read_ahead_kb node
+
+   * device/xiaomi/nuwa
+09d275c nuwa: Build and configure xiaomi touch hal for High Touch Polling
 
    * kernel/xiaomi/sm8550
 58340a9cb36c1 input: touch: xiaomi_touch: Add sysfs node for high touch rate
+
+====================
+     07-09-2025
+====================
 
 ====================
      07-08-2025
@@ -28,6 +106,18 @@ cf6786f nuwa: Build and configure xiaomi touch hal for High Touch Polling
 fcfeeec26 sepolicy_vndr: kona: Label additional nodes
 b133fbc26 sepolicy_vndr: Fix extcon nodes
 f3dbdc1b1 sepolicy_vndr: Fix wakeup nodes
+
+   * external/chromium-webview/prebuilt/arm
+b263912 Update Chromium Webview arm to 138.0.7204.63
+
+   * external/chromium-webview/prebuilt/arm64
+f6f994f Update Chromium Webview arm64 to 138.0.7204.63
+
+   * external/chromium-webview/prebuilt/x86
+fff97d5 Update Chromium Webview x86 to 138.0.7204.63
+
+   * external/chromium-webview/prebuilt/x86_64
+248528f Update Chromium Webview x86_64 to 138.0.7204.63
 
    * packages/apps/Twelve
 db31b2c Twelve: Fix contrast issues on chip
@@ -42,6 +132,15 @@ b93c6c0 Twelve: Remove unused function
 
    * device/qcom/sepolicy_vndr/sm8450
 bbb6a83b2 Merge tag 'LA.VENDOR.1.0.r1-27600-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27600-WAIPIO.QSSI15.0
+
+   * device/qcom/sepolicy_vndr/sm8650
+9484e04a6 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
+
+   * external/chromium-webview/patches
+9cc3432 Update Chromium Webview to 138.0.7204.63
+
+   * external/libncurses
+cf8d1a3 Partially Reapply "libncurses: Add recovery variant"
 
    * frameworks/base
 ced12a4ff54a New translations (#1236)
@@ -865,6 +964,26 @@ d8adefe07b03 base: Add stub files
    * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
 da4ff557 Merge tag 'LA.VENDOR.1.0.r1-27600-WAIPIO.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.1.0.r1-27600-WAIPIO.QSSI15.0
 
+   * hardware/qcom-caf/sm8650/audio/pal
+77d13affe Merge tag 'AUDIO.LA.9.0.r1-08600-lanai.0' into staging/lineage-22.2_merge-AUDIO.LA.9.0.r1-08600-lanai.0
+
+   * hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
+5544d97c Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
+
+   * hardware/qcom-caf/sm8650/dataipa
+4f32f7d2 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
+
+   * hardware/qcom-caf/thermal-legacy-um
+04aeca6 thermal-hal: Return failure only for uninitialized sensor request
+c1c837d Revert "thermal-hal: Add namespace configuration for google specific path"
+e1d0034 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
+
+   * hardware/qcom-caf/wlan
+93b212a Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
+
+   * lineage/scripts
+bc80ce8 build-webview: Update default webview to 138.0.7204.63
+
    * packages/apps/Aperture
 625df08 Aperture: Update gradle-generatebp to 1.25
 9bee4b4 Aperture: Update Gradle wrapper and AGP
@@ -885,123 +1004,18 @@ caf360c Glimpse: Update Gradle wrapper and AGP
 1e37b8b extract_utils: use `apply` instead of `am`
 9727c4e extract_utils: avoid passing non existent paths to git add
 
-====================
-     07-06-2025
-====================
+   * vendor/codeaurora/telephony
+6a74195 Merge tag 'LA.QSSI.15.0.r1-16200-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-16200-qssi.0
 
-   * android
-b2eb70d Merge 'lineage-22.2' into 15.0
-a177be6 lineage: Move current sthal-ar and thermal to legacy
+   * vendor/qcom/opensource/commonsys-intf/bluetooth
+f585b71 Merge tag 'LA.QSSI.15.0.r1-16200-qssi.0' into staging/lineage-22.2_merge-LA.QSSI.15.0.r1-16200-qssi.0
 
-   * external/libncurses
-cf8d1a3 Partially Reapply "libncurses: Add recovery variant"
-
-   * hardware/qcom-caf/common
-7f93034 common: add support for sun platform
-
-   * hardware/qcom-caf/sm8650/display
-954dc729aa Revert "display: Add QMCS image generation"
-
-   * hardware/qcom-caf/thermal-legacy-um
-9cfce74 thermal: Guard with soong namespace
-
-   * packages/apps/Settings
-eeb6b241068 Add the rest of Cloudflare and Quad9 Private DNS options
-
-   * packages/apps/crDroidSettings
-0262fc30 crdroid: Add strings for Cloudflare and Quad9 Private DNS options
-
-   * tools/extract-utils
-ef904a8 extract_utils: Consider path prefixes other than `smali/`
-
-====================
-     07-05-2025
-====================
-
-   * packages/apps/Dialer
-8640962de New translations (#148)
-
-   * packages/apps/GameSpace
-6d8a731 New translations (#114)
-
-   * packages/apps/LMOFreeform
-d8041bf Merge pull request #3 from tavukkdoner/15.0-3
-
-   * packages/apps/Launcher3
-fcc050fe0a New Crowdin updates (#495)
-
-   * packages/apps/crDroidSettings
-c560c16d New Crowdin updates (#1242)
+   * vendor/qcom/opensource/healthd-ext
+92e50b7 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
 
    * vendor/qcom/opensource/power
-95f4c72 Merge tag 'LA.VENDOR.15.4.0.r1-17900-pakala.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/power into HEAD
-f757b78 power: Support MODE_EXT and SET_INTERACTIVE_EXT as external modules
+2954309 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
 
-====================
-     07-04-2025
-====================
-
-   * lineage/scripts
-b55311a add-repo: Support adding remotes
-
-   * packages/apps/crDroidSettings
-b4bd8467 crdroid: Show option to turn off colored LEDs when fully charged
-1b2b2b49 crdroid: Hard-code and adjust boolean light defaults
-
-   * vendor/lineage
-454a7ceb overlay: DeviceConfig: update nearby flags
-
-====================
-     07-03-2025
-====================
-
-   * device/qcom/sepolicy_vndr/legacy-um
-71c056017 sepolicy: bengal: Label an additional UFS discard_max_bytes node
-
-====================
-     07-02-2025
-====================
-
-   * device/xiaomi/sm8550-common
-8c865db9d sm8550-common: Relax timers for automatic refresh rate switching
-
-   * packages/apps/FMRadio
-8329d13 Automatic translation import
-
-   * packages/apps/Jelly
-c90a982 Automatic translation import
-
-   * packages/apps/Twelve
-77df6b0 Twelve: Jellyfin: Use parent album thumbnail if available for items
-6bc2ad2 Twelve: Jellyfin: Request thumbnails with specific size
-
-====================
-     07-01-2025
-====================
-
-   * device/qcom/sepolicy_vndr/legacy-um
-2f6e6b7ba sepolicy_vndr: lito: Fix wakeup nodes
-
-   * hardware/qcom-caf/common
-88e8a17 common: Add compatibility matrix for AIDL-only devices
-5e3ca6a rfs: Add MDM and MSM OIS symlinks
-
-   * hardware/qcom-caf/sm8250/audio
-e408116f0f hal: audio_extn: Add argument to pthread routines
-
-   * hardware/qcom-caf/sm8350/audio
-9e24e3a351 hal: audio_extn: Add argument to pthread routines
-
-   * lineage/scripts
-ae6c17a lineage-priv-template: Add Android 16 keys
-
-   * tools/extract-utils
-b0a46c1 extract-utils: Apply relative path for apps with deep folder structures
-2093aa1 extract_utils: fix extraction of alternate partitions
-8cff4bb extract_utils: make patching errors more descriptive
-c42a967 extract_utils: optimize patch application for big apps
-
-====================
-     06-30-2025
-====================
+   * vendor/qcom/opensource/usb
+0366694 Merge tag 'LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0' into staging/lineage-22.2_merge-LA.VENDOR.14.3.0.r1-21600-lanai.QSSI15.0
 
