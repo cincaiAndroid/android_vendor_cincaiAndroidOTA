@@ -10,3 +10,4 @@ Device maintainer: objecting_
 * Kernel: Charging Improvements
 * Zip: Added signing keys
 * Kernel: Charging Improvements
+* Patch: Added June 2025 Security Patches 
