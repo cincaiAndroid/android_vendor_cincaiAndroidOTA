@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-      "maintainer": "Jingexz01 (Jing)",
-      "oem": "Redmi",
-      "device": "Redmi Note 11",
-      "filename": "crDroidAndroid-15.0-20250715-spes-v11.6.zip",
-      "download": "https://sourceforge.net/projects/crdroid/files/spes/11.x/crDroidAndroid-15.0-20250715-spes-v11.6.zip/download",
-      "timestamp": 1752537443,
-      "md5": "56535a0bb50e60b14e9f38cf6808a3d6",
-      "sha256": "59b7bb449e90b00aecceceb8e2422c4c2779501656960b6bddc5ba62cb8d7689",
-      "size": 1540522690,
-      "version": "11.6",
-      "buildtype": "Monthly",
-      "forum": "https://xdaforums.com/t/crdroid-11-6-for-xiaomi-redmi-note-11.4746789/",
-      "gapps": "https://github.com/MindTheGapps/15.0.0-arm64/releases",
-      "firmware": "https://xmfirmwareupdater.com/firmware/spes/",
-      "modem": "",
-      "bootloader": "",
-      "recovery": "https://sourceforge.net/projects/crdroid/files/spes/11.x/recovery",
-      "paypal": "",
-      "telegram": "https://t.me/spescrdroid",
-      "dt": "https://github.com/crdroidandroid/android_device_xiaomi_spes",
-      "common-dt": "",
-      "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_spes"
-    }
-  ]
+    "response": [
+        {
+            "maintainer": "Jingexz01 (Jing)",
+            "oem": "Redmi",
+            "device": "Redmi Note 11",
+            "filename": "crDroidAndroid-15.0-20250717-spes-v11.6.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/spes/11.x/crDroidAndroid-15.0-20250717-spes-v11.6.zip/download",
+            "timestamp": 1752729376,
+            "md5": "3029c08407aca11b534f91dd21727003",
+            "sha256": "0654c4cec01881e3a72043c8656f1db34805fa83bce97565ef281ac985268e18",
+            "size": 1540564136,
+            "version": "11.6",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/crdroid-11-6-for-xiaomi-redmi-note-11.4746789/",
+            "gapps": "https://github.com/MindTheGapps/15.0.0-arm64/releases",
+            "firmware": "https://xmfirmwareupdater.com/firmware/spes/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/spes/11.x/recovery",
+            "paypal": "",
+            "telegram": "https://t.me/+YlfkpeqLThU4NjQ1",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_spes",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_spes"
+        }
+    ]
 }
