@@ -4,30 +4,12 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     22-06-2025
+     14-07-2025
 ====================
  
-- QSAnimator: fix random crash
-- Fix splash screen retention issue during transferStartingWindow 
-- Fix the system server restart issue caused by the fingerprint framework
-- Fix ArrayIndexOfBoundsException in WallpaperManagerService
-- CachedAppOptimizer : Pageout File pages during system compaction
-- ActivityManagerService: delay on boot system compaction
-- ActivityManagerService: delay on boot system compaction
-- Remove ServiceRecord from restart list if restart is cancelled as unnecessary
-- SystemUI: Reset when sleeping state change
-- DSR: Fix DSR when we have toast window
-- SystemUI: clean heap memory on screen off
-- SystemUI: Implement SystemUIBoostFramework
+- Added more Cloudflare and Quad9 Private DNS options
 - Launcher3: QuickSpace: only set marquee effect when needed
 - Launcher3: QuickSpace: Remove expensive invalidate calls during onAnimationUpdate
-- dolby: Fix compilation error in TooltipIconButton
-- dolby: Add custom profile
-- dolby: Add icons for dolby profiles
-- dolby: Make bass enhancer available on speakers as well
-- dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background color
-- services: Implement exit app animation boost
-- services: Implement activity boost optimization
-- services: Implement transition boosting
-- services: Implement scroll gesture boosting
+- Some other small optimizations
+- Updated translations
 
