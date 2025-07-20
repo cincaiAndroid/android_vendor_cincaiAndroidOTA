@@ -3,6 +3,14 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250720 =====
+- Initial crDroid 11.7
+- Fixed playback issue with some media apps
+- Fixed jitters and unusual latency issues in streaming apps
+- Fixed issues with Pixel Launcher
+- Update Chromium Webview to 138.0.7204.63
+- Updated translations
+
 ===== 20250715 =====
 - kernel: Multiple changes
 - kernel: KernelSU Next 1.0.9
