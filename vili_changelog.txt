@@ -4,9 +4,12 @@ maintainer: swiitchOFF
 
 Note:
     * Can be flashed via recovery like TWRP/OFOX
-    * Use New TWRP/OFOX v5
+    * Use New TWRP/OFOX v6
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
     * Ensure you are on latest available firmware for your device.
+
+Changelog:20/07/2025
+-
 
 Changelog:09/07/2025
 - Ditched HyperOS blobs
