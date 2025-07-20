@@ -6,6 +6,10 @@ Required firmware: OxygenOS 12
 
 
 ====================
+     07-19-2025
+====================
+* Update to crDroid 11.7. When crDroid 12 releases, crDroid 11 for guacamoleb will be discontinued.
+====================
      06-08-2025
 ====================
 * Update to crDroid 11.6.
