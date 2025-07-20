@@ -4,6 +4,23 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 07-20-2025 =====
+- Update to crDroid 11.7
+- nx: overlay: Remove deprecated networkAttributes
+- Partially revert "nx: Update fingerprint to 9.2.0"
+- fixup! Partially revert "nx: Update fingerprint to 9.2.0"
+- Update python2 calls to python3
+- Add build rule for cboot
+- fixup! vendor: Use copy-files for firmware targets
+- linux-firmware: Add rtl8152 from aosp
+- Revert "Partial Revert "extract: Fetch nv-tegra prebuilts from gitiles""
+- Move bmp blob to build tasks
+- vendor: Drop hidltransport and hwbinder deps
+- Revert "Use v30 jsoncpp for rel-shield-r audio msd service"
+- common: Update tnspec for py3
+- common: Drop hidltransport and hwbinder deps
+- common: Update audio json shim
+
 ===== 06-09-2025 =====
 - Update to crDroid 11.6
 - Define TEGRA_NVMAP for drivers using nvmap
