@@ -4,6 +4,18 @@ Device: Poco F5 Pro / K60
 Device maintainer: Keosh
 * Credits to Arian16k, ph12nex, Chaitanya, MIUI_users_r_GAY, flakeforever, Adrianyyyy *
 
+===== 20/07/2025 =====
+- Fix grainy images when using night mode in MiuiCamera
+- Increase initial stereo master volume
+- sepolicy: Allow apps to read mlipay and IFAA props
+- sepolicy: Replace isolated_app with isolated_app_all
+- sepolicy: Allow system_app to access Mlipay service
+- sepolicy: Allow platform app to find SoterService
+- crdroid: Bump to version 11.7
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 ===== 27/06/2025 =====
 - mondrian: Update blobs and firmware from OS2.0.8.0.VMNMIXM
 - sm8450-common: overlay: Drop ambient brightening/darkening thresholds
