@@ -1,7 +1,14 @@
 Build type: Monthly
-Device: Xiaomi Redmi Note 11 (spes)
+Device: Xiaomi Redmi Note 11 (spes/spesn)
 Device maintainer: Jingexz01 (Jing)
 Highlights & Device Specific Changes:
+
+====================
+     07-20-2025
+====================
+
+   Update to crDroid 11.7
+   Base Update
 
 ====================
      07-17-2025
