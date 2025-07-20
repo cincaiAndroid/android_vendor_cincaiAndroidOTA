@@ -3,6 +3,9 @@ Build type: Monthly
 Device: Xiaomi Mi Pad 4 (clover)
 Device maintainer: Peter Meiser (meiser79)
 
+===== 20 July, 2025 =====
+- Initial crDroid 11.7 build.
+
 ===== 20 June, 2025 =====
 - Sync with crDroid sources
 
