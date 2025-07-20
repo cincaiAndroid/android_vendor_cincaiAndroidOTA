@@ -1,145 +1,118 @@
 ====================
-     06-09-2025
-====================
-
-   * frameworks/base
-b1ba9601a PixelPropsUtils: Remove recent pixel spoofing for gms and play store
-
-   * packages/apps/crDroidSettings
-2acf582 crdroid: Remove PIF spoof toggle
-
-====================
-     06-08-2025
+     07-20-2025
 ====================
 
    * android
-16d3ee2 Merge 'lineage-22.2' into 15.0
+1d2de95 Merge 'lineage-22.2' into 15.0
 
-   * art
-8ab45cb Reduce severity of 'cannot load the jdwp agent' logs to remove spam
-
-   * build/make
-c6c5034 build: disable memory tagging for surfaceflinger
-
-   * build/soong
-fe208be Merge 'lineage-22.2' into 15.0
+   * bootable/recovery
+3685c16 Merge 'lineage-22.2' into 15.0
 
    * device/lineage/sepolicy
-66113cf Merge 'lineage-22.2' into 15.0
+5db88a2 Merge 'lineage-22.2' into 15.0
 
    * frameworks/av
-ca61cd1 Merge 'lineage-22.2' into 15.0
+cba44d8 Merge 'lineage-22.2' into 15.0
 
-   * hardware/google/pixel-sepolicy
-bb25323 touch: Migrate to AIDL
-
-   * hardware/interfaces
-3f498b8 Merge 'lineage-22.2' into 15.0
-
-   * lineage-sdk
-25f872e ChargingControl: Prevent crash against null provider
-
-   * packages/apps/Dialer
-8a066a3 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/LineageParts
-c8ed292 Merge 'lineage-22.2' into 15.0
-
-   * packages/apps/Settings
-144d4ba Settings: Use M3 slider for discrete seekbars
-
-   * packages/apps/SetupWizard
-aabcae7 SetupWizard: Handle navbar and hw keys
-
-   * packages/apps/Updater
-df3ffd1 Updater: Remove cryptographic signature verification for local updates
-
-   * packages/inputmethods/LatinIME
-6253d1e Merge 'lineage-22.2' into 15.0
-
-   * packages/modules/Bluetooth
-edf3087 Merge 'lineage-22.2' into 15.0
-
-   * vendor/lineage
-c26036c Revert "crdroid: Include vendor/certification when available"
-
-====================
-     06-07-2025
-====================
-
-   * device/qcom/sepolicy_vndr/legacy-um
-81b4a3f sepolicy: trinket: Label odm partitions for fastbootd
-
-   * packages/apps/ManagedProvisioning
-8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-   * packages/apps/Twelve
-6ed5659 Twelve: Fix hashed token authentication for Subsonic
-
-   * packages/modules/Connectivity
-42f7754 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-   * packages/modules/Permission
-df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2
-
-====================
-     06-06-2025
-====================
-
-   * hardware/qcom-caf/sm8450/audio/pal
-93afa07 PayloadBuilder: Fix retrieving KVs with a custom config
-
-====================
-     06-05-2025
-====================
-
-   * frameworks/native
-37680c3 Fix the bug of priority of binder thread in the SurfaceFlinger process.
-
-   * packages/apps/Gallery2
-c17bdc2 Gallery2: Change harcoded toast string to a resource
-
-====================
-     06-04-2025
-====================
-
-   * build/release
-c799ee4 Bump Security String to 2025-06-01
-
-   * hardware/qcom-caf/sdm660/audio
-e43f5b1 visualizer: do not use GNU old-style field designators
-
-   * hardware/qcom-caf/sdm660/display
-6f48720 Convert some display libraries to blueprint
-
-====================
-     06-03-2025
-====================
-
-====================
-     06-02-2025
-====================
-
-   * packages/apps/Aperture
-35d0282 Automatic translation import
-
-   * vendor/crowdin
-6179702 Automatic translation import
-
-====================
-     06-01-2025
-====================
-
-   * kernel/configs
-f735538 Align s/android-4.14 with s/android-4.19
-
-   * packages/apps/FMRadio
-fcedf0c FMRadio: Fix press and hold media rewind keys
-
-====================
-     05-31-2025
-====================
+   * frameworks/base
+4b236dc73 Merge 'lineage-22.2' into 15.0
 
    * hardware/lineage/interfaces
-6fe451f Merge 'lineage-22.2' into 15.0
+26489cd Merge 'lineage-22.2' into 15.0
+
+   * hardware/qcom-caf/sm8750/audio/pal
+b725b93 pal: opt-out libar-pal
+
+   * lineage-sdk
+84cb9ff Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/crDroidSettings
+7b7fdee crdroid: Remove dead nav bar animation
+
+   * system/core
+032b78c Merge 'lineage-22.2' into 15.0
+
+   * vendor/lineage
+afccf31 crdroid: Bump to version 11.7
+
+====================
+     07-19-2025
+====================
+
+   * packages/apps/Twelve
+d465c3c Twelve: Trigger onFavoritesChanged on Jellyfin favorite toggle
+
+====================
+     07-18-2025
+====================
+
+   * external/ntfs-3g
+e2415df config.h: Update version to 2022.10.3
+
+====================
+     07-17-2025
+====================
+
+====================
+     07-16-2025
+====================
+
+   * hardware/samsung
+e79e923 Automatic translation import
+
+   * packages/apps/Aperture
+2f9d472 Automatic translation import
+
+   * packages/apps/AudioFX
+381264b Automatic translation import
+
+   * packages/apps/Camelot
+841eccc Automatic translation import
+
+   * packages/apps/Catapult
+5e7895d Automatic translation import
+
+   * packages/apps/Contacts
+8664308 Automatic translation import
+
+   * packages/apps/DeskClock
+353fccc Automatic translation import
+
+   * packages/apps/Glimpse
+22730be Automatic translation import
+
+   * packages/apps/Jelly
+ebca57c Automatic translation import
+
+====================
+     07-15-2025
+====================
+
+====================
+     07-14-2025
+====================
+
+   * packages/apps/LMOFreeform
+e62ecc3 Merge pull request #4 from tavukkdoner/15.0-4
+
+   * packages/apps/Launcher3
+959b825 New translations (#497)
+
+====================
+     07-13-2025
+====================
+
+   * hardware/qcom-caf/sm8750/audio/agm
+fd7e234 agm: include headers from pal
+
+   * packages/apps/TvSettings
+56deadc [TvSettings] fix PendingIntent conflict in RowBuilder actions
+
+====================
+     07-12-2025
+====================
+
+====================
+     07-11-2025
+====================
 
