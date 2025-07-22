@@ -6,6 +6,20 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 20-07-2025 =====
+
+* Initial crDroid 11.7
+* Fixed issues with Pixel Launcher
+* Fixed jitters and unusual latency issues in streaming apps
+* Fixed playback issue with some media apps
+* Update Chromium Webview to 138.0.7204.63
+* stone: Fixed in-headphone play/pause/volume buttons
+* stone: Enable APK Verity
+* stone: manifest: Bump target-level to 6
+* stone: set Screen Recorder frame rate to max 60
+* stone: Set target cpu to cortex-a75
+* Updated translations
+
 ===== 14-07-2025 =====
 
 * Synced with latest crDroidAndroid source code
