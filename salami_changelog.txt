@@ -6,6 +6,12 @@ Device maintainer: JYR_RC
 Highlights & Device Specific Changes:
 
 ==================================
+22th Jul, 2025
+
+* Sync sources on July 21, 2025
+* Bump version 11.7
+
+==================================
 13th Jul, 2025
 
 * Sync sources on July 13, 2025
