@@ -7,6 +7,11 @@ note:
     * Firmware Flash is Mandatory
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+====== 20-07-2025 =====
+* updated to letest scarlet kernel
+* powerhint updated
+* much more fixup
+
 ====== 18-06-2025 =====
 * Update blobs to OS2.0.3.0.UMSMIXM
 * Move to OSS SoundTrigger HAL
