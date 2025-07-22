@@ -3,6 +3,17 @@ Build type: Monthly
 Device: Redmi 4A/5A (rova)
 Device maintainer: Max (iusmac)
 
+===== 21/07/2025 =====
+- Synced with crDroid 11.7 sources
+  NOTE: no July security patches from Google, only bug fixes & improvements from crDroid.
+  Read official changelog:
+  * https://crdroid.net/blog/2025-07-19-crDroid-12-is-cooking-whille-crDroid-11.7-is-ready
+- Fixed invalid WiFi MAC address
+- Upgraded built-in KernelSU-Next module to v12802
+- Updated 7SIM app to v2.1.0
+- Some minor fixes and improvements
+- Updated translations
+
 ===== 11/06/2025 =====
 - Synced with crDroid 11.6 sources (June security patches).
   Read official changelog:
