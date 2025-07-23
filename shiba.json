@@ -4,15 +4,15 @@
             "maintainer": "Ionut",
             "oem": "Google",
             "device": "Pixel 8",
-            "filename": "crDroidAndroid-15.0-20250625-shiba-v11.6.zip",
-            "download": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/crDroidAndroid-15.0-20250625-shiba-v11.6.zip/download",
-            "timestamp": 1750870947,
-            "md5": "2f3f9d7b2e2a1ac1880abfa89b948c83",
-            "sha256": "f117d8e118cd8c9aebc40f3835f8fef6a5e0911909835f2dda532fef044162f0",
-            "size": 1847065525,
-            "version": "11.6",
+            "filename": "crDroidAndroid-15.0-20250723-shiba-v11.7.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/shiba/11.x/crDroidAndroid-15.0-20250723-shiba-v11.7.zip/download",
+            "timestamp": 1753276596,
+            "md5": "79021c14f1e39fc0f19f8f7f4ae551b8",
+            "sha256": "1fd46f47051af4f0bdb390b87c6c94cf3be3d89456a2989d005ab06dc8d212d1",
+            "size": 1857463552,
+            "version": "11.7",
             "buildtype": "Weekly",
-            "forum": "https://xdaforums.com/t/rom-15-shiba-husky-akita-crdroid-11-official.4650502/",
+            "forum": "https://xdaforums.com/t/rom-15-shiba-husky-akita-crdroid-11-official.4650502",
             "gapps": "https://nikgapps.com/ionutgherman",
             "firmware": "",
             "modem": "",
@@ -22,7 +22,7 @@
             "telegram": "https://t.me/ionutbuilds",
             "dt": "https://github.com/crdroidandroid/android_device_google_shusky",
             "common-dt": "https://github.com/crdroidandroid/android_device_google_zuma",
-            "kernel": "https://android.googlesource.com/device/google/shusky-kernels/5.15"
+            "kernel": "https://github.com/ionutsandroidbuilds/android_device_google_shusky-kernels"
         }
     ]
 }
