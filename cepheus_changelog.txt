@@ -4,6 +4,18 @@ Device: Xiaomi MI9 (cepheus)
 Device maintainer: raystef66
 Required firmware: V12.5.6.0.RFACNXM
 
+===== 25.07.2025 =====
+
+* Initial crDroid 11.7 stable release
+* Updated to sec. patch level 2025.07
+* Fixed playback issue with some media apps
+* Fixed jitters and unusual latency issues in streaming apps
+* Fixed issues with Pixel Launcher
+* Update Chromium Webview to 138.0.7204.63
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 21.06.2025 =====
 
 * Fixed random system hang on reboot
