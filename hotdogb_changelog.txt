@@ -4,6 +4,31 @@ Device: OnePlus 7T (hotdogb)
 Device maintainer: Hasan Okarci (frazerecho)
 
 
+===== 20250725 =====
+!!! Attention !!!
+Now we will use a KernelSU Next.
+If you have the KernelSU Manager installed, you must, before updating
+the firmware, revoke superuser permissions from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the KernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Initial crDroid 11.7
+- Fixed playback issue with some media apps
+- Fixed jitters and unusual latency issues in streaming apps
+- Fixed issues with Pixel Launcher
+- Switch KernelSU rsuntk fork to KernelSU Next with SUSFS
+- Added more Cloudflare and Quad9 Private DNS options
+- Launcher3: QuickSpace: only set marquee effect when needed
+- Launcher3: QuickSpace: Remove expensive invalidate calls during onAnimationUpdate
+- QSAnimator: fix random crash
+- Update Chromium Webview to 138.0.7204.63
+- Fix SELinux denials
+- Some other small optimizations
+- Updated translations
+
+
 ===== 20250611 =====
 - Initial crDroid 11.6
 - Updated security patches to June 2025
