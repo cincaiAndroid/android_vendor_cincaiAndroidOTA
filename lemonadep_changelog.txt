@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 9 (lemonadep)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 27 July, 2025 =====
+
+- Launcher3: Fix meminfo color on light theme
+- Fixed some colors issue on QS for battery styles
+- SystemUI: Follow light/dark theme in SplitShade Header
+- Fixed color on QS for circle battery styles
+
 ===== 20 July, 2025 =====
 
 - Initial crDroid 11.7
