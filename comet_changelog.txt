@@ -6,6 +6,12 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+27th July, 2025
+
+* Android July 2025 Security Update
+* Misc fixes and improvements
+ 
+==================================
 21st June, 2025
 
 * Android June 2025 Security Update
