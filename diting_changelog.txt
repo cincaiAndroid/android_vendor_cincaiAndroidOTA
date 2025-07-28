@@ -3,7 +3,12 @@ Build type: Monthly
 Device: Xiaomi 12T Pro (diting)
 Device maintainer: Mohammad Nobakht (mohammadnt)
 
-===== <date> =====
+===== 2025/07/28 =====
+- Android July 2025 Security Update
+- Update to crDroid 11.7
+
+
+===== 2025/06/28 =====
 - Android Jun 2025 Security Update
 - Initial Build New Maintainer
 - Update Blobs from OS2.0.2.0.VLFMIXM
