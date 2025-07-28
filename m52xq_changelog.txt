@@ -3,6 +3,17 @@ Build type: Monthly
 Device: Samsung M52 5G (m52xq)
 Device maintainer: tilt-rgb
 
+===== 28 July, 2025 =====
+
+- Introduced Spatial Audio
+- Introduced Game Bar
+- Introduced Charging Bypass
+- Introduced FlashLight Control App
+- Updated KernelSU Next 1.0.9
+- Latest crDroid 11.7 sources
+
+- Well... too many changes, Maybe I forgot something, so check the commit history, and if you want to help me get a new screen for my m52, donate me in PayPal, I really appreciate it :).
+
 ===== 14 June, 2025 =====
 
 - Dropped susfs,due to instability issues, only KernelSU-Next integrated now with manual hooks for now.
