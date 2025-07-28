@@ -3,6 +3,14 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250728 =====
+- Launcher3: Fix meminfo color on light theme
+- Fixed some colors issue on QS for battery styles
+- SystemUI: Follow light/dark theme in SplitShade Header
+- Fixed color on QS for circle battery styles\
+- Fixed the eraser and other GooglePhoto tools
+- Misc fixes and improvements
+
 ===== 20250720 =====
 - Initial crDroid 11.7
 - Fixed playback issue with some media apps
