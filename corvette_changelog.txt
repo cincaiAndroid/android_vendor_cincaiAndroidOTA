@@ -3,12 +3,21 @@ Build type: Monthly
 Device: Oneplus Ace 3 Pro(corvette)
 Device maintainer: SakuraKyuo (SakuraKyuo)
 
+===== 28-07-2025 =====
+- crDroid 11.7 released
+- Updated to July Security Patch
+- Fixed microphone issues when using third-party apps for calls
+- Fixed YouTube Music crash when playing music
+- Improved DT2W (Double Tap To Wake)
+- Improved (Automatic) Brightness adjustment
+- Introduced NrMode Switcher
+
 ===== 07-07-2025 =====
 - crDroid 11.6 release
 - Update Vendor Security Patch to 2025-05-01
 - Update to June Security Patch
 - Update to NCM USB tethering
-- Fix (Buletooth) Audio issues
+- Fix Headphones audio issues
 - Fix some bugs and improve battery save
 - Drop virtual camera provider
 
