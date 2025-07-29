@@ -6,6 +6,13 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+29th July, 2025
+
+* Fix disabling Navbar not working properly
+* sweet: Updated KSU support for KSU-Next 1.0.9
+* sweet: Enabled UFFD GC optimization for better performance
+ 
+==================================
 27th July, 2025
 
 * Android July 2025 Security Update
