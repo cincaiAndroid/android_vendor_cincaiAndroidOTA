@@ -8,6 +8,12 @@ Note:
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
     * Ensure you are on latest available firmware for your device.
 
+Changelog:31/07/2025
+- Fixed diag services on user build
+- Kernel updated
+- Fixed calling issue on BT TWS
+- Fixing connecting BLE (bt 5.x) devices (smart watches, etc.)
+
 Changelog:20/07/2025
 -
 
