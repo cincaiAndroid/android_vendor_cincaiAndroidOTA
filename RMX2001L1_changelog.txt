@@ -4,5 +4,17 @@ Device: realme 6/6i(Indian)/6s/Narzo (RMX2001L1)
 Device maintainer: Debayan Kar
 Required firmware: realmeUI 2.0
 
+===== 02.08.2025 =====
+- Drop atcid stack
+- Surpress hwcomposer spam
+- Silence HWUI logspam
+- Add feature flag for IPSEC_TUNNEL_MIGRATION
+- Switch to AIDL Touch
+- Switch to non-lazy AIDL WiFi service
+- Enable Background blur
+- Show "LTE" instead of "4G" 
+- Drop OPLUS Face Beauty configs
+-  Drop unneeded vendor cacerts
+
 ===== 29.07.2025 =====
 - Initial official build
