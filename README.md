@@ -71,7 +71,7 @@ For following below description, replace *codename* with your device codename.
 ### 3.2 Update build ###
 1. Clone this repo locally
 ```
-git clone git@github.com:crdroidandroid/android_vendor_crDroidOTA.git -b 15.0
+git clone https://github.com/cincaiAndroid/android_vendor_crDroidOTA.git
 ```
 2. Change to the directory where you cloned this repo (android_vendor_crDroidOTA) and fetch updates from repo.
 ```
